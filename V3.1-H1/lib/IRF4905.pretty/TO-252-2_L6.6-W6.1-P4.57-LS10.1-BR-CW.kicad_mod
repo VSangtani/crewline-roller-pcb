@@ -1,0 +1,227 @@
+(footprint "TO-252-2_L6.6-W6.1-P4.57-LS10.1-BR-CW"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.285 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5be66662-16a9-4c28-8479-870c57ea4e97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IRF4905STRL"
+		(at 0 6.285 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7e38ffb-bf6c-4335-b4df-acfb85b92cf2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C7471852.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86093445-bf28-4e66-95d1-a756c88bb2dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70419b5a-8fbd-4f02-b2e7-306399eb96c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC Part" "C7471852"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "738dab8e-5058-4391-b39e-b1865b8090bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "UMW(友台半导体)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0a1ac39-f775-4150-9ad9-0b6281430f43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "IRF4905STRL(UMW)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3ea2b92-8c00-4373-a98b-8e08efb1aafb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "CREWLINE-PRIM-PCB-001.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.58 -3.35)
+		(end 1.38 -3.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df70a979-a7fd-48e1-a610-ff34a2fb38f8")
+	)
+	(fp_line
+		(start -4.58 3.35)
+		(end 1.38 3.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "032c5eb3-7020-4671-86c7-e83742b52536")
+	)
+	(fp_line
+		(start 1.38 3.35)
+		(end 1.38 -3.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b8c0e54-14cb-4da1-a68c-355fa43a5fac")
+	)
+	(fp_circle
+		(center 4.06 3.27)
+		(end 4.09 3.27)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "df1764a1-efad-4543-bf49-67e7d9558bcd")
+	)
+	(fp_circle
+		(center 4.95 2.28)
+		(end 5.25 2.28)
+		(stroke
+			(width 0.6)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "9ddd3418-0743-47c5-84bc-6d7336c9e185")
+	)
+	(fp_line
+		(start -4.87 -3.27)
+		(end 1.22 -3.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "19016cf2-b49b-44da-bbdf-337cbcfc4db3")
+	)
+	(fp_line
+		(start -4.87 3.27)
+		(end -4.87 -3.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0aa4a911-f626-44b8-ad18-04672fb03e70")
+	)
+	(fp_line
+		(start 1.22 -3.27)
+		(end 1.22 3.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1d46d368-6461-4efe-9e93-ce1fc34382da")
+	)
+	(fp_line
+		(start 1.22 3.27)
+		(end -4.87 3.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e1acd34a-b98b-4599-9f06-570e67b4ba5c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "91f95217-dcf7-4db8-b46d-81db5abd00d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 3.42 2.28)
+		(size 3 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bab0c536-a1c5-4ddc-832f-07647448a84e")
+	)
+	(pad "2" smd rect
+		(at -3.42 0)
+		(size 6.2 5.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4e7e809f-b6d9-4073-bf3c-26b2b8a777ad")
+	)
+	(pad "3" smd rect
+		(at 3.42 -2.28)
+		(size 3 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8280610c-ea00-43af-b29f-82d9fb5fefbe")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/IRF4905.3dshapes/TO-252-2_L6.6-W6.1-P4.57-LS10.1-BR-CW.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 270)
+		)
+	)
+)

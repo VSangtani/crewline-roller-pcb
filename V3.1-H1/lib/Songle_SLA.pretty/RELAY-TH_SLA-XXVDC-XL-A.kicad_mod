@@ -1,0 +1,345 @@
+(footprint "RELAY-TH_SLA-XXVDC-XL-A"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Songle SLA-12VDC-SL-A 30A SPDT power relay, 4-pin variant (NC not used)")
+	(tags "relay SLA Songle 30A SPDT")
+	(property "Reference" "REF**"
+		(at -10.075 -11.385 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2dbd7565-f020-407f-a4be-39f7af604084")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "K_GATE"
+		(at -0.55 22.615 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f53dff1-e056-47b3-bda4-1c3deb1fbcdc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lcsc.com/product-detail/Relays_SLA-12VDC-SL-A_C55194.html"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6bfe54c-563b-4f60-b6c2-a2a6d7f50506")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e54c6a0-10ae-44f2-86f6-e06741c4775d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Manufacturer" "松乐"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6b60f4b-8502-43d7-897e-608bb8363a0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "SLA-12VDC-SL-A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1af25368-bb21-4ae7-8587-5afdeca07667")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C55194"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3cc081d8-1e79-48d6-8512-07337232d73f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "CREWLINE-PRIM-PCB-001.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -13.3 -10.3)
+		(end 14.3 -10.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b4c3487-0992-4399-a6b9-31bb5b9184e5")
+	)
+	(fp_line
+		(start -13.3 7.45)
+		(end -13.3 -10.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1564192e-8f51-45df-bebb-319cf7e71e90")
+	)
+	(fp_line
+		(start -10.85 7.45)
+		(end -13.3 7.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a5318c5-d3b9-4b0f-a0fc-ada2c3bb8a98")
+	)
+	(fp_line
+		(start -10.85 21.7)
+		(end -10.85 7.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe520738-1709-4a5b-92ec-26bb3812db62")
+	)
+	(fp_line
+		(start 9 2.45)
+		(end 9 21.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2881d38-aaf2-489b-b261-04c02d8261a4")
+	)
+	(fp_line
+		(start 9 21.7)
+		(end -10.85 21.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06320cee-0f7a-48ac-adf2-b4f3ced310d1")
+	)
+	(fp_line
+		(start 14.3 -10.3)
+		(end 14.3 2.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8106e4c-b78f-412e-b620-ef407f19b468")
+	)
+	(fp_line
+		(start 14.3 2.45)
+		(end 9 2.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "00643ae9-c6dc-4f90-ab27-3e1d31056d08")
+	)
+	(fp_line
+		(start -13.55 -10.55)
+		(end 14.55 -10.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1cf7fc8b-176b-4363-95d0-5221db2e6f59")
+	)
+	(fp_line
+		(start -13.55 21.95)
+		(end -13.55 -10.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ab07a1f8-0e89-457a-885c-3233259860df")
+	)
+	(fp_line
+		(start 14.55 -10.55)
+		(end 14.55 21.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "57eb367e-5558-46c4-9d83-64ce02cd5e49")
+	)
+	(fp_line
+		(start 14.55 21.95)
+		(end -13.55 21.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f057c614-a32d-43ab-9f0b-d376b6f42097")
+	)
+	(fp_line
+		(start -13.3 -10.3)
+		(end 14.3 -10.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9774840b-70a5-4eef-be82-a0e955e3ac0f")
+	)
+	(fp_line
+		(start -13.3 7.45)
+		(end -13.3 -10.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5b688394-36b5-4794-b322-4b971adc2859")
+	)
+	(fp_line
+		(start -10.85 7.45)
+		(end -13.3 7.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12b957a2-fa5f-4eaa-a6c0-af6890e1bf6f")
+	)
+	(fp_line
+		(start -10.85 21.7)
+		(end -10.85 7.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c584741-2694-43e8-80d5-5d4ca77cfeb2")
+	)
+	(fp_line
+		(start 9 2.45)
+		(end 9 21.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e7fd9653-14b3-43b1-82fc-0f6a33e6acd4")
+	)
+	(fp_line
+		(start 9 21.7)
+		(end -10.85 21.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa167697-4e27-4421-a977-b3fe222414ca")
+	)
+	(fp_line
+		(start 14.3 -10.3)
+		(end 14.3 2.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7656c65f-a27d-4f1f-9bae-22c55f4e016d")
+	)
+	(fp_line
+		(start 14.3 2.45)
+		(end 9 2.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "effdb7b6-d728-4e7d-afa7-aea0201f0b53")
+	)
+	(pad "2" thru_hole circle
+		(at 8.9 0)
+		(size 3.116 3.116)
+		(drill 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "f2fbb710-90c0-429b-9f09-7683ec5e57e6")
+	)
+	(pad "3" thru_hole circle
+		(at 5.1 15.2)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "8599b4ff-2e7b-4776-8630-71d5b98af2be")
+	)
+	(pad "4" thru_hole circle
+		(at -5.1 15.2)
+		(size 1.65 1.65)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "562b0c45-f497-4fcb-be53-6c63bf3525a6")
+	)
+	(pad "5" thru_hole circle
+		(at -8.9 2.5)
+		(size 3.116 3.116)
+		(drill 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "0d11a2c2-4832-463f-9e56-9139d8c81242")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models/Songle_SLA.3dshapes/RELAY-TH_L27.6-W32-H20.4-A.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

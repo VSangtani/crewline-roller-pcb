@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "IRF4905")(type "KiCad")(uri "${KIPRJMOD}/lib/IRF4905.kicad_sym")(options "")(descr "Project symbol recovered from the schematic cache"))
+  (lib (name "Songle_SLA")(type "KiCad")(uri "${KIPRJMOD}/lib/Songle_SLA.kicad_sym")(options "")(descr "Project symbol recovered from the schematic cache"))
+  (lib (name "XT60PW-M")(type "KiCad")(uri "${KIPRJMOD}/lib/XT60PW-M.kicad_sym")(options "")(descr "Project symbol recovered from the schematic cache"))
+)
