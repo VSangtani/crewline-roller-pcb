@@ -4158,7 +4158,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED_3mm_Red:204-10SDRD_S530-A3-L"
+		(symbol "V31_H1:LED_Red_0805_A1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4174,7 +4174,7 @@
 					)
 				)
 			)
-			(property "Value" "204-10SDRD/S530-A3-L"
+			(property "Value" "RED"
 				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4195,7 +4195,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_3MM-Red-hair-red_C84774.html"
+			(property "Datasheet" ""
 				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4206,41 +4206,8 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Red LED, 0805. Pin 1 is the anode, which matches the boards as built."
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "EVERLIGHT(亿光)"
-				(at 0 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "204-10SDRD/S530-A3-L"
-				(at 0 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C84774"
-				(at 0 -19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4261,7 +4228,7 @@
 					)
 				)
 			)
-			(symbol "204-10SDRD_S530-A3-L_0_1"
+			(symbol "LED_Red_0805_A1_0_1"
 				(polyline
 					(pts
 						(xy -1.27 -2.79) (xy 1.27 -1.27) (xy -1.27 0.25) (xy -1.27 -2.79)
@@ -10670,8 +10637,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 227.33 133.35 180)
+		(lib_id "V31_H1:LED_Red_0805_A1")
+		(at 228.6 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10724,7 +10691,7 @@
 				)
 			)
 		)
-		(property "Description" "Red LED, 0805"
+		(property "Description" "Red LED, 0805. Pin 1 is the anode, which matches the boards as built."
 			(at 228.6 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -10751,8 +10718,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 111.76 190.5 180)
+		(lib_id "V31_H1:LED_Red_0805_A1")
+		(at 113.03 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10805,7 +10772,7 @@
 				)
 			)
 		)
-		(property "Description" "Red LED, 0805"
+		(property "Description" "Red LED, 0805. Pin 1 is the anode, which matches the boards as built."
 			(at 113.03 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -12010,8 +11977,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 196.85 129.54 0)
+		(lib_id "V31_H1:LED_Red_0805_A1")
+		(at 195.58 130.81 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12064,7 +12031,7 @@
 				)
 			)
 		)
-		(property "Description" "Red LED, 0805"
+		(property "Description" "Red LED, 0805. Pin 1 is the anode, which matches the boards as built."
 			(at 195.58 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -12384,8 +12351,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 193.04 29.21 90)
+		(lib_id "V31_H1:LED_Red_0805_A1")
+		(at 194.31 30.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12438,7 +12405,7 @@
 				)
 			)
 		)
-		(property "Description" "Red LED, 0805"
+		(property "Description" "Red LED, 0805. Pin 1 is the anode, which matches the boards as built."
 			(at 194.31 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -13407,8 +13374,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 227.33 147.32 180)
+		(lib_id "V31_H1:LED_Red_0805_A1")
+		(at 228.6 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13461,7 +13428,7 @@
 				)
 			)
 		)
-		(property "Description" "Red LED, 0805"
+		(property "Description" "Red LED, 0805. Pin 1 is the anode, which matches the boards as built."
 			(at 228.6 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -17155,8 +17122,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 196.85 142.24 0)
+		(lib_id "V31_H1:LED_Red_0805_A1")
+		(at 195.58 143.51 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17209,7 +17176,7 @@
 				)
 			)
 		)
-		(property "Description" "Red LED, 0805"
+		(property "Description" "Red LED, 0805. Pin 1 is the anode, which matches the boards as built."
 			(at 195.58 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -19573,64 +19540,4 @@
 		)
 	)
 	(embedded_fonts no)
-	(wire
-		(pts
-			(xy 231.14 133.35) (xy 233.68 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "443fbeb8-71e2-453c-bddd-386c7f2cc6f7")
-	)
-	(wire
-		(pts
-			(xy 115.57 190.5) (xy 118.11 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5b57f5b-e75f-436e-838c-321fa23e1a82")
-	)
-	(wire
-		(pts
-			(xy 193.04 129.54) (xy 190.5 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "567afe71-c590-4c91-8aba-b4f599296e86")
-	)
-	(wire
-		(pts
-			(xy 193.04 33.02) (xy 193.04 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "398f6530-1c40-4ec0-b97f-c0ca5de5e117")
-	)
-	(wire
-		(pts
-			(xy 231.14 147.32) (xy 233.68 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32578a33-a7cc-4a3f-8f42-3448e21bcc4a")
-	)
-	(wire
-		(pts
-			(xy 193.04 142.24) (xy 190.5 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73b4d167-1364-4bdb-abc1-798a26a01f6b")
-	)
 )
