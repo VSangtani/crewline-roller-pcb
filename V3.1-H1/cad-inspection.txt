@@ -1,0 +1,172 @@
+{
+  "ok": true,
+  "tokens": [
+    {
+      "line": 1,
+      "token": "#",
+      "cadPath": "outputs/v31-incremental/pcb/pcb_mated",
+      "stepPath": "outputs/v31-incremental/pcb/pcb_mated.step",
+      "stepHash": "105d09da776de40332ca4f63919d54378795ec6c5b46b66111e7fbf1b0bf8d04",
+      "summary": {
+        "kind": "assembly",
+        "occurrenceCount": 109,
+        "leafOccurrenceCount": 55,
+        "shapeCount": 71,
+        "faceCount": 4458,
+        "edgeCount": 11656,
+        "vertexCount": 0,
+        "bounds": {
+          "min": [
+            51.5,
+            -181.55,
+            -1.87
+          ],
+          "max": [
+            152.5,
+            -48.5,
+            27.13
+          ]
+        }
+      },
+      "selections": [],
+      "warnings": [],
+      "entryFacts": {
+        "size": [
+          101.0,
+          133.05,
+          29.0
+        ],
+        "extentAxis": "y",
+        "center": [
+          102.0,
+          -115.025,
+          12.629999999999999
+        ],
+        "diag": 169.54144773476486,
+        "kind": "assembly"
+      },
+      "planes": [
+        {
+          "axis": "z",
+          "coordinate": 0.0,
+          "normalSign": -1,
+          "faceCount": 1,
+          "totalArea": 13070.072751,
+          "bbox": {
+            "min": [
+              51.5,
+              -180.5,
+              0.0
+            ],
+            "max": [
+              152.5,
+              -48.5,
+              0.0
+            ]
+          },
+          "selectors": [
+            "o1.1.51.f4"
+          ]
+        },
+        {
+          "axis": "z",
+          "coordinate": 1.51,
+          "normalSign": 1,
+          "faceCount": 1,
+          "totalArea": 13070.072751,
+          "bbox": {
+            "min": [
+              51.5,
+              -180.5,
+              1.51
+            ],
+            "max": [
+              152.5,
+              -48.5,
+              1.51
+            ]
+          },
+          "selectors": [
+            "o1.1.51.f5"
+          ]
+        }
+      ],
+      "entryPositioning": {
+        "kind": "assembly",
+        "bbox": {
+          "min": [
+            51.5,
+            -181.55,
+            -1.87
+          ],
+          "max": [
+            152.5,
+            -48.5,
+            27.13
+          ]
+        },
+        "bboxFacts": {
+          "size": [
+            101.0,
+            133.05,
+            29.0
+          ],
+          "extentAxis": "y",
+          "center": [
+            102.0,
+            -115.025,
+            12.629999999999999
+          ],
+          "diag": 169.54144773476486
+        },
+        "majorPlanes": [
+          {
+            "axis": "z",
+            "coordinate": 0.0,
+            "normalSign": -1,
+            "faceCount": 1,
+            "totalArea": 13070.072751,
+            "bbox": {
+              "min": [
+                51.5,
+                -180.5,
+                0.0
+              ],
+              "max": [
+                152.5,
+                -48.5,
+                0.0
+              ]
+            },
+            "selectors": [
+              "o1.1.51.f4"
+            ]
+          },
+          {
+            "axis": "z",
+            "coordinate": 1.51,
+            "normalSign": 1,
+            "faceCount": 1,
+            "totalArea": 13070.072751,
+            "bbox": {
+              "min": [
+                51.5,
+                -180.5,
+                1.51
+              ],
+              "max": [
+                152.5,
+                -48.5,
+                1.51
+              ]
+            },
+            "selectors": [
+              "o1.1.51.f5"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "errors": []
+}

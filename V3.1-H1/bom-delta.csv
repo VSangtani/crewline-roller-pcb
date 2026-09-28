@@ -1,0 +1,10 @@
+Reference,Quantity,Part,Manufacturer,MPN,Status,Note
+J3 J8,2,MCV 1.5 5-way vertical header,Phoenix Contact,1836325,Selected,8 A nominal signal use only
+J5,1,MCV 1.5 10-way vertical header,Phoenix Contact,1836370,Selected,8 A nominal signal use only
+J7,1,MCV 1.5 4-way vertical header,Phoenix Contact,1836312,Selected,8 A nominal signal use only
+J3 J8 harness mates,2,MC 1.5 5-way plug,Phoenix Contact,1836105,Selected,Require distinct coding and labels
+J5 harness mate,1,MC 1.5 10-way plug,Phoenix Contact,1836150,Selected,Prepare at bench
+J7 harness mate,1,MC 1.5 4-way plug,Phoenix Contact,1836095,Selected,Prepare at bench
+J3 J8 coding,2,CP-MSTB coding profile,Phoenix Contact,1734634,Sample fit check required,Final slot positions are not yet established
+F_MAIN1,1,30 A MINI fuse,Littelfuse,0297030.U,Corrected fuse family,Retains existing value pending power review
+Plug restraint,1,Removable screwed restraint,Custom,,Enclosure design,Keep clear of wire entries and permit top removal

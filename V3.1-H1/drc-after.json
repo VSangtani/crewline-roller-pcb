@@ -1,0 +1,896 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-25T14:01:32",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.4",
+    "schematic_parity": [
+        {
+            "description": "Duplicate footprints",
+            "items": [
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 60.0,
+                        "y": 173.0
+                    },
+                    "uuid": "d5ccc64a-b567-429f-9b6f-7d8924820ef8"
+                },
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 60.0,
+                        "y": 58.0
+                    },
+                    "uuid": "20618519-dc18-4adc-9141-8210c556a633"
+                }
+            ],
+            "severity": "warning",
+            "type": "duplicate_footprints"
+        },
+        {
+            "description": "Duplicate footprints",
+            "items": [
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 173.5
+                    },
+                    "uuid": "eeb3c1d5-1112-4674-8364-781a845e5a85"
+                },
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 60.0,
+                        "y": 58.0
+                    },
+                    "uuid": "20618519-dc18-4adc-9141-8210c556a633"
+                }
+            ],
+            "severity": "warning",
+            "type": "duplicate_footprints"
+        },
+        {
+            "description": "Duplicate footprints",
+            "items": [
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 144.0,
+                        "y": 56.5
+                    },
+                    "uuid": "f8c41bad-3f75-4161-b04f-1296c01d5343"
+                },
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 60.0,
+                        "y": 58.0
+                    },
+                    "uuid": "20618519-dc18-4adc-9141-8210c556a633"
+                }
+            ],
+            "severity": "warning",
+            "type": "duplicate_footprints"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 141.5,
+                        "y": 93.0
+                    },
+                    "uuid": "d399c4ac-acfc-4f41-ae57-06a88f7c410f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Field 'LCSC Part' differs (PCB: 'C84774', Schematic: 'C84256')",
+            "items": [
+                {
+                    "description": "Footprint CONV_LED1",
+                    "pos": {
+                        "x": 110.5,
+                        "y": 74.0625
+                    },
+                    "uuid": "8f1e08f5-48df-4173-897c-4a7ad5cbb0ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Sim.Device' in footprint",
+            "items": [
+                {
+                    "description": "Footprint D1",
+                    "pos": {
+                        "x": 120.5,
+                        "y": 91.0
+                    },
+                    "uuid": "d59d521d-e479-44df-bc77-378b2a6fca5a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'LCSC Part' differs (PCB: 'C84774', Schematic: 'C84256')",
+            "items": [
+                {
+                    "description": "Footprint DIO_LED1",
+                    "pos": {
+                        "x": 100.5625,
+                        "y": 74.0
+                    },
+                    "uuid": "2b8bc6a7-aaa5-4b80-96c1-9789486b7aa9"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 129.75,
+                        "y": 56.0
+                    },
+                    "uuid": "bfd03015-50f6-4c78-b213-d472f54964ea"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+            "items": [
+                {
+                    "description": "Footprint J9",
+                    "pos": {
+                        "x": 119.5,
+                        "y": 70.0
+                    },
+                    "uuid": "2f914f37-664b-414c-8590-cf231027c4e9"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'Manufacturer' in footprint",
+            "items": [
+                {
+                    "description": "Footprint JET_LED1",
+                    "pos": {
+                        "x": 79.5,
+                        "y": 73.9375
+                    },
+                    "uuid": "8f61440a-b6df-4030-a2ee-a1f8e6d621a1"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'LCSC Part' in footprint",
+            "items": [
+                {
+                    "description": "Footprint JET_RES1",
+                    "pos": {
+                        "x": 79.5,
+                        "y": 68.7875
+                    },
+                    "uuid": "4a50c311-9e4a-4895-9838-dd82ec2adad5"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+            "items": [
+                {
+                    "description": "Footprint K_BRAKE1",
+                    "pos": {
+                        "x": 111.88,
+                        "y": 143.22
+                    },
+                    "uuid": "82a1c84c-297a-46eb-adc6-cf1a9f3a0702"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+            "items": [
+                {
+                    "description": "Footprint K_ECUCAN1",
+                    "pos": {
+                        "x": 84.88,
+                        "y": 143.22
+                    },
+                    "uuid": "c9c971ab-4633-48c4-a92c-c4df31008cf0"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+            "items": [
+                {
+                    "description": "Footprint K_JOYCAN1",
+                    "pos": {
+                        "x": 98.5,
+                        "y": 143.22
+                    },
+                    "uuid": "6c9681ee-804f-4ec8-ba7d-c55d65c85351"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Field 'LCSC Part' differs (PCB: 'C84774', Schematic: 'C84256')",
+            "items": [
+                {
+                    "description": "Footprint LED_LED1",
+                    "pos": {
+                        "x": 90.5,
+                        "y": 74.0625
+                    },
+                    "uuid": "ed73a4d5-1588-4052-88d5-abdb0fac33c7"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'LCSC Part' differs (PCB: 'C84774', Schematic: 'C84256')",
+            "items": [
+                {
+                    "description": "Footprint PWR_LIGHT1",
+                    "pos": {
+                        "x": 104.2675,
+                        "y": 131.0
+                    },
+                    "uuid": "11a47e2b-649a-43f0-8ade-1abd8366d593"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'LCSC Part' in footprint",
+            "items": [
+                {
+                    "description": "Footprint Q_MODE1",
+                    "pos": {
+                        "x": 77.5625,
+                        "y": 133.0875
+                    },
+                    "uuid": "380ccbd4-815b-481f-ace4-28724ae02d32"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'LCSC Part' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R_MODE_GATE1",
+                    "pos": {
+                        "x": 72.5875,
+                        "y": 131.0
+                    },
+                    "uuid": "e457420d-dfee-48f4-955f-0748e0e3bd6a"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Missing symbol field 'LCSC Part' in footprint",
+            "items": [
+                {
+                    "description": "Footprint R_MODE_PD1",
+                    "pos": {
+                        "x": 72.4125,
+                        "y": 134.0
+                    },
+                    "uuid": "27ee3f94-43ed-4ae0-8ccb-c73f578b48fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'LCSC Part' differs (PCB: 'C84774', Schematic: 'C84256')",
+            "items": [
+                {
+                    "description": "Footprint STR_LED1",
+                    "pos": {
+                        "x": 68.5,
+                        "y": 74.0625
+                    },
+                    "uuid": "4f1ed65a-3d15-45a8-93aa-067346c3ce81"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 60.0,
+                        "y": 58.0
+                    },
+                    "uuid": "20618519-dc18-4adc-9141-8210c556a633"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 60.0,
+                        "y": 173.0
+                    },
+                    "uuid": "d5ccc64a-b567-429f-9b6f-7d8924820ef8"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 145.0,
+                        "y": 173.5
+                    },
+                    "uuid": "eeb3c1d5-1112-4674-8364-781a845e5a85"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 144.0,
+                        "y": 56.5
+                    },
+                    "uuid": "f8c41bad-3f75-4161-b04f-1296c01d5343"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        }
+    ],
+    "source": "CREWLINE-PRIM-PCB-001.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 51.5,
+                        "y": 48.5
+                    },
+                    "uuid": "bc04ba28-956c-48e9-abb9-f7f0434803d6"
+                },
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 122.0,
+                        "y": 42.83
+                    },
+                    "uuid": "5086b989-164f-412b-bcf9-1e40cf95fa7f"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "Silkscreen clipped by board edge",
+            "items": [
+                {
+                    "description": "Rectangle on Edge.Cuts",
+                    "pos": {
+                        "x": 51.5,
+                        "y": 48.5
+                    },
+                    "uuid": "bc04ba28-956c-48e9-abb9-f7f0434803d6"
+                },
+                {
+                    "description": "Segment of J1 on F.Silkscreen",
+                    "pos": {
+                        "x": 137.5,
+                        "y": 42.83
+                    },
+                    "uuid": "c93a8c7c-2eb5-47d1-9321-1b9ce970b5be"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_edge_clearance"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'TestPoint_Red'",
+            "items": [
+                {
+                    "description": "Footprint KIT_TP1",
+                    "pos": {
+                        "x": 145.5,
+                        "y": 155.0
+                    },
+                    "uuid": "0cd4073b-5201-4401-ba3d-5a1648961d98"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'WAGO_2604'",
+            "items": [
+                {
+                    "description": "Footprint J6",
+                    "pos": {
+                        "x": 147.5,
+                        "y": 135.0
+                    },
+                    "uuid": "0fab8221-d513-40bf-a16e-630105d4ddea"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'TestPoint_Red'",
+            "items": [
+                {
+                    "description": "Footprint LED_TP1",
+                    "pos": {
+                        "x": 90.5,
+                        "y": 64.5
+                    },
+                    "uuid": "1904e051-6c87-40a3-aced-1935094f447e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'TestPoint_Black'",
+            "items": [
+                {
+                    "description": "Footprint MODE_TP1",
+                    "pos": {
+                        "x": 145.5,
+                        "y": 147.0
+                    },
+                    "uuid": "45d1c29c-eaf7-43fe-a7ae-fa78e0e90d83"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library '1N4148WS'",
+            "items": [
+                {
+                    "description": "Footprint D_KBRAKE1",
+                    "pos": {
+                        "x": 88.33,
+                        "y": 140.0
+                    },
+                    "uuid": "469b4428-7f0a-43cd-a39d-197f09570df7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'IRF4905'",
+            "items": [
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 130.5,
+                        "y": 70.58
+                    },
+                    "uuid": "4a17d83c-547d-4bda-b200-3d97f9764d0c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library '1N4148WS'",
+            "items": [
+                {
+                    "description": "Footprint D2",
+                    "pos": {
+                        "x": 104.33,
+                        "y": 129.0
+                    },
+                    "uuid": "5e6d92e3-73be-4453-93c1-4491c30a9707"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'TestPoint_Red'",
+            "items": [
+                {
+                    "description": "Footprint STAR_TP1",
+                    "pos": {
+                        "x": 110.5,
+                        "y": 64.55
+                    },
+                    "uuid": "628b519f-d2be-4006-94c8-ffb94ded50d2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library '1N4148WS'",
+            "items": [
+                {
+                    "description": "Footprint D_KJOYCAN1",
+                    "pos": {
+                        "x": 115.5,
+                        "y": 140.0
+                    },
+                    "uuid": "64e04aac-c449-459f-a4e7-e8f1c326bc34"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Songle_SLA'",
+            "items": [
+                {
+                    "description": "Footprint POWER1",
+                    "pos": {
+                        "x": 113.4,
+                        "y": 116.5
+                    },
+                    "uuid": "6b43ae21-0527-464a-87d0-20c8c13b465f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'TestPoint_Red'",
+            "items": [
+                {
+                    "description": "Footprint BATT_TP1",
+                    "pos": {
+                        "x": 148.0,
+                        "y": 73.0
+                    },
+                    "uuid": "824013ab-0c41-4a84-b9e4-22820b5ce0dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library '1N4148WS'",
+            "items": [
+                {
+                    "description": "Footprint D_KSTEER1",
+                    "pos": {
+                        "x": 83.5,
+                        "y": 128.0
+                    },
+                    "uuid": "8f672677-efc5-4465-b580-088f31a840e4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'TestPoint_Red'",
+            "items": [
+                {
+                    "description": "Footprint CONV_TP1",
+                    "pos": {
+                        "x": 120.0,
+                        "y": 64.5
+                    },
+                    "uuid": "92e79b46-7914-4ff2-99c0-325c807c3eb0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'TestPoint_Black'",
+            "items": [
+                {
+                    "description": "Footprint BRK_ECU_TP1",
+                    "pos": {
+                        "x": 145.55,
+                        "y": 167.05
+                    },
+                    "uuid": "a75442eb-6f2f-4367-b5d0-20f59d211c4f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'TestPoint_Black'",
+            "items": [
+                {
+                    "description": "Footprint CAN1L_TP1",
+                    "pos": {
+                        "x": 145.55,
+                        "y": 163.05
+                    },
+                    "uuid": "ac6ed3d6-8001-45d2-8471-03dff48529ea"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'XT60PW-M'",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 129.75,
+                        "y": 56.0
+                    },
+                    "uuid": "bfd03015-50f6-4c78-b213-d472f54964ea"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'TestPoint_Red'",
+            "items": [
+                {
+                    "description": "Footprint STR_TP1",
+                    "pos": {
+                        "x": 68.5,
+                        "y": 64.5
+                    },
+                    "uuid": "d02595e3-567b-413c-ae63-315dd4effc8c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'TestPoint_Red'",
+            "items": [
+                {
+                    "description": "Footprint DIO_TP1",
+                    "pos": {
+                        "x": 100.5,
+                        "y": 64.5
+                    },
+                    "uuid": "d202050a-de5a-440f-947c-5733276d9452"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Cap_1000uF'",
+            "items": [
+                {
+                    "description": "Footprint C1",
+                    "pos": {
+                        "x": 141.5,
+                        "y": 93.0
+                    },
+                    "uuid": "d399c4ac-acfc-4f41-ae57-06a88f7c410f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library '1N4148WS'",
+            "items": [
+                {
+                    "description": "Footprint D1",
+                    "pos": {
+                        "x": 120.5,
+                        "y": 91.0
+                    },
+                    "uuid": "d59d521d-e479-44df-bc77-378b2a6fca5a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'TestPoint_Red'",
+            "items": [
+                {
+                    "description": "Footprint 12V_GATE_TP1",
+                    "pos": {
+                        "x": 145.5,
+                        "y": 151.0
+                    },
+                    "uuid": "e21d1672-c752-4de5-9571-29d8042c0d91"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'TestPoint_Black'",
+            "items": [
+                {
+                    "description": "Footprint BATT_GND_TP1",
+                    "pos": {
+                        "x": 148.0,
+                        "y": 78.5
+                    },
+                    "uuid": "e29ccc39-5bda-4d6e-9a98-49808584a3a0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'TestPoint_Black'",
+            "items": [
+                {
+                    "description": "Footprint ARM_TP1",
+                    "pos": {
+                        "x": 148.05,
+                        "y": 84.05
+                    },
+                    "uuid": "e90d8f18-73f7-4743-8c92-904d69966c48"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'TestPoint_Black'",
+            "items": [
+                {
+                    "description": "Footprint CAN1H_TP1",
+                    "pos": {
+                        "x": 145.55,
+                        "y": 159.05
+                    },
+                    "uuid": "ea278526-1831-4b98-b20b-442def8b70cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library '1N4148WS'",
+            "items": [
+                {
+                    "description": "Footprint D_KECUCAN1",
+                    "pos": {
+                        "x": 102.5,
+                        "y": 140.0
+                    },
+                    "uuid": "ec71b0b0-4ddd-466b-8c68-a4bf15bdf79f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Songle_SLA'",
+            "items": [
+                {
+                    "description": "Footprint K_STEER1",
+                    "pos": {
+                        "x": 83.6,
+                        "y": 105.0
+                    },
+                    "uuid": "f16db9ec-6be4-4eb3-8f3f-707a249ad277"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'TestPoint_Red'",
+            "items": [
+                {
+                    "description": "Footprint JET_TP3",
+                    "pos": {
+                        "x": 79.5,
+                        "y": 64.5
+                    },
+                    "uuid": "ff0ffbd7-5528-4ab7-b43f-d8aeaef475ba"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of J4",
+                    "pos": {
+                        "x": 91.64,
+                        "y": 62.82
+                    },
+                    "uuid": "db09854d-bdc5-4afe-b3f3-7a0b69fcae5d"
+                },
+                {
+                    "description": "Circle of LED_TP1 on F.Silkscreen",
+                    "pos": {
+                        "x": 90.5,
+                        "y": 64.5
+                    },
+                    "uuid": "dda0f96e-d713-48e4-bf58-0fa05423ac86"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}

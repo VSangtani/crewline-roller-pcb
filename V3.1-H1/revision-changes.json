@@ -1,0 +1,42 @@
+{
+  "J3": {
+    "Footprint": "V31_H1:MCV_1.5_5_5.08_Pad2.6",
+    "Datasheet": "https://www.phoenixcontact.com/us/products/1836325",
+    "Description": "5-position vertical pluggable signal header, 5.08 mm pitch, 8 A nominal",
+    "MPN": "1836325",
+    "Manufacturer": "Phoenix Contact",
+    "Mating plug": "1836105",
+    "LCSC Part": ""
+  },
+  "J5": {
+    "Footprint": "V31_H1:MCV_1.5_10_5.08_Pad2.6",
+    "Datasheet": "https://www.phoenixcontact.com/us/products/1836370",
+    "Description": "10-position vertical pluggable signal header, 5.08 mm pitch, 8 A nominal",
+    "MPN": "1836370",
+    "Manufacturer": "Phoenix Contact",
+    "Mating plug": "1836150",
+    "LCSC Part": ""
+  },
+  "J7": {
+    "Footprint": "V31_H1:MCV_1.5_4_5.08_Pad2.6",
+    "Datasheet": "https://www.phoenixcontact.com/us/products/1836312",
+    "Description": "4-position vertical pluggable signal header, 5.08 mm pitch, 8 A nominal",
+    "MPN": "1836312",
+    "Manufacturer": "Phoenix Contact",
+    "Mating plug": "1836095",
+    "LCSC Part": ""
+  },
+  "J8": {
+    "Footprint": "V31_H1:MCV_1.5_5_5.08_Pad2.6",
+    "Datasheet": "https://www.phoenixcontact.com/us/products/1836325",
+    "Description": "5-position vertical pluggable signal header, 5.08 mm pitch, 8 A nominal",
+    "MPN": "1836325",
+    "Manufacturer": "Phoenix Contact",
+    "Mating plug": "1836105",
+    "LCSC Part": ""
+  },
+  "F_MAIN1": {
+    "MPN": "0297030.U",
+    "Datasheet": "https://www.littelfuse.com/products/fuses-overcurrent-protection/fuses/automotive-fuses/blade-fuses-shunt/mini/297/0297030-u"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "tracks_identical": true,
+  "track_count": 379,
+  "all_named_pad_centres_and_nets_identical": true,
+  "schematic_net_graph_identical": true,
+  "drc_reports_semantically_identical": true,
+  "baseline_board_warnings": 30,
+  "revision_board_warnings": 30,
+  "baseline_parity_warnings": 24,
+  "revision_parity_warnings": 24,
+  "revision_errors": 0,
+  "step_omitted_vrml_only_models": [
+    {
+      "reference": "KIT_TP1",
+      "model": "outputs/v31-incremental/pcb/models/TestPoint_Red.3dshapes/TEST-TH_BD2.54-P1.4_RED.wrl"
+    },
+    {
+      "reference": "LED_TP1",
+      "model": "outputs/v31-incremental/pcb/models/TestPoint_Red.3dshapes/TEST-TH_BD2.54-P1.4_RED.wrl"
+    },
+    {
+      "reference": "MODE_TP1",
+      "model": "outputs/v31-incremental/pcb/models/TestPoint_Black.3dshapes/TEST-TH_BD2.54-P1.4_BLACK.wrl"
+    },
+    {
+      "reference": "D_KBRAKE1",
+      "model": "outputs/v31-incremental/pcb/models/1N4148WS.3dshapes/SOD-323_L1.8-W1.3-LS2.5-RD.wrl"
+    },
+    {
+      "reference": "Q1",
+      "model": "outputs/v31-incremental/pcb/models/IRF4905.3dshapes/TO-252-2_L6.6-W6.1-P4.57-LS10.1-BR-CW.wrl"
+    },
+    {
+      "reference": "D2",
+      "model": "outputs/v31-incremental/pcb/models/1N4148WS.3dshapes/SOD-323_L1.8-W1.3-LS2.5-RD.wrl"
+    },
+    {
+      "reference": "STAR_TP1",
+      "model": "outputs/v31-incremental/pcb/models/TestPoint_Red.3dshapes/TEST-TH_BD2.54-P1.4_RED.wrl"
+    },
+    {
+      "reference": "D_KJOYCAN1",
+      "model": "outputs/v31-incremental/pcb/models/1N4148WS.3dshapes/SOD-323_L1.8-W1.3-LS2.5-RD.wrl"
+    },
+    {
+      "reference": "BATT_TP1",
+      "model": "outputs/v31-incremental/pcb/models/TestPoint_Red.3dshapes/TEST-TH_BD2.54-P1.4_RED.wrl"
+    },
+    {
+      "reference": "D_KSTEER1",
+      "model": "outputs/v31-incremental/pcb/models/1N4148WS.3dshapes/SOD-323_L1.8-W1.3-LS2.5-RD.wrl"
+    },
+    {
+      "reference": "CONV_TP1",
+      "model": "outputs/v31-incremental/pcb/models/TestPoint_Red.3dshapes/TEST-TH_BD2.54-P1.4_RED.wrl"
+    },
+    {
+      "reference": "BRK_ECU_TP1",
+      "model": "outputs/v31-incremental/pcb/models/TestPoint_Black.3dshapes/TEST-TH_BD2.54-P1.4_BLACK.wrl"
+    },
+    {
+      "reference": "CAN1L_TP1",
+      "model": "outputs/v31-incremental/pcb/models/TestPoint_Black.3dshapes/TEST-TH_BD2.54-P1.4_BLACK.wrl"
+    },
+    {
+      "reference": "J1",
+      "model": "outputs/v31-incremental/pcb/models/XT60PW-M.3dshapes/CONN-TH_XT60PW-M.wrl"
+    },
+    {
+      "reference": "STR_TP1",
+      "model": "outputs/v31-incremental/pcb/models/TestPoint_Red.3dshapes/TEST-TH_BD2.54-P1.4_RED.wrl"
+    },
+    {
+      "reference": "DIO_TP1",
+      "model": "outputs/v31-incremental/pcb/models/TestPoint_Red.3dshapes/TEST-TH_BD2.54-P1.4_RED.wrl"
+    },
+    {
+      "reference": "D1",
+      "model": "outputs/v31-incremental/pcb/models/1N4148WS.3dshapes/SOD-323_L1.8-W1.3-LS2.5-RD.wrl"
+    },
+    {
+      "reference": "12V_GATE_TP1",
+      "model": "outputs/v31-incremental/pcb/models/TestPoint_Red.3dshapes/TEST-TH_BD2.54-P1.4_RED.wrl"
+    },
+    {
+      "reference": "BATT_GND_TP1",
+      "model": "outputs/v31-incremental/pcb/models/TestPoint_Black.3dshapes/TEST-TH_BD2.54-P1.4_BLACK.wrl"
+    },
+    {
+      "reference": "ARM_TP1",
+      "model": "outputs/v31-incremental/pcb/models/TestPoint_Black.3dshapes/TEST-TH_BD2.54-P1.4_BLACK.wrl"
+    },
+    {
+      "reference": "CAN1H_TP1",
+      "model": "outputs/v31-incremental/pcb/models/TestPoint_Black.3dshapes/TEST-TH_BD2.54-P1.4_BLACK.wrl"
+    },
+    {
+      "reference": "D_KECUCAN1",
+      "model": "outputs/v31-incremental/pcb/models/1N4148WS.3dshapes/SOD-323_L1.8-W1.3-LS2.5-RD.wrl"
+    },
+    {
+      "reference": "JET_TP3",
+      "model": "outputs/v31-incremental/pcb/models/TestPoint_Red.3dshapes/TEST-TH_BD2.54-P1.4_RED.wrl"
+    }
+  ],
+  "mated_step_solid_count": 71,
+  "mated_step_inspection_ok": true,
+  "positive_volume_plug_intersections": {
+    "J3": [],
+    "J5": [],
+    "J7": [],
+    "J8": []
+  },
+  "schematic_pdf_pages": 1,
+  "schematic_pdf_visually_inspected": true,
+  "schematic_pdf_preserves_source_population_flags": true
+}
