@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "V31_H1")(type "KiCad")(uri "${KIPRJMOD}/V31_H1.pretty")(options "")(descr "V3.1 H1 verified header pattern with original 2.6 mm pads"))
+)

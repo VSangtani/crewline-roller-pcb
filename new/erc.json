@@ -1,0 +1,66 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-29T11:44:47",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/9f8a0b78-f846-46db-98c6-0f132faed93d",
+            "violations": []
+        },
+        {
+            "path": "/Brake and E-stop/",
+            "uuid_path": "/9f8a0b78-f846-46db-98c6-0f132faed93d/730b1075-cefe-4ffb-893b-288235ac21e2",
+            "violations": [
+                {
+                    "description": "Both ESTOP_ECU_NF and ESTOP_JOY_NF are attached to the same items; ESTOP_ECU_NF will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Global Label 'ESTOP_ECU_NF'",
+                            "pos": {
+                                "x": 1.1176,
+                                "y": 0.9144
+                            },
+                            "uuid": "4b96ee58-f3f2-45a8-960f-09ef8664a51f"
+                        },
+                        {
+                            "description": "Global Label 'ESTOP_JOY_NF'",
+                            "pos": {
+                                "x": 1.6637,
+                                "y": 0.7239
+                            },
+                            "uuid": "1361f965-ccf3-47ce-9d74-9bff836e3cb0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                }
+            ]
+        }
+    ],
+    "source": "CREWLINE-PRIM-PCB-001.kicad_sch"
+}
