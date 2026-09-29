@@ -72,7 +72,7 @@ grounded from the board. Confirm that the Bomag input accepts this before the fi
 - J5, J7 and J10 sit on the bottom edge between the mounting holes with a 1.5 mm gap between housings.
 - J8, J6, the right-hand test point column and the right-hand mounting holes moved with the right edge.
 - The seven DPDT relays sit in one row at Y 143.22 mm. Each has its flyback diode 3 mm above the coil pads and its LED and resistor above that.
-- The right-hand test points form two columns at X 188 and X 202 mm.
+- The right-hand test points form two columns at X 188 and X 202 mm. CAN1H_TP1 and CAN1L_TP1 sit directly above J5 pins 6 to 9, beside the terminators, so their stubs on the bus are short.
 - The inner layers stay as the ground plane and the +12V_KIT plane.
 - New copper is on F.Cu and B.Cu only. Track and via sizes follow the net classes: 2.5 mm tracks with 1.0/0.5 mm vias for +12V_GATED, 1.0 mm tracks with 0.8/0.4 mm vias for +12V_KIT, 0.4 mm tracks with 0.6/0.3 mm vias for signals.
 - The router also re-routed the existing nets that reached the moved parts: MODE_SEL_DRV, +12V_KIT, +12V_GATED, ARMED_HOT, JET1_CANH, JET1_CANL and the relay contact nets. K_ECUCAN1 and K_JOYCAN1 moved 8 mm to the left.
@@ -90,17 +90,20 @@ grounded from the board. Confirm that the Bomag input accepts this before the fi
 
 ## Open items before manufacture
 
-- Confirm that BRAKE_JET and ESTOP_REMOTE are switched from this board's +12V_KIT rail through the DIO output on J4. If the carrier outputs ever carry 24 V, or a supply that is live while the kit is disarmed, the K_BRAKE_CAT2 coil can pull in through MODE_SEL_DRV in manual mode. A contact-gated coil return removes the dependency.
+- BRAKE_JET and ESTOP_REMOTE are 12 V maximum. With MODE_SEL_DRV floating near 12 V in manual mode, the K_BRAKE_CAT2 and ESTOP_COM_RELAY2 coils see no useful voltage and stay released. If a later carrier ever drives these lines from 24 V, or from a supply that is live while the kit is disarmed, return those two coils through a relay contact instead of MODE_SEL_DRV.
 - Bump the revision label before the order and add a revision text on the silkscreen. The schematic title blocks are empty.
-- Give the seven DPDT relays a value with the coil voltage and a manufacturer part number. LCSC C45404 is the number on the boards in service and is not confirmed online.
-- Nine fuse holders and connectors carry the text DNP in their LCSC Part field. It means customer-fitted, not do-not-populate. Move that into an assembly field before the BOM goes to an assembler.
+- Give the seven DPDT relays a value with the coil voltage and a manufacturer part number. Read the marking from a relay on a board in service. LCSC C45404 is the number in the design and is not confirmed online.
 
 - The current rating of the Syslogic digital outputs is in the product manual, not the datasheet. Confirm it covers 22 mA on each output.
 - Check the plug coding scheme. J3 and J8 share a 5-way plug. J7 and J10 share a 7-way plug.
-- The red LEDs use the stock 0805 footprint. Pad 1 is the anode on this board. The footprint mark says cathode. The boards in service work, so the assembler followed the pin numbers.
 - The 20 A supply path through Q1 and the main fuse is unchanged and unreviewed.
-- The CAN test points CAN1H_TP1 and CAN1L_TP1 sit 100 mm from J5 along the bus. Shorter stubs would be better.
 - Manufacturing outputs are not generated yet.
+
+## Open questions for the original board designer
+
+- JOY_TERM_R1 and STEER_TERM_R1 are both 120 ohm across JET1_CANH and JET1_CANL, which puts 60 ohm on that bus from this board alone. Both are fitted on the boards in service. A CAN bus normally has one 120 ohm terminator at each end and none in the middle. Was this intended, for example because the board sits at the end of two separate cable runs?
+- The six red LEDs use a symbol with pin 1 as the anode on the stock 0805 footprint, whose polarity mark says cathode at pad 1. The boards in service light, so the assembler followed the pin numbers and not the mark. Was that a deliberate choice, and should the mark be corrected in the next release?
+- Nine fuse holders and connectors carry the text DNP in their LCSC Part field, although they are fitted. What does that text mean in the assembly process, and where should it live so an assembler does not read it as a part number?
 
 ## Tools
 

@@ -242,7 +242,7 @@ def route(g, netcode, width, starts, goals, to_via=False, prefer=None):
         for ddx, ddy in ((1, 0), (-1, 0), (0, 1), (0, -1)):
             nx, ny = cx + ddx, cy + ddy
             if 0 <= nx < W and 0 <= ny < H and free(l, nx, ny):
-                nd = d + (COST_PREFER if (nx, ny) in prefer else COST_STEP) + (COST_TURN if dirn is not None and dirn != (ddx, ddy) else 0)
+                nd = d + (COST_PREFER if (l, nx, ny) in prefer else COST_STEP) + (COST_TURN if dirn is not None and dirn != (ddx, ddy) else 0)
                 nk = ((l, nx, ny), (ddx, ddy))
                 if nd < dist.get(nk, 1e18):
                     dist[nk] = nd; prev[nk] = key
@@ -400,6 +400,7 @@ def main(limit_nets=None, pair_with=None):
         code = netcode(pair_with)
         for t in tracks(board):
             if t.GetClass() == 'PCB_TRACK' and t.GetNetCode() == code:
+                lay = 0 if t.IsOnLayer(pcbnew.F_Cu) else 1
                 s0, e0 = t.GetStart(), t.GetEnd()
                 a, bq = g.cell(mm(s0.x), mm(s0.y)), g.cell(mm(e0.x), mm(e0.y))
                 n = max(abs(bq[0] - a[0]), abs(bq[1] - a[1]))
@@ -407,7 +408,7 @@ def main(limit_nets=None, pair_with=None):
                     cx = a[0] + round((bq[0] - a[0]) * i / max(n, 1)); cy = a[1] + round((bq[1] - a[1]) * i / max(n, 1))
                     for dx in (-2, -1, 0, 1, 2):
                         for dy in (-2, -1, 0, 1, 2):
-                            prefer.add((cx + dx, cy + dy))
+                            prefer.add((lay, cx + dx, cy + dy))
     ok = fail = 0
     global VIA_SIZE_FOR_ROUTE
     for net, a, bb in todo:
