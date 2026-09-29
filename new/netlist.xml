@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/varun/Documents/Crewline/dev/V3.1-H1-pcb-review/V3.1-H1/CREWLINE-PRIM-PCB-001.kicad_sch</source>
-    <date>2026-09-29T11:44:47</date>
+    <source>/home/varun/Documents/Crewline/dev/V3.1-H1-pcb-review/new/CREWLINE-PRIM-PCB-001.kicad_sch</source>
+    <date>2026-09-29T12:09:25</date>
     <tool>Eeschema 10.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -462,7 +462,7 @@
       </units>
     </comp>
     <comp ref="D1">
-      <value>D</value>
+      <value>1N4148WS</value>
       <footprint>1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD</footprint>
       <description>Diode</description>
       <fields>
@@ -493,7 +493,7 @@
       </units>
     </comp>
     <comp ref="D2">
-      <value>D</value>
+      <value>1N4148WS</value>
       <footprint>1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD</footprint>
       <description>Diode</description>
       <fields>
@@ -601,7 +601,7 @@
       </units>
     </comp>
     <comp ref="D_KECUCAN1">
-      <value>D</value>
+      <value>1N4148WS</value>
       <footprint>1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD</footprint>
       <description>Diode</description>
       <fields>
@@ -632,7 +632,7 @@
       </units>
     </comp>
     <comp ref="D_KJOYCAN1">
-      <value>D</value>
+      <value>1N4148WS</value>
       <footprint>1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD</footprint>
       <description>Diode</description>
       <fields>
@@ -663,7 +663,7 @@
       </units>
     </comp>
     <comp ref="D_KSTEER1">
-      <value>D</value>
+      <value>1N4148WS</value>
       <footprint>1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD</footprint>
       <description>Diode</description>
       <fields>
@@ -2370,7 +2370,7 @@
       </units>
     </comp>
     <comp ref="D_BRAKEJET_SER1">
-      <value>D</value>
+      <value>1N4148WS</value>
       <footprint>1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD</footprint>
       <description>Diode</description>
       <fields>
@@ -2401,7 +2401,7 @@
       </units>
     </comp>
     <comp ref="D_ESTOPCOM1">
-      <value>D</value>
+      <value>1N4148WS</value>
       <footprint>1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD</footprint>
       <description>Diode</description>
       <fields>
@@ -2432,7 +2432,7 @@
       </units>
     </comp>
     <comp ref="D_ESTOPCOM2">
-      <value>D</value>
+      <value>1N4148WS</value>
       <footprint>1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD</footprint>
       <description>Diode</description>
       <fields>
@@ -2463,7 +2463,7 @@
       </units>
     </comp>
     <comp ref="D_ESTOPREMOTE_SER1">
-      <value>D</value>
+      <value>1N4148WS</value>
       <footprint>1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD</footprint>
       <description>Diode</description>
       <fields>
@@ -2494,7 +2494,7 @@
       </units>
     </comp>
     <comp ref="D_KBRAKE1">
-      <value>D</value>
+      <value>1N4148WS</value>
       <footprint>1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD</footprint>
       <description>Diode</description>
       <fields>
@@ -2525,7 +2525,7 @@
       </units>
     </comp>
     <comp ref="D_KBRAKECAT1">
-      <value>D</value>
+      <value>1N4148WS</value>
       <footprint>1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD</footprint>
       <description>Diode</description>
       <fields>
@@ -2556,7 +2556,7 @@
       </units>
     </comp>
     <comp ref="D_KBRAKECAT2">
-      <value>D</value>
+      <value>1N4148WS</value>
       <footprint>1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD</footprint>
       <description>Diode</description>
       <fields>

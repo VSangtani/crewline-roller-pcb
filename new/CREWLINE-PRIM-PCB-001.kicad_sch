@@ -10987,7 +10987,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148WS"
 			(at 45.974 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11279,7 +11279,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148WS"
 			(at 101.6 157.988 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15545,7 +15545,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148WS"
 			(at 45.72 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17379,7 +17379,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148WS"
 			(at 177.8 42.926 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17976,7 +17976,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4148WS"
 			(at 203.2 31.7499 90)
 			(show_name no)
 			(do_not_autoplace no)

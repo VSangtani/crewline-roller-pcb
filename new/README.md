@@ -74,22 +74,32 @@ grounded from the board. Confirm that the Bomag input accepts this before the fi
 - The seven DPDT relays sit in one row at Y 143.22 mm. Each has its flyback diode 3 mm above the coil pads and its LED and resistor above that.
 - The right-hand test points form two columns at X 188 and X 202 mm.
 - The inner layers stay as the ground plane and the +12V_KIT plane.
-- New copper is on F.Cu and B.Cu only. Track widths follow the net classes: 2.5 mm for +12V_GATED, 0.4 mm for signals.
+- New copper is on F.Cu and B.Cu only. Track and via sizes follow the net classes: 2.5 mm tracks with 1.0/0.5 mm vias for +12V_GATED, 1.0 mm tracks with 0.8/0.4 mm vias for +12V_KIT, 0.4 mm tracks with 0.6/0.3 mm vias for signals.
+- The router also re-routed the existing nets that reached the moved parts: MODE_SEL_DRV, +12V_KIT, +12V_GATED, ARMED_HOT, JET1_CANH, JET1_CANL and the relay contact nets. K_ECUCAN1 and K_JOYCAN1 moved 8 mm to the left.
 - No track runs inside a mounting hole washer area or closer than 1.8 mm to the board edge.
+- The mounting holes are H1 to H4 on a 141.5 by 115 mm rectangle: (60, 58), (201.5, 58), (60, 173) and (201.5, 173) in board coordinates. They are board-only footprints with no schematic symbol.
 
 ## Verification
 
 - ERC reports one warning. ESTOP_ECU_NF and ESTOP_JOY_NF name the same net by design.
 - DRC reports zero errors, zero warnings and zero unconnected items.
-- Every pad net on the board was compared with the schematic netlist. All 271 match.
+- Every pad net on the board was compared with the schematic netlist. All 274 match.
+- An independent review of the schematic, the board and the BOM was run after routing. Its findings are recorded in the open items below.
+- These checks are switched off in the project settings and were confirmed clean when switched on: ERC single_global_label, four_way_junction and footprint_filter; DRC missing_courtyard, track_not_centered_on_via and footprint_type_mismatch.
 - The netlist was compared before and after every schematic edit. Only the intended nets changed.
 
 ## Open items before manufacture
+
+- Confirm that BRAKE_JET and ESTOP_REMOTE are switched from this board's +12V_KIT rail through the DIO output on J4. If the carrier outputs ever carry 24 V, or a supply that is live while the kit is disarmed, the K_BRAKE_CAT2 coil can pull in through MODE_SEL_DRV in manual mode. A contact-gated coil return removes the dependency.
+- Bump the revision label before the order and add a revision text on the silkscreen. The schematic title blocks are empty.
+- Give the seven DPDT relays a value with the coil voltage and a manufacturer part number. LCSC C45404 is the number on the boards in service and is not confirmed online.
+- Nine fuse holders and connectors carry the text DNP in their LCSC Part field. It means customer-fitted, not do-not-populate. Move that into an assembly field before the BOM goes to an assembler.
 
 - The current rating of the Syslogic digital outputs is in the product manual, not the datasheet. Confirm it covers 22 mA on each output.
 - Check the plug coding scheme. J3 and J8 share a 5-way plug. J7 and J10 share a 7-way plug.
 - The red LEDs use the stock 0805 footprint. Pad 1 is the anode on this board. The footprint mark says cathode. The boards in service work, so the assembler followed the pin numbers.
 - The 20 A supply path through Q1 and the main fuse is unchanged and unreviewed.
+- The CAN test points CAN1H_TP1 and CAN1L_TP1 sit 100 mm from J5 along the bus. Shorter stubs would be better.
 - Manufacturing outputs are not generated yet.
 
 ## Tools

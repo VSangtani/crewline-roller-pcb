@@ -28,6 +28,12 @@ SP = os.path.join(HERE, 'work')
 os.makedirs(SP, exist_ok=True)
 
 
+def net_via(name):
+    """(diameter, drill) from the net class, matching the project setup."""
+    w = net_width(name)
+    return (1.0, 0.5) if w >= 2.5 else (0.8, 0.4) if w >= 1.0 else (VIA_D, VIA_DRILL)
+
+
 def net_width(name):
     if name in ('+12V_BATT', '+12V_GATED', 'GND', '/BATTFUSE', '{slash}BATTFUSE'):
         return 2.5
@@ -43,7 +49,7 @@ class Grid:
         self.W = int(math.ceil(mm(bb.GetWidth()) / GRID)) + 1
         self.H = int(math.ceil(mm(bb.GetHeight()) / GRID)) + 1
         self.edge_x1, self.edge_y1 = mm(bb.GetRight()), mm(bb.GetBottom())
-        self.widths = [0.4, 1.0, 2.5, VIA_D]
+        self.widths = [0.4, 1.0, 2.5, VIA_D, 0.8, 1.0]
         # block[w][layer] -> bytearray; a cell is blocked for a track of width w.
         # block[w][layer][i]: 0 free, n>0 blocked only by net n, -1 blocked by several nets or by netless copper.
         self.block = {w: [array('i', [0]) * (self.W * self.H) for _ in LAYERS] for w in self.widths}
@@ -193,11 +199,14 @@ def build_grid(board):
     return g
 
 
+VIA_SIZE_FOR_ROUTE = (VIA_D, VIA_DRILL)
+
+
 def route(g, netcode, width, starts, goals, to_via=False, prefer=None):
     """Dijkstra from start cells to goal cells. starts/goals: sets of (layer,cx,cy).
     Returns list of (layer,cx,cy) or None."""
     blk = g.block[width]
-    blkv = g.block[VIA_D]
+    blkv = g.block[VIA_SIZE_FOR_ROUTE[0]]
     W, H = g.W, g.H
     tick = count()
 
@@ -284,7 +293,9 @@ def commit_path(board, g, net_code, net, width, path, start_pt=None, end_pt=None
         t.SetStart(V(FM(a[0]), FM(a[1]))); t.SetEnd(V(FM(b[0]), FM(b[1])))
         t.SetWidth(FM(width)); t.SetLayer(layer_ids[l]); t.SetNetCode(net_code)
         board.Add(t); g.add_track(t, net); CREATED.append(t.m_Uuid.AsString())
-    def add_via(p, w=VIA_D, d=VIA_DRILL):
+    def add_via(p, w=None, d=None):
+        if w is None:
+            w, d = net_via(net)
         v = pcbnew.PCB_VIA(board)
         v.SetPosition(V(FM(p[0]), FM(p[1]))); v.SetDrill(FM(d)); v.SetNetCode(net_code)
         v.SetLayerPair(pcbnew.F_Cu, pcbnew.B_Cu)
@@ -303,8 +314,7 @@ def commit_path(board, g, net_code, net, width, path, start_pt=None, end_pt=None
             add_track(l, g.pos(a[1], a[2]), g.pos(b[1], b[2]))
     last = path[-1]
     if end_via and (last[1], last[2]) not in g.via_cells.get(net_code, set()):
-        vw = VIA_D if width < 1.0 else 0.8
-        add_via(g.pos(last[1], last[2]), vw, 0.4 if vw > 0.6 else VIA_DRILL)
+        add_via(g.pos(last[1], last[2]))
     elif end_pt is not None:
         add_track(last[0], g.pos(last[1], last[2]), end_pt)
 
@@ -399,8 +409,10 @@ def main(limit_nets=None, pair_with=None):
                         for dy in (-2, -1, 0, 1, 2):
                             prefer.add((cx + dx, cy + dy))
     ok = fail = 0
+    global VIA_SIZE_FOR_ROUTE
     for net, a, bb in todo:
         width = net_width(net)
+        VIA_SIZE_FOR_ROUTE = net_via(net)
         if net in PLANE_NETS:
             for it in (a, bb):
                 cells, anchor, item = item_cells(board, g, it['uuid'], it['description'])
