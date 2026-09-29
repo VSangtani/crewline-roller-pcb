@@ -18730,7 +18730,7 @@
 			)
 		)
 	)
-	(global_label "ESTOP_JET"
+	(global_label "ESTOP_REMOTE"
 		(shape passive)
 		(at 246.38 105.41 0)
 		(fields_autoplaced yes)

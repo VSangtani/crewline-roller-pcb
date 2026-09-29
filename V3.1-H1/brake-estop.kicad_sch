@@ -3653,7 +3653,7 @@
 		)
 		(uuid "c71835f6-a5dc-4f4c-a1f0-5d87fcbba6ae")
 	)
-	(text "ESTOP BOMAG1 RELAY\n"
+	(text "ESTOP COM RELAY1\n"
 		(exclude_from_sim no)
 		(at 23.368 70.358 0)
 		(effects
@@ -3686,18 +3686,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c14e7d8d-1524-4f6e-9d31-496b318ee1fd")
-	)
-	(no_connect
-		(at 35.56 93.98)
-		(uuid "77bc685c-0c14-4f70-b9fd-64efb134f649")
-	)
-	(no_connect
-		(at 50.8 96.52)
-		(uuid "398be5ee-8948-4678-836d-956a9575f995")
-	)
-	(no_connect
-		(at 50.8 91.44)
-		(uuid "383687be-240b-4c7f-8a52-4047b52c75f6")
 	)
 	(wire
 		(pts
@@ -3950,7 +3938,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "645411a5-bc8b-4c50-aa26-7689b8b4fe16")
-		(property "Reference" "ESTOPBOMAG1-Relay-LED1"
+		(property "Reference" "ESTOPCOM1-Relay-LED1"
 			(at 37.846 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4034,7 +4022,7 @@
 		(instances
 			(project "CREWLINE-PRIM-PCB-001"
 				(path "/9f8a0b78-f846-46db-98c6-0f132faed93d/730b1075-cefe-4ffb-893b-288235ac21e2"
-					(reference "ESTOPBOMAG1-Relay-LED1")
+					(reference "ESTOPCOM1-Relay-LED1")
 					(unit 1)
 				)
 			)
@@ -4051,7 +4039,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "525be054-e4a8-4c34-a877-ba686aef08b3")
-		(property "Reference" "K_ESTOP_BOMAG1"
+		(property "Reference" "ESTOP_COM_RELAY1"
 			(at 42.164 112.522 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4145,7 +4133,7 @@
 		(instances
 			(project "CREWLINE-PRIM-PCB-001"
 				(path "/9f8a0b78-f846-46db-98c6-0f132faed93d/730b1075-cefe-4ffb-893b-288235ac21e2"
-					(reference "K_ESTOP_BOMAG1")
+					(reference "ESTOP_COM_RELAY1")
 					(unit 1)
 				)
 			)
@@ -4162,7 +4150,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a3e4738-853a-481b-8066-91acf4517881")
-		(property "Reference" "D_KESTOPBOMAG1"
+		(property "Reference" "D_ESTOPCOM1"
 			(at 50.546 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4257,7 +4245,7 @@
 		(instances
 			(project "CREWLINE-PRIM-PCB-001"
 				(path "/9f8a0b78-f846-46db-98c6-0f132faed93d/730b1075-cefe-4ffb-893b-288235ac21e2"
-					(reference "D_KESTOPBOMAG1")
+					(reference "D_ESTOPCOM1")
 					(unit 1)
 				)
 			)
@@ -4274,7 +4262,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f35dfaaa-222f-4ccb-aa0e-e96bbae7e327")
-		(property "Reference" "ESTOPBOMAG1-Relay-RES1"
+		(property "Reference" "ESTOPCOM1-Relay-RES1"
 			(at 60.452 70.866 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4347,7 +4335,7 @@
 		(instances
 			(project "CREWLINE-PRIM-PCB-001"
 				(path "/9f8a0b78-f846-46db-98c6-0f132faed93d/730b1075-cefe-4ffb-893b-288235ac21e2"
-					(reference "ESTOPBOMAG1-Relay-RES1")
+					(reference "ESTOPCOM1-Relay-RES1")
 					(unit 1)
 				)
 			)
@@ -4355,7 +4343,7 @@
 	)
 	(rectangle
 		(start 74.93 66.04)
-		(end 135.89 115.57)
+		(end 140.97 115.57)
 		(stroke
 			(width 0)
 			(type default)
@@ -4365,7 +4353,7 @@
 		)
 		(uuid "8d2f90b6-4fa8-4149-b6d6-043c048e38d2")
 	)
-	(text "ESTOP BOMAG2 RELAY\n"
+	(text "ESTOP COM RELAY2\n"
 		(exclude_from_sim no)
 		(at 84.328 70.358 0)
 		(effects
@@ -4398,18 +4386,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a755d02-cee8-46ff-8198-84723246010f")
-	)
-	(no_connect
-		(at 96.52 93.98)
-		(uuid "3ac54d3e-5083-4522-a464-659d629ccd44")
-	)
-	(no_connect
-		(at 111.76 96.52)
-		(uuid "11eee26e-3832-4589-8cdf-2f5924a4aa09")
-	)
-	(no_connect
-		(at 111.76 91.44)
-		(uuid "51cf8bf9-eb06-4c11-896d-5d4f06f2f61a")
 	)
 	(wire
 		(pts
@@ -4604,7 +4580,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4ca3573-b7b0-4a7d-a4a7-66c07fc99618")
-		(property "Reference" "ESTOPBOMAG2-Relay-LED1"
+		(property "Reference" "ESTOPCOM2-Relay-LED1"
 			(at 98.806 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4688,7 +4664,7 @@
 		(instances
 			(project "CREWLINE-PRIM-PCB-001"
 				(path "/9f8a0b78-f846-46db-98c6-0f132faed93d/730b1075-cefe-4ffb-893b-288235ac21e2"
-					(reference "ESTOPBOMAG2-Relay-LED1")
+					(reference "ESTOPCOM2-Relay-LED1")
 					(unit 1)
 				)
 			)
@@ -4705,7 +4681,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99d98713-cad8-4bbd-af04-c60dc9f85657")
-		(property "Reference" "K_ESTOP_BOMAG2"
+		(property "Reference" "ESTOP_COM_RELAY2"
 			(at 103.124 112.522 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4799,7 +4775,7 @@
 		(instances
 			(project "CREWLINE-PRIM-PCB-001"
 				(path "/9f8a0b78-f846-46db-98c6-0f132faed93d/730b1075-cefe-4ffb-893b-288235ac21e2"
-					(reference "K_ESTOP_BOMAG2")
+					(reference "ESTOP_COM_RELAY2")
 					(unit 1)
 				)
 			)
@@ -4816,7 +4792,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66240589-cc94-4fc8-b916-cb8cb1406133")
-		(property "Reference" "D_KESTOPBOMAG2"
+		(property "Reference" "D_ESTOPCOM2"
 			(at 111.506 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4911,7 +4887,7 @@
 		(instances
 			(project "CREWLINE-PRIM-PCB-001"
 				(path "/9f8a0b78-f846-46db-98c6-0f132faed93d/730b1075-cefe-4ffb-893b-288235ac21e2"
-					(reference "D_KESTOPBOMAG2")
+					(reference "D_ESTOPCOM2")
 					(unit 1)
 				)
 			)
@@ -4928,7 +4904,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "145a75b9-cec1-41ff-b7fd-9e5e99429b0a")
-		(property "Reference" "ESTOPBOMAG2-Relay-RES1"
+		(property "Reference" "ESTOPCOM2-Relay-RES1"
 			(at 121.412 70.866 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5001,7 +4977,7 @@
 		(instances
 			(project "CREWLINE-PRIM-PCB-001"
 				(path "/9f8a0b78-f846-46db-98c6-0f132faed93d/730b1075-cefe-4ffb-893b-288235ac21e2"
-					(reference "ESTOPBOMAG2-Relay-RES1")
+					(reference "ESTOPCOM2-Relay-RES1")
 					(unit 1)
 				)
 			)
@@ -5018,7 +4994,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4b4b0a4-8bda-488c-8dda-4a484a370d58")
-		(property "Reference" "D_ESTOPJET_SER1"
+		(property "Reference" "D_ESTOPREMOTE_SER1"
 			(at 116.84 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5114,13 +5090,13 @@
 		(instances
 			(project "CREWLINE-PRIM-PCB-001"
 				(path "/9f8a0b78-f846-46db-98c6-0f132faed93d/730b1075-cefe-4ffb-893b-288235ac21e2"
-					(reference "D_ESTOPJET_SER1")
+					(reference "D_ESTOPREMOTE_SER1")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(global_label "ESTOP_JET"
+	(global_label "ESTOP_REMOTE"
 		(shape input)
 		(at 120.65 83.82 0)
 		(fields_autoplaced yes)
@@ -5233,1535 +5209,8 @@
 		)
 	)
 	(rectangle
-		(start 138.43 66.04)
-		(end 194.31 115.57)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "ffaf64d0-aad3-41b2-b20d-a6f16db0d3c0")
-	)
-	(text "ESTOP CAT1 RELAY\n"
-		(exclude_from_sim no)
-		(at 147.828 70.358 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8bdb1450-2d19-4cc9-a646-89520091475b")
-	)
-	(junction
-		(at 176.53 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59ae5e3a-356f-41d7-aaca-ac4a42acc513")
-	)
-	(junction
-		(at 158.75 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5fe21341-7e02-4964-84b0-bd256de54713")
-	)
-	(junction
-		(at 158.75 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e232c4d-c05f-4cde-836f-b4aca40158c7")
-	)
-	(junction
-		(at 176.53 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be0778a9-e826-4004-bbb0-f2edd22c4de1")
-	)
-	(no_connect
-		(at 160.02 93.98)
-		(uuid "5c42c23a-1098-414a-8175-fe271935ec0f")
-	)
-	(no_connect
-		(at 175.26 96.52)
-		(uuid "b5bc6891-0fa6-48f5-9337-3f8bf526cd39")
-	)
-	(no_connect
-		(at 175.26 91.44)
-		(uuid "4f7b1a7f-99c0-4cb4-be89-1739e40fdefd")
-	)
-	(wire
-		(pts
-			(xy 158.75 76.2) (xy 158.75 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06cdf582-dab3-48a7-9dce-805ae36dabed")
-	)
-	(wire
-		(pts
-			(xy 176.53 72.39) (xy 176.53 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff3cef8f-492d-4b23-a21b-c6b3443a136b")
-	)
-	(wire
-		(pts
-			(xy 157.48 83.82) (xy 158.75 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00b809b0-18cb-4489-bf91-7dfd46997ea2")
-	)
-	(wire
-		(pts
-			(xy 177.8 83.82) (xy 176.53 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f41631f-4efa-4471-9aaa-3e1725eec018")
-	)
-	(wire
-		(pts
-			(xy 163.83 76.2) (xy 158.75 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1587cbe6-6f6c-408c-9bad-9f1ce63cfe41")
-	)
-	(wire
-		(pts
-			(xy 176.53 83.82) (xy 175.26 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47e485ac-76cf-43fd-ad30-47abd7c15016")
-	)
-	(wire
-		(pts
-			(xy 158.75 72.39) (xy 158.75 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7bea98b-d1fa-44b1-89d4-25b75763000d")
-	)
-	(wire
-		(pts
-			(xy 176.53 72.39) (xy 175.26 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5166ea3e-fb45-4426-abf8-607cfe9eda33")
-	)
-	(wire
-		(pts
-			(xy 158.75 83.82) (xy 160.02 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "536f14ce-29ee-4fd7-acde-1b3a0e337e68")
-	)
-	(wire
-		(pts
-			(xy 176.53 76.2) (xy 171.45 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e37f8d0a-c0e6-4f96-a2e7-68f208cc3a39")
-	)
-	(wire
-		(pts
-			(xy 176.53 83.82) (xy 176.53 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a4a90ac-d451-4775-9df6-41a2b02599a6")
-	)
-	(wire
-		(pts
-			(xy 160.02 72.39) (xy 158.75 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d3e8070-b083-4e29-85b2-ba0f89e79c4d")
-	)
-	(global_label "+12V_KIT"
-		(shape input)
-		(at 177.8 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9ca6ff75-be93-47c5-a1ce-a48b26cc974c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.6752 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "MODE_SEL_DRV"
-		(shape input)
-		(at 157.48 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "888b1e85-3318-4823-bb7c-9d5cddefbc20")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.3435 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ESTOP_JOY_NG"
-		(shape input)
-		(at 160.02 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "744e6a04-cab4-4024-97c9-e9d72c9d9424")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.2701 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ESTOP_ECU_NG"
-		(shape input)
-		(at 175.26 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6bbf79c5-53db-43ad-9040-e1c91bbd7b11")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.6471 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ESTOP_CAT_RELAY"
-		(shape input)
-		(at 175.26 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1543bea1-48ce-46a0-9236-2e265578cb30")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.3446 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 163.83 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4ffed577-d684-4e3d-a5ae-0b964785ae2c")
-		(property "Reference" "ESTOPCAT1-Relay-LED1"
-			(at 162.306 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Green"
-			(at 162.56 69.596 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 163.83 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 163.83 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 163.83 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C72043"
-			(at 163.83 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4b37f001-5d42-4c46-a9d5-21a93b525986")
-		)
-		(pin "2"
-			(uuid "4ff4da02-79ca-4598-8f50-a1cf47cd6203")
-		)
-		(instances
-			(project "CREWLINE-PRIM-PCB-001"
-				(path "/9f8a0b78-f846-46db-98c6-0f132faed93d/730b1075-cefe-4ffb-893b-288235ac21e2"
-					(reference "ESTOPCAT1-Relay-LED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Relay_DPDT")
-		(at 167.64 93.98 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4177b677-aadf-4d9a-8f4f-68925273aa1a")
-		(property "Reference" "K_ESTOP_CAT1"
-			(at 166.624 112.522 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Relay_DPDT"
-			(at 166.3701 110.49 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_DPDT_Omron_G6A"
-			(at 166.37 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Relay DPDT, monostable, EN50005"
-			(at 167.64 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C45404"
-			(at 167.64 93.98 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A2"
-			(uuid "5854bda3-b4a3-4227-ba31-c8b3edb06012")
-		)
-		(pin "24"
-			(uuid "c7ce5516-75dc-42e3-a422-3105f34611c7")
-		)
-		(pin "21"
-			(uuid "a42ccca4-a062-4fa9-9f8d-9b520c66dc0f")
-		)
-		(pin "11"
-			(uuid "e6f620bb-e228-4e1c-9046-8b8c44ee2410")
-		)
-		(pin "A1"
-			(uuid "6573e60e-385e-43ee-ac15-5657d1f6dba6")
-		)
-		(pin "14"
-			(uuid "9f3f08f5-06a8-4c4d-bb8a-a6a3d969d3de")
-		)
-		(pin "22"
-			(uuid "8b7aabdd-e45a-4b96-832f-fd7a1fc232cb")
-		)
-		(pin "12"
-			(uuid "ecae3909-4818-41aa-a915-8814e269d9a0")
-		)
-		(instances
-			(project "CREWLINE-PRIM-PCB-001"
-				(path "/9f8a0b78-f846-46db-98c6-0f132faed93d/730b1075-cefe-4ffb-893b-288235ac21e2"
-					(reference "K_ESTOP_CAT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 167.64 76.2 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bc2ec5a8-0f35-4eae-979e-0723858ba674")
-		(property "Reference" "D_KESTOPCAT1"
-			(at 175.006 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 170.18 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD"
-			(at 167.64 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 167.64 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 167.64 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 167.64 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C81598"
-			(at 167.64 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d112dc4d-85f7-47e5-bb9e-fab4869e431b")
-		)
-		(pin "2"
-			(uuid "3bb272c2-ed4e-4697-8adc-9f609e9434ab")
-		)
-		(instances
-			(project "CREWLINE-PRIM-PCB-001"
-				(path "/9f8a0b78-f846-46db-98c6-0f132faed93d/730b1075-cefe-4ffb-893b-288235ac21e2"
-					(reference "D_KESTOPCAT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 171.45 72.39 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8bb95287-224c-4606-8cdc-e2d424f83414")
-		(property "Reference" "ESTOPCAT1-Relay-RES1"
-			(at 184.912 70.866 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 179.578 73.406 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 171.45 74.168 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 171.45 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25879"
-			(at 171.45 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b18c58ee-1bc3-4982-926c-f02dee1e55fe")
-		)
-		(pin "2"
-			(uuid "d13dbc96-ec10-4f3e-a54c-133de7d518f7")
-		)
-		(instances
-			(project "CREWLINE-PRIM-PCB-001"
-				(path "/9f8a0b78-f846-46db-98c6-0f132faed93d/730b1075-cefe-4ffb-893b-288235ac21e2"
-					(reference "ESTOPCAT1-Relay-RES1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(rectangle
-		(start 199.39 66.04)
-		(end 260.35 115.57)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "30ffcd9b-7ac6-4686-9e82-4e0178e549e4")
-	)
-	(text "ESTOP CAT2 RELAY\n"
-		(exclude_from_sim no)
-		(at 208.788 70.358 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d4c14274-9208-46b7-a549-9bf3e256d004")
-	)
-	(junction
-		(at 237.49 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6d0d780-a328-4a96-a391-2a493ccb16eb")
-	)
-	(junction
-		(at 219.71 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8769fbc6-87a2-4134-b2aa-640eed3c8507")
-	)
-	(junction
-		(at 219.71 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7359d43-8999-4492-ba84-f941b5219417")
-	)
-	(junction
-		(at 237.49 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "966e86b3-bf2d-4f37-86b7-c04bd0426b41")
-	)
-	(no_connect
-		(at 220.98 93.98)
-		(uuid "8af1589a-22b2-4bff-bde5-ffd7bd3bde9a")
-	)
-	(no_connect
-		(at 236.22 96.52)
-		(uuid "cef2770b-1198-4b70-94ca-dd871c132b53")
-	)
-	(no_connect
-		(at 236.22 91.44)
-		(uuid "0ab2ec2c-446d-4a42-972f-dfbbc7b30c97")
-	)
-	(wire
-		(pts
-			(xy 219.71 76.2) (xy 219.71 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4dd1749-0404-48d9-9fe0-6e1242698f23")
-	)
-	(wire
-		(pts
-			(xy 237.49 72.39) (xy 237.49 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a493cdb-d4b1-413b-8073-5fa9b81cc408")
-	)
-	(wire
-		(pts
-			(xy 218.44 83.82) (xy 219.71 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22ad875b-b493-4489-ab72-42951b234f41")
-	)
-	(wire
-		(pts
-			(xy 224.79 76.2) (xy 219.71 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e94368e-631c-4039-8ba2-7d96fd0f2ce5")
-	)
-	(wire
-		(pts
-			(xy 237.49 83.82) (xy 236.22 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e411f414-d2ed-41f9-9a04-72d5d14a516b")
-	)
-	(wire
-		(pts
-			(xy 219.71 72.39) (xy 219.71 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d948ac76-68be-4be9-8de1-4709cb08e238")
-	)
-	(wire
-		(pts
-			(xy 237.49 72.39) (xy 236.22 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d78bb393-da59-4c7d-b9a0-648902790d7e")
-	)
-	(wire
-		(pts
-			(xy 219.71 83.82) (xy 220.98 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "540ed0b7-ff14-49ea-b510-b3a9b8a753a1")
-	)
-	(wire
-		(pts
-			(xy 237.49 76.2) (xy 232.41 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03442885-f1a0-451e-97a3-87b86eff7c28")
-	)
-	(wire
-		(pts
-			(xy 237.49 83.82) (xy 237.49 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d549191c-093c-49fb-86b4-1b627f42dd99")
-	)
-	(wire
-		(pts
-			(xy 220.98 72.39) (xy 219.71 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "325cb5fa-bcc5-48b6-94d7-5767ae6c973d")
-	)
-	(global_label "MODE_SEL_DRV"
-		(shape input)
-		(at 218.44 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "12d0d6e4-91ed-434f-888d-7767e0cfe99e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.3035 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ESTOP_CAT_RELAY"
-		(shape input)
-		(at 220.98 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "031e822b-4aab-46fc-b6be-9f712dec3f1f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.2301 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ESTOP_ECU_NF"
-		(shape input)
-		(at 236.22 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "01523cd4-8431-41d6-bd93-0055f260ea1c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.6071 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ESTOP_ECU_NG"
-		(shape input)
-		(at 236.22 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a3a03af4-35ae-4f12-9b52-bcf22f9ce16e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.3046 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 224.79 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fd24a52b-55b9-459f-93f5-5e74b40e539c")
-		(property "Reference" "ESTOPCAT2-Relay-LED1"
-			(at 223.266 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Green"
-			(at 223.52 69.596 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 224.79 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 224.79 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 224.79 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C72043"
-			(at 224.79 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cf728b78-632f-49f9-8c19-8a7ac1164c6b")
-		)
-		(pin "2"
-			(uuid "0185f4dd-0140-4111-ba0f-76d3ddc0c4e5")
-		)
-		(instances
-			(project "CREWLINE-PRIM-PCB-001"
-				(path "/9f8a0b78-f846-46db-98c6-0f132faed93d/730b1075-cefe-4ffb-893b-288235ac21e2"
-					(reference "ESTOPCAT2-Relay-LED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Relay_DPDT")
-		(at 228.6 93.98 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0868c13c-beae-459d-bd65-c466a5aeaecb")
-		(property "Reference" "K_ESTOP_CAT2"
-			(at 227.584 112.522 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Relay_DPDT"
-			(at 227.3301 110.49 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_DPDT_Omron_G6A"
-			(at 227.33 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Relay DPDT, monostable, EN50005"
-			(at 228.6 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C45404"
-			(at 228.6 93.98 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A2"
-			(uuid "18ff22e0-a0e0-42c1-96bf-d40016bac9ae")
-		)
-		(pin "24"
-			(uuid "844bb6c6-d2dd-44fb-9679-8b76b7e23dde")
-		)
-		(pin "21"
-			(uuid "5f88003e-3e37-452d-abb5-46f12c663dcd")
-		)
-		(pin "11"
-			(uuid "567ffc06-26f5-4da7-82d5-a17fd0862f58")
-		)
-		(pin "A1"
-			(uuid "a63a25c9-3f94-436b-8659-e553d6cf43b9")
-		)
-		(pin "14"
-			(uuid "94013639-bc78-426f-86ae-56ff5aa92366")
-		)
-		(pin "22"
-			(uuid "aff01f6d-622b-43b5-9c81-2cc2fa3c61dc")
-		)
-		(pin "12"
-			(uuid "bbcd824e-674e-40e4-b5a4-936eabac2947")
-		)
-		(instances
-			(project "CREWLINE-PRIM-PCB-001"
-				(path "/9f8a0b78-f846-46db-98c6-0f132faed93d/730b1075-cefe-4ffb-893b-288235ac21e2"
-					(reference "K_ESTOP_CAT2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 228.6 76.2 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bfe0a5d3-1113-4aa4-9995-770c585bf6e5")
-		(property "Reference" "D_KESTOPCAT2"
-			(at 235.966 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 231.14 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD"
-			(at 228.6 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 228.6 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 228.6 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 228.6 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C81598"
-			(at 228.6 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7603ed2e-03e9-4dc8-ba11-42c6672723ab")
-		)
-		(pin "2"
-			(uuid "f2013e8f-36a2-49cd-91e6-1037fd8c14fd")
-		)
-		(instances
-			(project "CREWLINE-PRIM-PCB-001"
-				(path "/9f8a0b78-f846-46db-98c6-0f132faed93d/730b1075-cefe-4ffb-893b-288235ac21e2"
-					(reference "D_KESTOPCAT2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 232.41 72.39 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "68771903-c339-47be-9a5d-26b544119c31")
-		(property "Reference" "ESTOPCAT2-Relay-RES1"
-			(at 245.872 70.866 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 240.538 73.406 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 232.41 74.168 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 232.41 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25879"
-			(at 232.41 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "40e43c13-0caf-4acd-b208-cfdb49cc4213")
-		)
-		(pin "2"
-			(uuid "d166e99f-a5b3-4ec8-bd3a-73cf1030da6b")
-		)
-		(instances
-			(project "CREWLINE-PRIM-PCB-001"
-				(path "/9f8a0b78-f846-46db-98c6-0f132faed93d/730b1075-cefe-4ffb-893b-288235ac21e2"
-					(reference "ESTOPCAT2-Relay-RES1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 241.3 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0ba15759-bbcb-45cc-94a4-0ab9a505e373")
-		(property "Reference" "D_ESTOPJET_SER2"
-			(at 241.3 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 241.3 89.535 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD"
-			(at 101.6 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 101.6 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 101.6 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 101.6 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C81598"
-			(at 101.6 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2bf8992a-fde4-4884-a6a1-ea16622e3afb")
-		)
-		(pin "2"
-			(uuid "b781d88e-7de8-440b-b485-6b4d3f5ba299")
-		)
-		(instances
-			(project "CREWLINE-PRIM-PCB-001"
-				(path "/9f8a0b78-f846-46db-98c6-0f132faed93d/730b1075-cefe-4ffb-893b-288235ac21e2"
-					(reference "D_ESTOPJET_SER2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(global_label "ESTOP_JET"
-		(shape input)
-		(at 245.11 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a1a422fc-9353-450a-b03a-d5348b395baa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(rectangle
-		(start 138.43 118.11)
-		(end 194.31 128.27)
+		(start 144.78 66.04)
+		(end 200.66 76.2)
 		(stroke
 			(width 0)
 			(type default)
@@ -6773,7 +5222,7 @@
 	)
 	(text "ESTOP NF LINK\n"
 		(exclude_from_sim no)
-		(at 148.336 120.65 0)
+		(at 154.686 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6783,7 +5232,7 @@
 	)
 	(global_label "ESTOP_JOY_NF"
 		(shape input)
-		(at 160.02 124.46 180)
+		(at 166.37 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6793,7 +5242,7 @@
 		)
 		(uuid "1361f965-ccf3-47ce-9d74-9bff836e3cb0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.02 124.46 0)
+			(at 166.37 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6807,7 +5256,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 124.46) (xy 165.1 124.46)
+			(xy 166.37 72.39) (xy 171.45 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6817,7 +5266,7 @@
 	)
 	(global_label "ESTOP_ECU_NF"
 		(shape input)
-		(at 165.1 124.46 0)
+		(at 171.45 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6827,7 +5276,151 @@
 		)
 		(uuid "f0f7466f-197a-4310-b488-24554645d114")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.1 124.46 0)
+			(at 171.45 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ESTOP_JOY_NG"
+		(shape input)
+		(at 35.56 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef2dd32c-97c1-47cb-bef9-4faf3e802a55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.56 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ESTOP_ECU_NG"
+		(shape input)
+		(at 50.8 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5cd7605-94b9-41d6-a172-297d9e8450cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ESTOP_CAT_RELAY"
+		(shape input)
+		(at 50.8 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "854f3a43-313d-40e6-bdab-8ac4c40a6487")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ESTOP_CAT_RELAY"
+		(shape input)
+		(at 96.52 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b82d48e-21fd-4037-a5e4-fd3d637f7b23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ESTOP_ECU_NF"
+		(shape input)
+		(at 111.76 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b96ee58-f3f2-45a8-960f-09ef8664a51f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ESTOP_ECU_NG"
+		(shape input)
+		(at 111.76 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b171b28-2da2-4ce7-9ea3-6cf1f033da53")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
