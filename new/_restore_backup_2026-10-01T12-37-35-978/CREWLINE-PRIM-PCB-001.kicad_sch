@@ -5,7 +5,7 @@
 	(uuid "9f8a0b78-f846-46db-98c6-0f132faed93d")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x03_Socket"
+		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -16,7 +16,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x03_Socket"
+			(property "Value" "Conn_01x02_Socket"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -57,7 +57,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
+			(property "Description" "Generic connector, single row, 01x02, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -100,19 +100,7 @@
 					)
 				)
 			)
-			(symbol "Conn_01x03_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "Conn_01x02_Socket_1_1"
 				(polyline
 					(pts
 						(xy -1.27 0) (xy -0.508 0)
@@ -129,18 +117,6 @@
 					(pts
 						(xy -1.27 -2.54) (xy -0.508 -2.54)
 					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.032)
-					(mid -0.5058 2.54)
-					(end 0 3.048)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -174,7 +150,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -192,7 +168,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -202,24 +178,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6041,12 +5999,18 @@
 		(uuid "d45d86c8-781e-494a-8abe-3b0b25717338")
 	)
 	(no_connect
-		(at 104.14 80.01)
-		(uuid "e34df359-6465-4eee-b136-59d21b5d7ccf")
-	)
-	(no_connect
 		(at 259.08 26.67)
 		(uuid "f69879e1-3f98-4bb5-9431-3d8595480c51")
+	)
+	(wire
+		(pts
+			(xy 106.68 83.82) (xy 104.14 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00bbd3a2-7a90-4f08-934c-82aa3528851d")
 	)
 	(wire
 		(pts
@@ -6870,6 +6834,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 83.82) (xy 104.14 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8532e4d8-ed97-4139-83bf-06a3a4c64dbb")
+	)
+	(wire
+		(pts
 			(xy 52.07 163.83) (xy 50.8 163.83)
 		)
 		(stroke
@@ -6897,6 +6871,16 @@
 			(type default)
 		)
 		(uuid "87fe7842-8bd8-46db-9280-c6da43d66ab1")
+	)
+	(wire
+		(pts
+			(xy 104.14 80.01) (xy 106.68 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ab6c52d-25e2-4708-9b2d-2c5be5ccd66f")
 	)
 	(wire
 		(pts
@@ -8068,7 +8052,7 @@
 	)
 	(global_label "ECU_SEAT"
 		(shape input)
-		(at 104.14 85.09 0)
+		(at 106.68 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8078,7 +8062,7 @@
 		)
 		(uuid "62144233-9848-4898-ae3a-cf5dae72f8da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.257 85.09 0)
+			(at 118.797 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8884,7 +8868,7 @@
 	)
 	(global_label "SEAT"
 		(shape input)
-		(at 104.14 82.55 0)
+		(at 106.68 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8894,7 +8878,7 @@
 		)
 		(uuid "c4f92ac6-3c8f-4ab6-882c-9a8726153588")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.5399 82.55 0)
+			(at 114.0799 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9426,7 +9410,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17408"
+		(property "LCSC Part" "C17561"
 			(at 36.83 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -9617,29 +9601,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2297"
-			(at 95.25 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "KT-0805G"
-			(at 95.25 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KENTO"
+		(property "LCSC Part" "C72043"
 			(at 95.25 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -9863,8 +9825,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 227.33 133.35 180)
+		(lib_id "V31_H1:LED_Red_0805_A1")
+		(at 228.6 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9917,41 +9879,8 @@
 				)
 			)
 		)
-		(property "Description" "Red LED, 0805. Pin 1 cathode, pin 2 anode, KiCad convention."
+		(property "Description" "Red LED, 0805. Pin 1 is the anode, which matches the boards as built."
 			(at 228.6 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "KT-0805R"
-			(at 227.33 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KENTO"
-			(at 227.33 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2295"
-			(at 227.33 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9977,8 +9906,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 111.76 190.5 180)
+		(lib_id "V31_H1:LED_Red_0805_A1")
+		(at 113.03 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10031,41 +9960,8 @@
 				)
 			)
 		)
-		(property "Description" "Red LED, 0805. Pin 1 cathode, pin 2 anode, KiCad convention."
+		(property "Description" "Red LED, 0805. Pin 1 is the anode, which matches the boards as built."
 			(at 113.03 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "KT-0805R"
-			(at 111.76 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KENTO"
-			(at 111.76 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2295"
-			(at 111.76 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10232,41 +10128,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "DNP"
 			(at 218.44 139.7 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "3568"
-			(at 218.44 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 218.44 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Assembly" "Customer fitted"
-			(at 218.44 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10377,29 +10240,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2128"
-			(at 43.18 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1N4148WS"
-			(at 43.18 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "LCSC Part" "C81598"
 			(at 43.18 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -10492,7 +10333,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C4382"
+		(property "LCSC Part" "C17475"
 			(at 193.04 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -10604,29 +10445,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2128"
-			(at 99.06 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1N4148WS"
-			(at 99.06 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "LCSC Part" "C81598"
 			(at 99.06 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -10719,29 +10538,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C155257"
-			(at 54.61 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "DMN3404L-7"
-			(at 54.61 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Diodes Incorporated"
+		(property "LCSC Part" "C700958"
 			(at 54.61 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -10912,41 +10709,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "DNP"
 			(at 218.44 153.67 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "3568"
-			(at 218.44 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 218.44 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Assembly" "Customer fitted"
-			(at 218.44 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11035,7 +10799,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17520"
+		(property "LCSC Part" "C25879"
 			(at 46.99 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -11062,8 +10826,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 196.85 129.54 0)
+		(lib_id "V31_H1:LED_Red_0805_A1")
+		(at 195.58 130.81 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11116,41 +10880,8 @@
 				)
 			)
 		)
-		(property "Description" "Red LED, 0805. Pin 1 cathode, pin 2 anode, KiCad convention."
+		(property "Description" "Red LED, 0805. Pin 1 is the anode, which matches the boards as built."
 			(at 195.58 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "KT-0805R"
-			(at 196.85 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KENTO"
-			(at 196.85 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2295"
-			(at 196.85 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11241,7 +10972,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17520"
+		(property "LCSC Part" "C25879"
 			(at 186.69 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -11289,7 +11020,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "G6A-274P-ST-US-DC12"
+		(property "Value" "Relay_DPDT"
 			(at 40.8941 139.192 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11334,29 +11065,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C129439"
-			(at 43.18 121.92 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "G6A-274P-ST-US-DC12"
-			(at 43.18 121.92 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Omron"
+		(property "LCSC Part" "C45404"
 			(at 43.18 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -11401,8 +11110,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 193.04 29.21 90)
+		(lib_id "V31_H1:LED_Red_0805_A1")
+		(at 194.31 30.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11455,41 +11164,8 @@
 				)
 			)
 		)
-		(property "Description" "Red LED, 0805. Pin 1 cathode, pin 2 anode, KiCad convention."
+		(property "Description" "Red LED, 0805. Pin 1 is the anode, which matches the boards as built."
 			(at 194.31 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "KT-0805R"
-			(at 193.04 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KENTO"
-			(at 193.04 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2295"
-			(at 193.04 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11795,7 +11471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0715_1x07_P3.00mm_Vertical"
+		(property "Footprint" "V31_H1:MCV_1.5_7_5.08_Pad2.6"
 			(at 241.3 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11806,7 +11482,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.phoenixcontact.com/us/products/1836341"
 			(at 241.3 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11817,7 +11493,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "7-position vertical pluggable signal header, 5.08 mm pitch, 8 A nominal"
 			(at 241.3 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11828,7 +11504,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17199797"
+		(property "LCSC Part" ""
 			(at 241.3 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11839,7 +11515,7 @@
 				)
 			)
 		)
-		(property "MPN" "43650-0715"
+		(property "MPN" "1836341"
 			(at 241.3 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11850,7 +11526,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Molex"
+		(property "Manufacturer" "Phoenix Contact"
 			(at 241.3 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11861,18 +11537,7 @@
 				)
 			)
 		)
-		(property "Mating plug" "43645-0700"
-			(at 241.3 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field9" ""
+		(property "Mating plug" "1836121"
 			(at 241.3 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -12087,7 +11752,7 @@
 				)
 			)
 		)
-		(property "Description" "10-position PCB screw terminal block, 5.08 mm pitch, 17.5 A"
+		(property "Description" "Generic connector, single row, 01x10, script generated"
 			(at 143.51 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -12098,40 +11763,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" ""
-			(at 143.51 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1715802"
-			(at 143.51 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Phoenix Contact"
-			(at 143.51 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Assembly" "Customer fitted"
+		(property "LCSC Part" "DNP"
 			(at 143.51 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -12245,41 +11877,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "DNP"
 			(at 204.47 148.59 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "3568"
-			(at 204.47 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 204.47 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Assembly" "Customer fitted"
-			(at 204.47 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12305,8 +11904,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 227.33 147.32 180)
+		(lib_id "V31_H1:LED_Red_0805_A1")
+		(at 228.6 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12359,41 +11958,8 @@
 				)
 			)
 		)
-		(property "Description" "Red LED, 0805. Pin 1 cathode, pin 2 anode, KiCad convention."
+		(property "Description" "Red LED, 0805. Pin 1 is the anode, which matches the boards as built."
 			(at 228.6 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "KT-0805R"
-			(at 227.33 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KENTO"
-			(at 227.33 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2295"
-			(at 227.33 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12886,41 +12452,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "DNP"
 			(at 204.47 135.89 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "3568"
-			(at 204.47 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 204.47 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Assembly" "Customer fitted"
-			(at 204.47 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13020,29 +12553,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2297"
-			(at 39.37 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "KT-0805G"
-			(at 39.37 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KENTO"
+		(property "LCSC Part" "C72043"
 			(at 39.37 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -13132,41 +12643,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "DNP"
 			(at 104.14 182.88 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "3568"
-			(at 104.14 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 104.14 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Assembly" "Customer fitted"
-			(at 104.14 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13267,7 +12745,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C78416"
+		(property "LCSC Part" "C13616"
 			(at 53.34 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -13359,7 +12837,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17520"
+		(property "LCSC Part" "C25879"
 			(at 186.69 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -13580,29 +13058,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2297"
-			(at 39.37 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "KT-0805G"
-			(at 39.37 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KENTO"
+		(property "LCSC Part" "C72043"
 			(at 39.37 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -13694,7 +13150,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17520"
+		(property "LCSC Part" "C25879"
 			(at 237.49 147.32 90)
 			(hide yes)
 			(show_name no)
@@ -13784,7 +13240,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17520"
+		(property "LCSC Part" "C25879"
 			(at 46.99 152.4 90)
 			(hide yes)
 			(show_name no)
@@ -14122,7 +13578,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1669326"
+		(property "LCSC Part" "C44897"
 			(at 90.17 187.96 90)
 			(hide yes)
 			(show_name no)
@@ -14312,29 +13768,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2128"
-			(at 43.18 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1N4148WS"
-			(at 43.18 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "LCSC Part" "C81598"
 			(at 43.18 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -14671,7 +14105,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17520"
+		(property "LCSC Part" "C25879"
 			(at 237.49 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -14853,7 +14287,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17520"
+		(property "LCSC Part" "C25879"
 			(at 121.92 190.5 90)
 			(hide yes)
 			(show_name no)
@@ -14943,7 +14377,7 @@
 				)
 			)
 		)
-		(property "MPN" "3568"
+		(property "MPN" "0297030.U"
 			(at 48.26 26.67 90)
 			(hide yes)
 			(show_name no)
@@ -14954,30 +14388,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "DNP"
 			(at 48.26 26.67 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Keystone"
-			(at 48.26 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Assembly" "Customer fitted"
-			(at 48.26 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15033,7 +14445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0515_1x05_P3.00mm_Vertical"
+		(property "Footprint" "V31_H1:MCV_1.5_5_5.08_Pad2.6"
 			(at 121.92 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -15044,7 +14456,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.phoenixcontact.com/us/products/1836325"
 			(at 121.92 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -15055,7 +14467,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5-position vertical pluggable signal header, 5.08 mm pitch, 8 A nominal"
 			(at 121.92 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -15066,7 +14478,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C505230"
+		(property "LCSC Part" ""
 			(at 121.92 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -15077,7 +14489,7 @@
 				)
 			)
 		)
-		(property "MPN" "43650-0515"
+		(property "MPN" "1836325"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -15088,7 +14500,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Molex"
+		(property "Manufacturer" "Phoenix Contact"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -15099,7 +14511,7 @@
 				)
 			)
 		)
-		(property "Mating plug" "43645-0500"
+		(property "Mating plug" "1836105"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -15135,7 +14547,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
+		(lib_id "Connector:Conn_01x02_Socket")
 		(at 99.06 82.55 180)
 		(unit 1)
 		(body_style 1)
@@ -15165,7 +14577,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical"
+		(property "Footprint" "V31_H1:MCV_1.5_2_5.08_Pad2.6"
 			(at 99.06 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -15176,7 +14588,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.phoenixcontact.com/us/products/1836325"
 			(at 99.06 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -15187,7 +14599,7 @@
 				)
 			)
 		)
-		(property "Description" "3-position Micro-Fit 3.0 vertical header, through hole, 3.00 mm pitch"
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 99.06 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -15198,7 +14610,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C293546"
+		(property "LCSC Part" ""
 			(at 99.06 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -15209,7 +14621,7 @@
 				)
 			)
 		)
-		(property "MPN" "43650-0315"
+		(property "MPN" "1836299"
 			(at -22.86 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -15220,7 +14632,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Molex"
+		(property "Manufacturer" "Phoenix Contact"
 			(at -22.86 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -15231,7 +14643,7 @@
 				)
 			)
 		)
-		(property "Mating plug" "43645-0300"
+		(property "Mating plug" "1836079"
 			(at -22.86 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -15258,9 +14670,6 @@
 		)
 		(pin "1"
 			(uuid "d5351c0c-88f0-46e5-8fe4-a182fd161e8d")
-		)
-		(pin "3"
-			(uuid "7789c128-bb0c-4796-841c-df6d8fc56c0a")
 		)
 		(instances
 			(project "CREWLINE-PRIM-PCB-001"
@@ -15293,7 +14702,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "G6A-274P-ST-US-DC12"
+		(property "Value" "Relay_DPDT"
 			(at 41.9101 190.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15338,29 +14747,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C129439"
-			(at 43.18 173.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "G6A-274P-ST-US-DC12"
-			(at 43.18 173.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Omron"
+		(property "LCSC Part" "C45404"
 			(at 43.18 173.99 90)
 			(hide yes)
 			(show_name no)
@@ -15468,7 +14855,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17520"
+		(property "LCSC Part" "C25879"
 			(at 102.87 154.94 90)
 			(hide yes)
 			(show_name no)
@@ -15516,7 +14903,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SLA-12VDC-SL-A"
+		(property "Value" "K_GATE"
 			(at 175.26 44.704 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15615,8 +15002,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 196.85 142.24 0)
+		(lib_id "V31_H1:LED_Red_0805_A1")
+		(at 195.58 143.51 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15669,41 +15056,8 @@
 				)
 			)
 		)
-		(property "Description" "Red LED, 0805. Pin 1 cathode, pin 2 anode, KiCad convention."
+		(property "Description" "Red LED, 0805. Pin 1 is the anode, which matches the boards as built."
 			(at 195.58 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "KT-0805R"
-			(at 196.85 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KENTO"
-			(at 196.85 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2295"
-			(at 196.85 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15970,29 +15324,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2128"
-			(at 177.8 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1N4148WS"
-			(at 177.8 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "LCSC Part" "C81598"
 			(at 177.8 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -16198,7 +15530,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C338185"
+		(property "LCSC Part" "C44650"
 			(at 111.76 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -16334,7 +15666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-1015_1x10_P3.00mm_Vertical"
+		(property "Footprint" "V31_H1:MCV_1.5_10_5.08_Pad2.6"
 			(at 146.05 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -16345,7 +15677,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.phoenixcontact.com/us/products/1836370"
 			(at 146.05 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -16356,7 +15688,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10-position vertical pluggable signal header, 5.08 mm pitch, 8 A nominal"
 			(at 146.05 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -16367,7 +15699,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17337723"
+		(property "LCSC Part" ""
 			(at 146.05 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -16378,7 +15710,7 @@
 				)
 			)
 		)
-		(property "MPN" "43650-1015"
+		(property "MPN" "1836370"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -16389,7 +15721,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Molex"
+		(property "Manufacturer" "Phoenix Contact"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -16400,19 +15732,8 @@
 				)
 			)
 		)
-		(property "Mating plug" "43645-1000"
+		(property "Mating plug" "1836150"
 			(at 0 0 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field9" ""
-			(at 146.05 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16550,30 +15871,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2128"
+		(property "LCSC Part" "C81598"
 			(at 200.66 30.48 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1N4148WS"
-			(at 200.66 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 200.66 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16710,7 +16009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0715_1x07_P3.00mm_Vertical"
+		(property "Footprint" "V31_H1:MCV_1.5_7_5.08_Pad2.6"
 			(at 241.3 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16721,7 +16020,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.phoenixcontact.com/us/products/1836341"
 			(at 241.3 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16732,7 +16031,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "7-position vertical pluggable signal header, 5.08 mm pitch, 8 A nominal"
 			(at 241.3 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16743,7 +16042,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17199797"
+		(property "LCSC Part" ""
 			(at 241.3 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16754,7 +16053,7 @@
 				)
 			)
 		)
-		(property "MPN" "43650-0715"
+		(property "MPN" "1836341"
 			(at 241.3 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16765,7 +16064,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Molex"
+		(property "Manufacturer" "Phoenix Contact"
 			(at 241.3 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16776,18 +16075,7 @@
 				)
 			)
 		)
-		(property "Mating plug" "43645-0700"
-			(at 241.3 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field9" ""
+		(property "Mating plug" "1836121"
 			(at 241.3 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16880,64 +16168,4 @@
 		)
 	)
 	(embedded_fonts no)
-	(wire
-		(pts
-			(xy 231.14 133.35) (xy 233.68 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "606ff4f3-1073-49c6-80b4-d795bdcb2ab5")
-	)
-	(wire
-		(pts
-			(xy 115.57 190.5) (xy 118.11 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "400c1d8d-e8ab-4c35-9528-6cec51c4641a")
-	)
-	(wire
-		(pts
-			(xy 193.04 129.54) (xy 190.5 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a4a3bda-fda4-47f0-a5f4-3d8d2e76a0cd")
-	)
-	(wire
-		(pts
-			(xy 193.04 33.02) (xy 193.04 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e693c172-e918-4ff9-969e-a1afe89ec6db")
-	)
-	(wire
-		(pts
-			(xy 231.14 147.32) (xy 233.68 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb28b3bf-d0b2-4a7b-bd82-97bcc661b847")
-	)
-	(wire
-		(pts
-			(xy 193.04 142.24) (xy 190.5 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a651fa0-34e6-4c69-ad62-670ac88ce875")
-	)
 )

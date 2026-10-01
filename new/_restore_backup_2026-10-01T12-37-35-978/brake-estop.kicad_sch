@@ -3023,29 +3023,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2297"
-			(at 163.83 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "KT-0805G"
-			(at 163.83 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KENTO"
+		(property "LCSC Part" "C72043"
 			(at 163.83 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -3158,30 +3136,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2128"
+		(property "LCSC Part" "C81598"
 			(at 101.6 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1N4148WS"
-			(at 116.84 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 116.84 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3270,7 +3226,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17520"
+		(property "LCSC Part" "C25879"
 			(at 107.95 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -3318,7 +3274,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "G6A-274P-ST-US-DC12"
+		(property "Value" "Relay_DPDT"
 			(at 166.3701 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3363,29 +3319,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C129439"
-			(at 167.64 41.91 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "G6A-274P-ST-US-DC12"
-			(at 167.64 41.91 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Omron"
+		(property "LCSC Part" "C45404"
 			(at 167.64 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -3515,29 +3449,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2128"
-			(at 43.18 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1N4148WS"
-			(at 43.18 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "LCSC Part" "C81598"
 			(at 43.18 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3585,7 +3497,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "G6A-274P-ST-US-DC12"
+		(property "Value" "Relay_DPDT"
 			(at 41.9101 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3630,29 +3542,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C129439"
-			(at 43.18 93.98 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "G6A-274P-ST-US-DC12"
-			(at 43.18 93.98 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Omron"
+		(property "LCSC Part" "C45404"
 			(at 43.18 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -3916,7 +3806,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17520"
+		(property "LCSC Part" "C25879"
 			(at 107.95 20.32 90)
 			(hide yes)
 			(show_name no)
@@ -4017,29 +3907,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2297"
-			(at 39.37 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "KT-0805G"
-			(at 39.37 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KENTO"
+		(property "LCSC Part" "C72043"
 			(at 39.37 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4151,29 +4019,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2128"
-			(at 104.14 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1N4148WS"
-			(at 104.14 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "LCSC Part" "C81598"
 			(at 104.14 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4263,7 +4109,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17520"
+		(property "LCSC Part" "C25879"
 			(at 46.99 20.32 90)
 			(hide yes)
 			(show_name no)
@@ -4375,29 +4221,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2128"
-			(at 104.14 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1N4148WS"
-			(at 104.14 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "LCSC Part" "C81598"
 			(at 104.14 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -4601,7 +4425,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "G6A-274P-ST-US-DC12"
+		(property "Value" "Relay_DPDT"
 			(at 102.8701 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4646,29 +4470,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C129439"
-			(at 104.14 93.98 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "G6A-274P-ST-US-DC12"
-			(at 104.14 93.98 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Omron"
+		(property "LCSC Part" "C45404"
 			(at 104.14 93.98 90)
 			(hide yes)
 			(show_name no)
@@ -4734,7 +4536,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "G6A-274P-ST-US-DC12"
+		(property "Value" "Relay_DPDT"
 			(at 102.8701 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4779,29 +4581,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C129439"
-			(at 104.14 41.91 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "G6A-274P-ST-US-DC12"
-			(at 104.14 41.91 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Omron"
+		(property "LCSC Part" "C45404"
 			(at 104.14 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -4931,29 +4711,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2128"
-			(at 43.18 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1N4148WS"
-			(at 43.18 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "LCSC Part" "C81598"
 			(at 43.18 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -5054,29 +4812,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2297"
-			(at 100.33 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "KT-0805G"
-			(at 100.33 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KENTO"
+		(property "LCSC Part" "C72043"
 			(at 100.33 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -5188,29 +4924,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2128"
-			(at 167.64 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1N4148WS"
-			(at 167.64 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "LCSC Part" "C81598"
 			(at 167.64 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -5300,7 +5014,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17520"
+		(property "LCSC Part" "C25879"
 			(at 171.45 20.32 90)
 			(hide yes)
 			(show_name no)
@@ -5413,30 +5127,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2128"
+		(property "LCSC Part" "C81598"
 			(at 101.6 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1N4148WS"
-			(at 116.84 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 116.84 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5536,29 +5228,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2297"
-			(at 39.37 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "KT-0805G"
-			(at 39.37 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KENTO"
+		(property "LCSC Part" "C72043"
 			(at 39.37 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -5648,7 +5318,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C17520"
+		(property "LCSC Part" "C25879"
 			(at 46.99 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -5749,29 +5419,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2297"
-			(at 100.33 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "KT-0805G"
-			(at 100.33 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KENTO"
+		(property "LCSC Part" "C72043"
 			(at 100.33 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5819,7 +5467,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "G6A-274P-ST-US-DC12"
+		(property "Value" "Relay_DPDT"
 			(at 41.9101 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5864,29 +5512,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C129439"
-			(at 43.18 41.91 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "G6A-274P-ST-US-DC12"
-			(at 43.18 41.91 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Omron"
+		(property "LCSC Part" "C45404"
 			(at 43.18 41.91 90)
 			(hide yes)
 			(show_name no)

@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/varun/Documents/Crewline/dev/V3.1-H1-pcb-review/new/CREWLINE-PRIM-PCB-001.kicad_sch</source>
-    <date>2026-09-29T12:09:25</date>
+    <date>2026-10-01T15:05:32</date>
     <tool>Eeschema 10.0.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -42,200 +42,18 @@
     </sheet>
   </design>
   <components>
-    <comp ref="12V_GATE_TP1">
-      <value>TestPoint</value>
-      <footprint>TestPoint_Red:TEST-TH_BD2.54-P1.4_RED</footprint>
-      <description>test point</description>
-      <fields>
-        <field name="LCSC Part">C5277086</field>
-        <field name="Footprint">TestPoint_Red:TEST-TH_BD2.54-P1.4_RED</field>
-        <field name="Datasheet"/>
-        <field name="Description">test point</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="LCSC Part" value="C5277086"/>
-      <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>c66748f0-f89e-4ec0-9a60-9afb6badc5c7</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="ARM_TP1">
-      <value>TestPoint</value>
-      <footprint>TestPoint_Black:TEST-TH_BD2.54-P1.4_BLACK</footprint>
-      <description>test point</description>
-      <fields>
-        <field name="LCSC Part">C5199801</field>
-        <field name="Footprint">TestPoint_Black:TEST-TH_BD2.54-P1.4_BLACK</field>
-        <field name="Datasheet"/>
-        <field name="Description">test point</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="LCSC Part" value="C5199801"/>
-      <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>20731535-5f9e-4b06-88fe-441d01c00cca</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="BATT_GND_TP1">
-      <value>TestPoint</value>
-      <footprint>TestPoint_Black:TEST-TH_BD2.54-P1.4_BLACK</footprint>
-      <description>test point</description>
-      <fields>
-        <field name="LCSC Part">C5199801</field>
-        <field name="Footprint">TestPoint_Black:TEST-TH_BD2.54-P1.4_BLACK</field>
-        <field name="Datasheet"/>
-        <field name="Description">test point</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="LCSC Part" value="C5199801"/>
-      <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5e8054dc-d807-44db-b15d-12dffcbbaa6c</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="BATT_TP1">
-      <value>TestPoint</value>
-      <footprint>TestPoint_Red:TEST-TH_BD2.54-P1.4_RED</footprint>
-      <description>test point</description>
-      <fields>
-        <field name="LCSC Part">C5277086</field>
-        <field name="Footprint">TestPoint_Red:TEST-TH_BD2.54-P1.4_RED</field>
-        <field name="Datasheet"/>
-        <field name="Description">test point</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="LCSC Part" value="C5277086"/>
-      <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5826df33-de08-4170-8848-02e548ded936</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="BRK_ECU_NF_TP1">
-      <value>TestPoint</value>
-      <footprint>TestPoint_Black:TEST-TH_BD2.54-P1.4_BLACK</footprint>
-      <description>test point</description>
-      <fields>
-        <field name="LCSC Part">C5199801</field>
-        <field name="Footprint">TestPoint_Black:TEST-TH_BD2.54-P1.4_BLACK</field>
-        <field name="Datasheet"/>
-        <field name="Description">test point</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="LCSC Part" value="C5199801"/>
-      <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5843c655-09cf-4de4-a96c-91a7828abb9b</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="BRK_ECU_NG_TP1">
-      <value>TestPoint</value>
-      <footprint>TestPoint_Black:TEST-TH_BD2.54-P1.4_BLACK</footprint>
-      <description>test point</description>
-      <fields>
-        <field name="LCSC Part">C5199801</field>
-        <field name="Footprint">TestPoint_Black:TEST-TH_BD2.54-P1.4_BLACK</field>
-        <field name="Datasheet"/>
-        <field name="Description">test point</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="LCSC Part" value="C5199801"/>
-      <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5ea8516d-193f-4622-a9be-fbc1b2f1bbb5</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="BRK_ECU_TP1">
-      <value>TestPoint</value>
-      <footprint>TestPoint_Black:TEST-TH_BD2.54-P1.4_BLACK</footprint>
-      <description>test point</description>
-      <fields>
-        <field name="LCSC Part">C5199801</field>
-        <field name="Footprint">TestPoint_Black:TEST-TH_BD2.54-P1.4_BLACK</field>
-        <field name="Datasheet"/>
-        <field name="Description">test point</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="LCSC Part" value="C5199801"/>
-      <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>083a092e-2090-4695-8000-c692a3b2ad56</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
     <comp ref="C1">
       <value>1000uF</value>
       <footprint>Cap_1000uF:ECA1EM102</footprint>
       <description>Polarized capacitor</description>
       <fields>
-        <field name="LCSC Part">C44650</field>
+        <field name="LCSC Part">C338185</field>
         <field name="Footprint">Cap_1000uF:ECA1EM102</field>
         <field name="Datasheet"/>
         <field name="Description">Polarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
-      <property name="LCSC Part" value="C44650"/>
+      <property name="LCSC Part" value="C338185"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -278,71 +96,26 @@
         </unit>
       </units>
     </comp>
-    <comp ref="CAN1H_TP1">
-      <value>TestPoint</value>
-      <footprint>TestPoint_Black:TEST-TH_BD2.54-P1.4_BLACK</footprint>
-      <description>test point</description>
-      <fields>
-        <field name="LCSC Part">C5199801</field>
-        <field name="Footprint">TestPoint_Black:TEST-TH_BD2.54-P1.4_BLACK</field>
-        <field name="Datasheet"/>
-        <field name="Description">test point</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="LCSC Part" value="C5199801"/>
-      <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>22c6bf11-89d0-49d2-9291-d483720e98d5</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="CAN1L_TP1">
-      <value>TestPoint</value>
-      <footprint>TestPoint_Black:TEST-TH_BD2.54-P1.4_BLACK</footprint>
-      <description>test point</description>
-      <fields>
-        <field name="LCSC Part">C5199801</field>
-        <field name="Footprint">TestPoint_Black:TEST-TH_BD2.54-P1.4_BLACK</field>
-        <field name="Datasheet"/>
-        <field name="Description">test point</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="LCSC Part" value="C5199801"/>
-      <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>792d5ff5-6f61-4b6c-9b6d-9691e2ea410d</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
     <comp ref="CONV_LED1">
       <value>RED</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
-      <description>Red LED, 0805. Pin 1 is the anode, which matches the boards as built.</description>
+      <description>Red LED, 0805. Pin 1 cathode, pin 2 anode, KiCad convention.</description>
       <fields>
+        <field name="MPN">KT-0805R</field>
+        <field name="Manufacturer">KENTO</field>
+        <field name="LCSC Part">C2295</field>
         <field name="Footprint">LED_SMD:LED_0805_2012Metric</field>
         <field name="Datasheet"/>
-        <field name="Description">Red LED, 0805. Pin 1 is the anode, which matches the boards as built.</field>
+        <field name="Description">Red LED, 0805. Pin 1 cathode, pin 2 anode, KiCad convention.</field>
       </fields>
-      <libsource lib="V31_H1" part="LED_Red_0805_A1" description="Red LED, 0805. Pin 1 is the anode, which matches the boards as built."/>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MPN" value="KT-0805R"/>
+      <property name="Manufacturer" value="KENTO"/>
+      <property name="LCSC Part" value="C2295"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="Light Emitting Diodes (LED)"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e31366b2-61e3-43f7-b032-c262d58ccf88</tstamps>
       <units>
@@ -359,13 +132,13 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <description>Resistor</description>
       <fields>
-        <field name="LCSC Part">C25879</field>
+        <field name="LCSC Part">C17520</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC Part" value="C25879"/>
+      <property name="LCSC Part" value="C17520"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -381,44 +154,18 @@
         </unit>
       </units>
     </comp>
-    <comp ref="CONV_TP1">
-      <value>TestPoint</value>
-      <footprint>TestPoint_Red:TEST-TH_BD2.54-P1.4_RED</footprint>
-      <description>test point</description>
-      <fields>
-        <field name="LCSC Part">C5277086</field>
-        <field name="Footprint">TestPoint_Red:TEST-TH_BD2.54-P1.4_RED</field>
-        <field name="Datasheet"/>
-        <field name="Description">test point</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="LCSC Part" value="C5277086"/>
-      <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>54d2091a-e0c6-4968-b0c5-b58844672686</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
     <comp ref="C_STEER1">
       <value>470uF</value>
       <footprint>Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm</footprint>
       <description>Polarized capacitor</description>
       <fields>
-        <field name="LCSC Part">C44897</field>
+        <field name="LCSC Part">C1669326</field>
         <field name="Footprint">Capacitor_THT:C_Radial_D8.0mm_H11.5mm_P3.50mm</field>
         <field name="Datasheet"/>
         <field name="Description">Polarized capacitor</field>
       </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
-      <property name="LCSC Part" value="C44897"/>
+      <property name="LCSC Part" value="C1669326"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -468,7 +215,9 @@
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
+        <field name="MPN">1N4148WS</field>
+        <field name="Manufacturer"/>
         <field name="Footprint">1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD</field>
         <field name="Datasheet"/>
         <field name="Description">Diode</field>
@@ -476,7 +225,9 @@
       <libsource lib="Device" part="D" description="Diode"/>
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
-      <property name="LCSC Part" value="C81598"/>
+      <property name="LCSC Part" value="C2128"/>
+      <property name="MPN" value="1N4148WS"/>
+      <property name="Manufacturer" value=""/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -499,7 +250,9 @@
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
+        <field name="MPN">1N4148WS</field>
+        <field name="Manufacturer"/>
         <field name="Footprint">1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD</field>
         <field name="Datasheet"/>
         <field name="Description">Diode</field>
@@ -507,7 +260,9 @@
       <libsource lib="Device" part="D" description="Diode"/>
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
-      <property name="LCSC Part" value="C81598"/>
+      <property name="LCSC Part" value="C2128"/>
+      <property name="MPN" value="1N4148WS"/>
+      <property name="Manufacturer" value=""/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -526,16 +281,23 @@
     <comp ref="DIO_LED1">
       <value>RED</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
-      <description>Red LED, 0805. Pin 1 is the anode, which matches the boards as built.</description>
+      <description>Red LED, 0805. Pin 1 cathode, pin 2 anode, KiCad convention.</description>
       <fields>
+        <field name="MPN">KT-0805R</field>
+        <field name="Manufacturer">KENTO</field>
+        <field name="LCSC Part">C2295</field>
         <field name="Footprint">LED_SMD:LED_0805_2012Metric</field>
         <field name="Datasheet"/>
-        <field name="Description">Red LED, 0805. Pin 1 is the anode, which matches the boards as built.</field>
+        <field name="Description">Red LED, 0805. Pin 1 cathode, pin 2 anode, KiCad convention.</field>
       </fields>
-      <libsource lib="V31_H1" part="LED_Red_0805_A1" description="Red LED, 0805. Pin 1 is the anode, which matches the boards as built."/>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MPN" value="KT-0805R"/>
+      <property name="Manufacturer" value="KENTO"/>
+      <property name="LCSC Part" value="C2295"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="Light Emitting Diodes (LED)"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1296a22e-b2ba-4bd6-9bde-189ae7708be7</tstamps>
       <units>
@@ -552,13 +314,13 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <description>Resistor</description>
       <fields>
-        <field name="LCSC Part">C25879</field>
+        <field name="LCSC Part">C17520</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC Part" value="C25879"/>
+      <property name="LCSC Part" value="C17520"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -574,32 +336,6 @@
         </unit>
       </units>
     </comp>
-    <comp ref="DIO_TP1">
-      <value>TestPoint</value>
-      <footprint>TestPoint_Red:TEST-TH_BD2.54-P1.4_RED</footprint>
-      <description>test point</description>
-      <fields>
-        <field name="LCSC Part">C5277086</field>
-        <field name="Footprint">TestPoint_Red:TEST-TH_BD2.54-P1.4_RED</field>
-        <field name="Datasheet"/>
-        <field name="Description">test point</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="LCSC Part" value="C5277086"/>
-      <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>d2061aeb-335a-4193-9850-de6e7c39ef7d</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
     <comp ref="D_KECUCAN1">
       <value>1N4148WS</value>
       <footprint>1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD</footprint>
@@ -607,7 +343,9 @@
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
+        <field name="MPN">1N4148WS</field>
+        <field name="Manufacturer"/>
         <field name="Footprint">1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD</field>
         <field name="Datasheet"/>
         <field name="Description">Diode</field>
@@ -615,7 +353,9 @@
       <libsource lib="Device" part="D" description="Diode"/>
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
-      <property name="LCSC Part" value="C81598"/>
+      <property name="LCSC Part" value="C2128"/>
+      <property name="MPN" value="1N4148WS"/>
+      <property name="Manufacturer" value=""/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -638,7 +378,9 @@
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
+        <field name="MPN">1N4148WS</field>
+        <field name="Manufacturer"/>
         <field name="Footprint">1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD</field>
         <field name="Datasheet"/>
         <field name="Description">Diode</field>
@@ -646,7 +388,9 @@
       <libsource lib="Device" part="D" description="Diode"/>
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
-      <property name="LCSC Part" value="C81598"/>
+      <property name="LCSC Part" value="C2128"/>
+      <property name="MPN" value="1N4148WS"/>
+      <property name="Manufacturer" value=""/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -669,7 +413,9 @@
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
+        <field name="MPN">1N4148WS</field>
+        <field name="Manufacturer"/>
         <field name="Footprint">1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD</field>
         <field name="Datasheet"/>
         <field name="Description">Diode</field>
@@ -677,7 +423,9 @@
       <libsource lib="Device" part="D" description="Diode"/>
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
-      <property name="LCSC Part" value="C81598"/>
+      <property name="LCSC Part" value="C2128"/>
+      <property name="MPN" value="1N4148WS"/>
+      <property name="Manufacturer" value=""/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -699,14 +447,18 @@
       <description>Light emitting diode</description>
       <fields>
         <field name="Sim.Pins">1=K 2=A</field>
-        <field name="LCSC Part">C72043</field>
+        <field name="LCSC Part">C2297</field>
+        <field name="MPN">KT-0805G</field>
+        <field name="Manufacturer">KENTO</field>
         <field name="Footprint">LED_SMD:LED_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Light emitting diode</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
-      <property name="LCSC Part" value="C72043"/>
+      <property name="LCSC Part" value="C2297"/>
+      <property name="MPN" value="KT-0805G"/>
+      <property name="Manufacturer" value="KENTO"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="LED diode"/>
@@ -727,13 +479,13 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <description>Resistor</description>
       <fields>
-        <field name="LCSC Part">C25879</field>
+        <field name="LCSC Part">C17520</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC Part" value="C25879"/>
+      <property name="LCSC Part" value="C17520"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -749,96 +501,24 @@
         </unit>
       </units>
     </comp>
-    <comp ref="ESTP_ECU_NF_TP1">
-      <value>TestPoint</value>
-      <footprint>TestPoint_Black:TEST-TH_BD2.54-P1.4_BLACK</footprint>
-      <description>test point</description>
-      <fields>
-        <field name="LCSC Part">C5199801</field>
-        <field name="Footprint">TestPoint_Black:TEST-TH_BD2.54-P1.4_BLACK</field>
-        <field name="Datasheet"/>
-        <field name="Description">test point</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="LCSC Part" value="C5199801"/>
-      <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>9a468ca3-18a8-4a40-9588-3cda40c5ce6a</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="ESTP_ECU_NG_TP1">
-      <value>TestPoint</value>
-      <footprint>TestPoint_Black:TEST-TH_BD2.54-P1.4_BLACK</footprint>
-      <description>test point</description>
-      <fields>
-        <field name="LCSC Part">C5199801</field>
-        <field name="Footprint">TestPoint_Black:TEST-TH_BD2.54-P1.4_BLACK</field>
-        <field name="Datasheet"/>
-        <field name="Description">test point</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="LCSC Part" value="C5199801"/>
-      <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>741ef68c-92c9-4c4e-8439-216224184da4</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="ESTP_ECU_TP1">
-      <value>TestPoint</value>
-      <footprint>TestPoint_Black:TEST-TH_BD2.54-P1.4_BLACK</footprint>
-      <description>test point</description>
-      <fields>
-        <field name="LCSC Part">C5199801</field>
-        <field name="Footprint">TestPoint_Black:TEST-TH_BD2.54-P1.4_BLACK</field>
-        <field name="Datasheet"/>
-        <field name="Description">test point</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="LCSC Part" value="C5199801"/>
-      <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>9637a32a-36b2-4386-9501-827fc5aa51de</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
     <comp ref="F_CONV1">
       <value>10</value>
       <footprint>Fuse:Fuseholder_Blade_Mini_Keystone_3568</footprint>
       <description>Fuse</description>
       <fields>
-        <field name="LCSC Part">DNP</field>
+        <field name="LCSC Part"/>
+        <field name="MPN">3568</field>
+        <field name="Manufacturer">Keystone</field>
+        <field name="Assembly">Customer fitted</field>
         <field name="Footprint">Fuse:Fuseholder_Blade_Mini_Keystone_3568</field>
         <field name="Datasheet"/>
         <field name="Description">Fuse</field>
       </fields>
       <libsource lib="Device" part="Fuse" description="Fuse"/>
-      <property name="LCSC Part" value="DNP"/>
+      <property name="LCSC Part" value=""/>
+      <property name="MPN" value="3568"/>
+      <property name="Manufacturer" value="Keystone"/>
+      <property name="Assembly" value="Customer fitted"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="fuse"/>
@@ -859,13 +539,19 @@
       <footprint>Fuse:Fuseholder_Blade_Mini_Keystone_3568</footprint>
       <description>Fuse</description>
       <fields>
-        <field name="LCSC Part">DNP</field>
+        <field name="LCSC Part"/>
+        <field name="MPN">3568</field>
+        <field name="Manufacturer">Keystone</field>
+        <field name="Assembly">Customer fitted</field>
         <field name="Footprint">Fuse:Fuseholder_Blade_Mini_Keystone_3568</field>
         <field name="Datasheet"/>
         <field name="Description">Fuse</field>
       </fields>
       <libsource lib="Device" part="Fuse" description="Fuse"/>
-      <property name="LCSC Part" value="DNP"/>
+      <property name="LCSC Part" value=""/>
+      <property name="MPN" value="3568"/>
+      <property name="Manufacturer" value="Keystone"/>
+      <property name="Assembly" value="Customer fitted"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="fuse"/>
@@ -886,13 +572,19 @@
       <footprint>Fuse:Fuseholder_Blade_Mini_Keystone_3568</footprint>
       <description>Fuse</description>
       <fields>
-        <field name="LCSC Part">DNP</field>
+        <field name="LCSC Part"/>
+        <field name="MPN">3568</field>
+        <field name="Manufacturer">Keystone</field>
+        <field name="Assembly">Customer fitted</field>
         <field name="Footprint">Fuse:Fuseholder_Blade_Mini_Keystone_3568</field>
         <field name="Datasheet"/>
         <field name="Description">Fuse</field>
       </fields>
       <libsource lib="Device" part="Fuse" description="Fuse"/>
-      <property name="LCSC Part" value="DNP"/>
+      <property name="LCSC Part" value=""/>
+      <property name="MPN" value="3568"/>
+      <property name="Manufacturer" value="Keystone"/>
+      <property name="Assembly" value="Customer fitted"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="fuse"/>
@@ -913,13 +605,19 @@
       <footprint>Fuse:Fuseholder_Blade_Mini_Keystone_3568</footprint>
       <description>Fuse</description>
       <fields>
-        <field name="LCSC Part">DNP</field>
+        <field name="LCSC Part"/>
+        <field name="MPN">3568</field>
+        <field name="Manufacturer">Keystone</field>
+        <field name="Assembly">Customer fitted</field>
         <field name="Footprint">Fuse:Fuseholder_Blade_Mini_Keystone_3568</field>
         <field name="Datasheet"/>
         <field name="Description">Fuse</field>
       </fields>
       <libsource lib="Device" part="Fuse" description="Fuse"/>
-      <property name="LCSC Part" value="DNP"/>
+      <property name="LCSC Part" value=""/>
+      <property name="MPN" value="3568"/>
+      <property name="Manufacturer" value="Keystone"/>
+      <property name="Assembly" value="Customer fitted"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="fuse"/>
@@ -941,15 +639,19 @@
       <datasheet>https://www.littelfuse.com/products/fuses-overcurrent-protection/fuses/automotive-fuses/blade-fuses-shunt/mini/297/0297030-u</datasheet>
       <description>Fuse</description>
       <fields>
-        <field name="MPN">0297030.U</field>
-        <field name="LCSC Part">DNP</field>
+        <field name="MPN">3568</field>
+        <field name="LCSC Part"/>
+        <field name="Manufacturer">Keystone</field>
+        <field name="Assembly">Customer fitted</field>
         <field name="Footprint">Fuse:Fuseholder_Blade_Mini_Keystone_3568</field>
         <field name="Datasheet">https://www.littelfuse.com/products/fuses-overcurrent-protection/fuses/automotive-fuses/blade-fuses-shunt/mini/297/0297030-u</field>
         <field name="Description">Fuse</field>
       </fields>
       <libsource lib="Device" part="Fuse" description="Fuse"/>
-      <property name="MPN" value="0297030.U"/>
-      <property name="LCSC Part" value="DNP"/>
+      <property name="MPN" value="3568"/>
+      <property name="LCSC Part" value=""/>
+      <property name="Manufacturer" value="Keystone"/>
+      <property name="Assembly" value="Customer fitted"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="fuse"/>
@@ -970,13 +672,19 @@
       <footprint>Fuse:Fuseholder_Blade_Mini_Keystone_3568</footprint>
       <description>Fuse</description>
       <fields>
-        <field name="LCSC Part">DNP</field>
+        <field name="LCSC Part"/>
+        <field name="MPN">3568</field>
+        <field name="Manufacturer">Keystone</field>
+        <field name="Assembly">Customer fitted</field>
         <field name="Footprint">Fuse:Fuseholder_Blade_Mini_Keystone_3568</field>
         <field name="Datasheet"/>
         <field name="Description">Fuse</field>
       </fields>
       <libsource lib="Device" part="Fuse" description="Fuse"/>
-      <property name="LCSC Part" value="DNP"/>
+      <property name="LCSC Part" value=""/>
+      <property name="MPN" value="3568"/>
+      <property name="Manufacturer" value="Keystone"/>
+      <property name="Assembly" value="Customer fitted"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="fuse"/>
@@ -1024,58 +732,23 @@
         </unit>
       </units>
     </comp>
-    <comp ref="J2">
-      <value>CHARGE SHIELD HEADER</value>
-      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical</footprint>
-      <description>Generic connector, single row, 01x08, script generated</description>
-      <fields>
-        <field name="LCSC Part">DNP</field>
-        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical</field>
-        <field name="Datasheet"/>
-        <field name="Description">Generic connector, single row, 01x08, script generated</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x08_Pin" description="Generic connector, single row, 01x08, script generated"/>
-      <property name="LCSC Part" value="DNP"/>
-      <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="connector"/>
-      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>8030a08f-1758-4998-b4de-80ce7d54f70f</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
-            <pin num="3"/>
-            <pin num="4"/>
-            <pin num="5"/>
-            <pin num="6"/>
-            <pin num="7"/>
-            <pin num="8"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
     <comp ref="J3">
-      <value>DIO</value>
-      <footprint>V31_H1:MCV_1.5_5_5.08_Pad2.6</footprint>
-      <datasheet>https://www.phoenixcontact.com/us/products/1836325</datasheet>
-      <description>5-position vertical pluggable signal header, 5.08 mm pitch, 8 A nominal</description>
+      <value>MODE_SEL/PWR GATE</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43650-0515_1x05_P3.00mm_Vertical</footprint>
       <fields>
-        <field name="LCSC Part"/>
-        <field name="MPN">1836325</field>
-        <field name="Manufacturer">Phoenix Contact</field>
-        <field name="Mating plug">1836105</field>
-        <field name="Footprint">V31_H1:MCV_1.5_5_5.08_Pad2.6</field>
-        <field name="Datasheet">https://www.phoenixcontact.com/us/products/1836325</field>
-        <field name="Description">5-position vertical pluggable signal header, 5.08 mm pitch, 8 A nominal</field>
+        <field name="LCSC Part">C505230</field>
+        <field name="MPN">43650-0515</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Mating plug">43645-0500</field>
+        <field name="Footprint">Connector_Molex:Molex_Micro-Fit_3.0_43650-0515_1x05_P3.00mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Connector" part="Conn_01x05_Socket" description="Generic connector, single row, 01x05, script generated"/>
-      <property name="LCSC Part" value=""/>
-      <property name="MPN" value="1836325"/>
-      <property name="Manufacturer" value="Phoenix Contact"/>
-      <property name="Mating plug" value="1836105"/>
+      <property name="LCSC Part" value="C505230"/>
+      <property name="MPN" value="43650-0515"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Mating plug" value="43645-0500"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
@@ -1097,15 +770,21 @@
     <comp ref="J4">
       <value>PWR INPUTS</value>
       <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-10-5.08_1x10_P5.08mm_Horizontal</footprint>
-      <description>Generic connector, single row, 01x10, script generated</description>
+      <description>10-position PCB screw terminal block, 5.08 mm pitch, 17.5 A</description>
       <fields>
-        <field name="LCSC Part">DNP</field>
+        <field name="LCSC Part"/>
+        <field name="MPN">1715802</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Assembly">Customer fitted</field>
         <field name="Footprint">TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-10-5.08_1x10_P5.08mm_Horizontal</field>
         <field name="Datasheet"/>
-        <field name="Description">Generic connector, single row, 01x10, script generated</field>
+        <field name="Description">10-position PCB screw terminal block, 5.08 mm pitch, 17.5 A</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x10_Socket" description="Generic connector, single row, 01x10, script generated"/>
-      <property name="LCSC Part" value="DNP"/>
+      <property name="LCSC Part" value=""/>
+      <property name="MPN" value="1715802"/>
+      <property name="Manufacturer" value="Phoenix Contact"/>
+      <property name="Assembly" value="Customer fitted"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
@@ -1131,23 +810,23 @@
     </comp>
     <comp ref="J5">
       <value>CAN CABLES</value>
-      <footprint>V31_H1:MCV_1.5_10_5.08_Pad2.6</footprint>
-      <datasheet>https://www.phoenixcontact.com/us/products/1836370</datasheet>
-      <description>10-position vertical pluggable signal header, 5.08 mm pitch, 8 A nominal</description>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43650-1015_1x10_P3.00mm_Vertical</footprint>
       <fields>
-        <field name="LCSC Part"/>
-        <field name="MPN">1836370</field>
-        <field name="Manufacturer">Phoenix Contact</field>
-        <field name="Mating plug">1836150</field>
-        <field name="Footprint">V31_H1:MCV_1.5_10_5.08_Pad2.6</field>
-        <field name="Datasheet">https://www.phoenixcontact.com/us/products/1836370</field>
-        <field name="Description">10-position vertical pluggable signal header, 5.08 mm pitch, 8 A nominal</field>
+        <field name="LCSC Part">C17337723</field>
+        <field name="MPN">43650-1015</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Mating plug">43645-1000</field>
+        <field name="Field9"/>
+        <field name="Footprint">Connector_Molex:Molex_Micro-Fit_3.0_43650-1015_1x10_P3.00mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Connector" part="Conn_01x10_Socket" description="Generic connector, single row, 01x10, script generated"/>
-      <property name="LCSC Part" value=""/>
-      <property name="MPN" value="1836370"/>
-      <property name="Manufacturer" value="Phoenix Contact"/>
-      <property name="Mating plug" value="1836150"/>
+      <property name="LCSC Part" value="C17337723"/>
+      <property name="MPN" value="43650-1015"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Mating plug" value="43645-1000"/>
+      <property name="Field9" value=""/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
@@ -1172,51 +851,60 @@
       </units>
     </comp>
     <comp ref="J6">
-      <value>SEAT_CONNECTOR</value>
-      <footprint>WAGO_2604:WAGO_2604-1102</footprint>
-      <description>Generic connector, single row, 01x02, script generated</description>
+      <value>SEAT SENSOR</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical</footprint>
+      <description>3-position Micro-Fit 3.0 vertical header, through hole, 3.00 mm pitch</description>
       <fields>
-        <field name="LCSC Part">DNP</field>
-        <field name="Footprint">WAGO_2604:WAGO_2604-1102</field>
+        <field name="LCSC Part">C293546</field>
+        <field name="MPN">43650-0315</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Mating plug">43645-0300</field>
+        <field name="Field9"/>
+        <field name="Footprint">Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical</field>
         <field name="Datasheet"/>
-        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+        <field name="Description">3-position Micro-Fit 3.0 vertical header, through hole, 3.00 mm pitch</field>
       </fields>
-      <libsource lib="Connector" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
-      <property name="LCSC Part" value="DNP"/>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="LCSC Part" value="C293546"/>
+      <property name="MPN" value="43650-0315"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Mating plug" value="43645-0300"/>
+      <property name="Field9" value=""/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>b3c5f29a-e131-40ac-9969-dca166f72d6c</tstamps>
+      <tstamps>c4f4ac40-9ed9-4477-b9f1-4e3d91fd611f</tstamps>
       <units>
         <unit name="A">
           <pins>
             <pin num="1"/>
             <pin num="2"/>
+            <pin num="3"/>
           </pins>
         </unit>
       </units>
     </comp>
     <comp ref="J7">
       <value>BRAKE INPUTS</value>
-      <footprint>V31_H1:MCV_1.5_7_5.08_Pad2.6</footprint>
-      <datasheet>https://www.phoenixcontact.com/us/products/1836341</datasheet>
-      <description>7-position vertical pluggable signal header, 5.08 mm pitch, 8 A nominal</description>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43650-0715_1x07_P3.00mm_Vertical</footprint>
       <fields>
-        <field name="LCSC Part"/>
-        <field name="MPN">1836341</field>
-        <field name="Manufacturer">Phoenix Contact</field>
-        <field name="Mating plug">1836121</field>
-        <field name="Footprint">V31_H1:MCV_1.5_7_5.08_Pad2.6</field>
-        <field name="Datasheet">https://www.phoenixcontact.com/us/products/1836341</field>
-        <field name="Description">7-position vertical pluggable signal header, 5.08 mm pitch, 8 A nominal</field>
+        <field name="LCSC Part">C17199797</field>
+        <field name="MPN">43650-0715</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Mating plug">43645-0700</field>
+        <field name="Field9"/>
+        <field name="Footprint">Connector_Molex:Molex_Micro-Fit_3.0_43650-0715_1x07_P3.00mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Connector" part="Conn_01x07_Socket" description="Generic connector, single row, 01x07, script generated"/>
-      <property name="LCSC Part" value=""/>
-      <property name="MPN" value="1836341"/>
-      <property name="Manufacturer" value="Phoenix Contact"/>
-      <property name="Mating plug" value="1836121"/>
+      <property name="LCSC Part" value="C17199797"/>
+      <property name="MPN" value="43650-0715"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Mating plug" value="43645-0700"/>
+      <property name="Field9" value=""/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
@@ -1233,43 +921,6 @@
             <pin num="5"/>
             <pin num="6"/>
             <pin num="7"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="J8">
-      <value>SAFETY_CONNECTOR</value>
-      <footprint>V31_H1:MCV_1.5_5_5.08_Pad2.6</footprint>
-      <datasheet>https://www.phoenixcontact.com/us/products/1836325</datasheet>
-      <description>5-position vertical pluggable signal header, 5.08 mm pitch, 8 A nominal</description>
-      <fields>
-        <field name="LCSC Part"/>
-        <field name="MPN">1836325</field>
-        <field name="Manufacturer">Phoenix Contact</field>
-        <field name="Mating plug">1836105</field>
-        <field name="Footprint">V31_H1:MCV_1.5_5_5.08_Pad2.6</field>
-        <field name="Datasheet">https://www.phoenixcontact.com/us/products/1836325</field>
-        <field name="Description">5-position vertical pluggable signal header, 5.08 mm pitch, 8 A nominal</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x05_Socket" description="Generic connector, single row, 01x05, script generated"/>
-      <property name="LCSC Part" value=""/>
-      <property name="MPN" value="1836325"/>
-      <property name="Manufacturer" value="Phoenix Contact"/>
-      <property name="Mating plug" value="1836105"/>
-      <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="connector"/>
-      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5038fc07-536a-48d0-8778-9ea9d182098c</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
-            <pin num="3"/>
-            <pin num="4"/>
-            <pin num="5"/>
           </pins>
         </unit>
       </units>
@@ -1313,23 +964,23 @@
     </comp>
     <comp ref="J10">
       <value>ESTOP INPUTS</value>
-      <footprint>V31_H1:MCV_1.5_7_5.08_Pad2.6</footprint>
-      <datasheet>https://www.phoenixcontact.com/us/products/1836341</datasheet>
-      <description>7-position vertical pluggable signal header, 5.08 mm pitch, 8 A nominal</description>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43650-0715_1x07_P3.00mm_Vertical</footprint>
       <fields>
-        <field name="LCSC Part"/>
-        <field name="MPN">1836341</field>
-        <field name="Manufacturer">Phoenix Contact</field>
-        <field name="Mating plug">1836121</field>
-        <field name="Footprint">V31_H1:MCV_1.5_7_5.08_Pad2.6</field>
-        <field name="Datasheet">https://www.phoenixcontact.com/us/products/1836341</field>
-        <field name="Description">7-position vertical pluggable signal header, 5.08 mm pitch, 8 A nominal</field>
+        <field name="LCSC Part">C17199797</field>
+        <field name="MPN">43650-0715</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Mating plug">43645-0700</field>
+        <field name="Field9"/>
+        <field name="Footprint">Connector_Molex:Molex_Micro-Fit_3.0_43650-0715_1x07_P3.00mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Connector" part="Conn_01x07_Socket" description="Generic connector, single row, 01x07, script generated"/>
-      <property name="LCSC Part" value=""/>
-      <property name="MPN" value="1836341"/>
-      <property name="Manufacturer" value="Phoenix Contact"/>
-      <property name="Mating plug" value="1836121"/>
+      <property name="LCSC Part" value="C17199797"/>
+      <property name="MPN" value="43650-0715"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Mating plug" value="43645-0700"/>
+      <property name="Field9" value=""/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
@@ -1353,16 +1004,23 @@
     <comp ref="JET_LED1">
       <value>RED</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
-      <description>Red LED, 0805. Pin 1 is the anode, which matches the boards as built.</description>
+      <description>Red LED, 0805. Pin 1 cathode, pin 2 anode, KiCad convention.</description>
       <fields>
+        <field name="MPN">KT-0805R</field>
+        <field name="Manufacturer">KENTO</field>
+        <field name="LCSC Part">C2295</field>
         <field name="Footprint">LED_SMD:LED_0805_2012Metric</field>
         <field name="Datasheet"/>
-        <field name="Description">Red LED, 0805. Pin 1 is the anode, which matches the boards as built.</field>
+        <field name="Description">Red LED, 0805. Pin 1 cathode, pin 2 anode, KiCad convention.</field>
       </fields>
-      <libsource lib="V31_H1" part="LED_Red_0805_A1" description="Red LED, 0805. Pin 1 is the anode, which matches the boards as built."/>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MPN" value="KT-0805R"/>
+      <property name="Manufacturer" value="KENTO"/>
+      <property name="LCSC Part" value="C2295"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="Light Emitting Diodes (LED)"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6b0d739b-960e-430e-88cb-1c333aa52706</tstamps>
       <units>
@@ -1379,13 +1037,13 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <description>Resistor</description>
       <fields>
-        <field name="LCSC Part">C25879</field>
+        <field name="LCSC Part">C17520</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC Part" value="C25879"/>
+      <property name="LCSC Part" value="C17520"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1401,46 +1059,24 @@
         </unit>
       </units>
     </comp>
-    <comp ref="JET_TP3">
-      <value>TestPoint</value>
-      <footprint>TestPoint_Red:TEST-TH_BD2.54-P1.4_RED</footprint>
-      <description>test point</description>
-      <fields>
-        <field name="LCSC Part">C5277086</field>
-        <field name="Footprint">TestPoint_Red:TEST-TH_BD2.54-P1.4_RED</field>
-        <field name="Datasheet"/>
-        <field name="Description">test point</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="LCSC Part" value="C5277086"/>
-      <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>8b806785-59cf-4a9b-b0b4-f7e8ffc2f82d</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
     <comp ref="Joy-Relay-LED1">
       <value>Green</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
       <description>Light emitting diode</description>
       <fields>
         <field name="Sim.Pins">1=K 2=A</field>
-        <field name="LCSC Part">C72043</field>
+        <field name="LCSC Part">C2297</field>
+        <field name="MPN">KT-0805G</field>
+        <field name="Manufacturer">KENTO</field>
         <field name="Footprint">LED_SMD:LED_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Light emitting diode</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
-      <property name="LCSC Part" value="C72043"/>
+      <property name="LCSC Part" value="C2297"/>
+      <property name="MPN" value="KT-0805G"/>
+      <property name="Manufacturer" value="KENTO"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="LED diode"/>
@@ -1461,13 +1097,13 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <description>Resistor</description>
       <fields>
-        <field name="LCSC Part">C25879</field>
+        <field name="LCSC Part">C17520</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC Part" value="C25879"/>
+      <property name="LCSC Part" value="C17520"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1510,44 +1146,22 @@
         </unit>
       </units>
     </comp>
-    <comp ref="KIT_TP1">
-      <value>TestPoint</value>
-      <footprint>TestPoint_Red:TEST-TH_BD2.54-P1.4_RED</footprint>
-      <description>test point</description>
-      <fields>
-        <field name="LCSC Part">C5277086</field>
-        <field name="Footprint">TestPoint_Red:TEST-TH_BD2.54-P1.4_RED</field>
-        <field name="Datasheet"/>
-        <field name="Description">test point</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="LCSC Part" value="C5277086"/>
-      <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>b9d7dcbc-edf6-42ea-aa25-9fb81c4ddaa9</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
     <comp ref="K_ECUCAN1">
-      <value>Relay_DPDT</value>
+      <value>G6A-274P-ST-US-DC12</value>
       <footprint>Relay_THT:Relay_DPDT_Omron_G6A</footprint>
       <description>Relay DPDT, monostable, EN50005</description>
       <fields>
-        <field name="LCSC Part">C45404</field>
+        <field name="LCSC Part">C129439</field>
+        <field name="MPN">G6A-274P-ST-US-DC12</field>
+        <field name="Manufacturer">Omron</field>
         <field name="Footprint">Relay_THT:Relay_DPDT_Omron_G6A</field>
         <field name="Datasheet"/>
         <field name="Description">Relay DPDT, monostable, EN50005</field>
       </fields>
       <libsource lib="Relay" part="Relay_DPDT" description="Relay DPDT, monostable, EN50005"/>
-      <property name="LCSC Part" value="C45404"/>
+      <property name="LCSC Part" value="C129439"/>
+      <property name="MPN" value="G6A-274P-ST-US-DC12"/>
+      <property name="Manufacturer" value="Omron"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="2P2T 2-Form-C double dual throw pole"/>
@@ -1570,17 +1184,21 @@
       </units>
     </comp>
     <comp ref="K_JOYCAN1">
-      <value>Relay_DPDT</value>
+      <value>G6A-274P-ST-US-DC12</value>
       <footprint>Relay_THT:Relay_DPDT_Omron_G6A</footprint>
       <description>Relay DPDT, monostable, EN50005</description>
       <fields>
-        <field name="LCSC Part">C45404</field>
+        <field name="LCSC Part">C129439</field>
+        <field name="MPN">G6A-274P-ST-US-DC12</field>
+        <field name="Manufacturer">Omron</field>
         <field name="Footprint">Relay_THT:Relay_DPDT_Omron_G6A</field>
         <field name="Datasheet"/>
         <field name="Description">Relay DPDT, monostable, EN50005</field>
       </fields>
       <libsource lib="Relay" part="Relay_DPDT" description="Relay DPDT, monostable, EN50005"/>
-      <property name="LCSC Part" value="C45404"/>
+      <property name="LCSC Part" value="C129439"/>
+      <property name="MPN" value="G6A-274P-ST-US-DC12"/>
+      <property name="Manufacturer" value="Omron"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="2P2T 2-Form-C double dual throw pole"/>
@@ -1637,16 +1255,23 @@
     <comp ref="LED_LED1">
       <value>RED</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
-      <description>Red LED, 0805. Pin 1 is the anode, which matches the boards as built.</description>
+      <description>Red LED, 0805. Pin 1 cathode, pin 2 anode, KiCad convention.</description>
       <fields>
+        <field name="MPN">KT-0805R</field>
+        <field name="Manufacturer">KENTO</field>
+        <field name="LCSC Part">C2295</field>
         <field name="Footprint">LED_SMD:LED_0805_2012Metric</field>
         <field name="Datasheet"/>
-        <field name="Description">Red LED, 0805. Pin 1 is the anode, which matches the boards as built.</field>
+        <field name="Description">Red LED, 0805. Pin 1 cathode, pin 2 anode, KiCad convention.</field>
       </fields>
-      <libsource lib="V31_H1" part="LED_Red_0805_A1" description="Red LED, 0805. Pin 1 is the anode, which matches the boards as built."/>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MPN" value="KT-0805R"/>
+      <property name="Manufacturer" value="KENTO"/>
+      <property name="LCSC Part" value="C2295"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="Light Emitting Diodes (LED)"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3bdabefe-1336-44e4-8c76-cf3edef6b6cf</tstamps>
       <units>
@@ -1663,13 +1288,13 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <description>Resistor</description>
       <fields>
-        <field name="LCSC Part">C25879</field>
+        <field name="LCSC Part">C17520</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC Part" value="C25879"/>
+      <property name="LCSC Part" value="C17520"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1685,60 +1310,8 @@
         </unit>
       </units>
     </comp>
-    <comp ref="LED_TP1">
-      <value>TestPoint</value>
-      <footprint>TestPoint_Red:TEST-TH_BD2.54-P1.4_RED</footprint>
-      <description>test point</description>
-      <fields>
-        <field name="LCSC Part">C5277086</field>
-        <field name="Footprint">TestPoint_Red:TEST-TH_BD2.54-P1.4_RED</field>
-        <field name="Datasheet"/>
-        <field name="Description">test point</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="LCSC Part" value="C5277086"/>
-      <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>750881de-d444-48d7-9ed2-a1d0ddf41174</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
-    <comp ref="MODE_TP1">
-      <value>TestPoint</value>
-      <footprint>TestPoint_Black:TEST-TH_BD2.54-P1.4_BLACK</footprint>
-      <description>test point</description>
-      <fields>
-        <field name="LCSC Part">C5199801</field>
-        <field name="Footprint">TestPoint_Black:TEST-TH_BD2.54-P1.4_BLACK</field>
-        <field name="Datasheet"/>
-        <field name="Description">test point</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="LCSC Part" value="C5199801"/>
-      <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>d5e3874c-3175-4265-9090-528763b98af9</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
     <comp ref="POWER1">
-      <value>K_GATE</value>
+      <value>SLA-12VDC-SL-A</value>
       <footprint>Songle_SLA:RELAY-TH_SLA-XXVDC-XL-A</footprint>
       <datasheet>https://lcsc.com/product-detail/Relays_SLA-12VDC-SL-A_C55194.html</datasheet>
       <fields>
@@ -1772,16 +1345,23 @@
     <comp ref="PWR_LIGHT1">
       <value>RED</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
-      <description>Red LED, 0805. Pin 1 is the anode, which matches the boards as built.</description>
+      <description>Red LED, 0805. Pin 1 cathode, pin 2 anode, KiCad convention.</description>
       <fields>
+        <field name="MPN">KT-0805R</field>
+        <field name="Manufacturer">KENTO</field>
+        <field name="LCSC Part">C2295</field>
         <field name="Footprint">LED_SMD:LED_0805_2012Metric</field>
         <field name="Datasheet"/>
-        <field name="Description">Red LED, 0805. Pin 1 is the anode, which matches the boards as built.</field>
+        <field name="Description">Red LED, 0805. Pin 1 cathode, pin 2 anode, KiCad convention.</field>
       </fields>
-      <libsource lib="V31_H1" part="LED_Red_0805_A1" description="Red LED, 0805. Pin 1 is the anode, which matches the boards as built."/>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MPN" value="KT-0805R"/>
+      <property name="Manufacturer" value="KENTO"/>
+      <property name="LCSC Part" value="C2295"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="Light Emitting Diodes (LED)"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>45bc8384-0d5d-463d-bfc2-037fdb8f16a4</tstamps>
       <units>
@@ -1829,13 +1409,17 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <description>N-MOSFET transistor, gate/source/drain</description>
       <fields>
-        <field name="LCSC Part">C700958</field>
+        <field name="LCSC Part">C155257</field>
+        <field name="MPN">DMN3404L-7</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
         <field name="Datasheet"/>
         <field name="Description">N-MOSFET transistor, gate/source/drain</field>
       </fields>
       <libsource lib="Transistor_FET" part="Q_NMOS_GSD" description="N-MOSFET transistor, gate/source/drain"/>
-      <property name="LCSC Part" value="C700958"/>
+      <property name="LCSC Part" value="C155257"/>
+      <property name="MPN" value="DMN3404L-7"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
@@ -1883,13 +1467,13 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <description>Resistor</description>
       <fields>
-        <field name="LCSC Part">C17475</field>
+        <field name="LCSC Part">C4382</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC Part" value="C17475"/>
+      <property name="LCSC Part" value="C4382"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1905,45 +1489,18 @@
         </unit>
       </units>
     </comp>
-    <comp ref="R_ARMED_PD1">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <description>Resistor</description>
-      <fields>
-        <field name="LCSC Part">C17414</field>
-        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet"/>
-        <field name="Description">Resistor</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC Part" value="C17414"/>
-      <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <property name="ki_fp_filters" value="R_*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>fb51a3b8-72cb-416c-94aa-bb71875b6069</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-            <pin num="2"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
     <comp ref="R_MODE_GATE1">
       <value>100</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <description>Resistor</description>
       <fields>
-        <field name="LCSC Part">C17561</field>
+        <field name="LCSC Part">C17408</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC Part" value="C17561"/>
+      <property name="LCSC Part" value="C17408"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1986,32 +1543,6 @@
         </unit>
       </units>
     </comp>
-    <comp ref="STAR_TP1">
-      <value>TestPoint</value>
-      <footprint>TestPoint_Red:TEST-TH_BD2.54-P1.4_RED</footprint>
-      <description>test point</description>
-      <fields>
-        <field name="LCSC Part">C5277086</field>
-        <field name="Footprint">TestPoint_Red:TEST-TH_BD2.54-P1.4_RED</field>
-        <field name="Datasheet"/>
-        <field name="Description">test point</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="LCSC Part" value="C5277086"/>
-      <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>22b15e83-ff5f-4b35-892f-83dc6a8efb02</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
     <comp ref="STEER_TERM_R1">
       <value>120</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
@@ -2045,14 +1576,18 @@
       <description>Light emitting diode</description>
       <fields>
         <field name="Sim.Pins">1=K 2=A</field>
-        <field name="LCSC Part">C72043</field>
+        <field name="LCSC Part">C2297</field>
+        <field name="MPN">KT-0805G</field>
+        <field name="Manufacturer">KENTO</field>
         <field name="Footprint">LED_SMD:LED_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Light emitting diode</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
-      <property name="LCSC Part" value="C72043"/>
+      <property name="LCSC Part" value="C2297"/>
+      <property name="MPN" value="KT-0805G"/>
+      <property name="Manufacturer" value="KENTO"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="LED diode"/>
@@ -2073,13 +1608,13 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <description>Resistor</description>
       <fields>
-        <field name="LCSC Part">C25879</field>
+        <field name="LCSC Part">C17520</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC Part" value="C25879"/>
+      <property name="LCSC Part" value="C17520"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -2098,16 +1633,23 @@
     <comp ref="STR_LED1">
       <value>RED</value>
       <footprint>LED_SMD:LED_0805_2012Metric</footprint>
-      <description>Red LED, 0805. Pin 1 is the anode, which matches the boards as built.</description>
+      <description>Red LED, 0805. Pin 1 cathode, pin 2 anode, KiCad convention.</description>
       <fields>
+        <field name="MPN">KT-0805R</field>
+        <field name="Manufacturer">KENTO</field>
+        <field name="LCSC Part">C2295</field>
         <field name="Footprint">LED_SMD:LED_0805_2012Metric</field>
         <field name="Datasheet"/>
-        <field name="Description">Red LED, 0805. Pin 1 is the anode, which matches the boards as built.</field>
+        <field name="Description">Red LED, 0805. Pin 1 cathode, pin 2 anode, KiCad convention.</field>
       </fields>
-      <libsource lib="V31_H1" part="LED_Red_0805_A1" description="Red LED, 0805. Pin 1 is the anode, which matches the boards as built."/>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="MPN" value="KT-0805R"/>
+      <property name="Manufacturer" value="KENTO"/>
+      <property name="LCSC Part" value="C2295"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="Light Emitting Diodes (LED)"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>149dc87a-6540-4ed4-8de0-58406d34d466</tstamps>
       <units>
@@ -2124,13 +1666,13 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <description>Resistor</description>
       <fields>
-        <field name="LCSC Part">C25879</field>
+        <field name="LCSC Part">C17520</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC Part" value="C25879"/>
+      <property name="LCSC Part" value="C17520"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -2146,46 +1688,20 @@
         </unit>
       </units>
     </comp>
-    <comp ref="STR_TP1">
-      <value>TestPoint</value>
-      <footprint>TestPoint_Red:TEST-TH_BD2.54-P1.4_RED</footprint>
-      <description>test point</description>
-      <fields>
-        <field name="LCSC Part">C5277086</field>
-        <field name="Footprint">TestPoint_Red:TEST-TH_BD2.54-P1.4_RED</field>
-        <field name="Datasheet"/>
-        <field name="Description">test point</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="LCSC Part" value="C5277086"/>
-      <property name="Sheetname" value="Root"/>
-      <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>04115ae6-9c59-4380-8590-b75b17919d44</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="1"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
     <comp ref="TVS1">
       <value>SMBJ24CA</value>
       <footprint>Diode_SMD:D_SMB</footprint>
       <description>Bidirectional transient-voltage-suppression diode</description>
       <fields>
         <field name="MPN">SMBJ24CA-13-F</field>
-        <field name="LCSC Part">C13616</field>
+        <field name="LCSC Part">C78416</field>
         <field name="Footprint">Diode_SMD:D_SMB</field>
         <field name="Datasheet"/>
         <field name="Description">Bidirectional transient-voltage-suppression diode</field>
       </fields>
       <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
       <property name="MPN" value="SMBJ24CA-13-F"/>
-      <property name="LCSC Part" value="C13616"/>
+      <property name="LCSC Part" value="C78416"/>
       <property name="Sheetname" value="Root"/>
       <property name="Sheetfile" value="CREWLINE-PRIM-PCB-001.kicad_sch"/>
       <property name="ki_keywords" value="diode TVS thyrector"/>
@@ -2207,14 +1723,18 @@
       <description>Light emitting diode</description>
       <fields>
         <field name="Sim.Pins">1=K 2=A</field>
-        <field name="LCSC Part">C72043</field>
+        <field name="LCSC Part">C2297</field>
+        <field name="MPN">KT-0805G</field>
+        <field name="Manufacturer">KENTO</field>
         <field name="Footprint">LED_SMD:LED_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Light emitting diode</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
-      <property name="LCSC Part" value="C72043"/>
+      <property name="LCSC Part" value="C2297"/>
+      <property name="MPN" value="KT-0805G"/>
+      <property name="Manufacturer" value="KENTO"/>
       <property name="Sheetname" value="Brake and E-stop"/>
       <property name="Sheetfile" value="brake-estop.kicad_sch"/>
       <property name="ki_keywords" value="LED diode"/>
@@ -2235,13 +1755,13 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <description>Resistor</description>
       <fields>
-        <field name="LCSC Part">C25879</field>
+        <field name="LCSC Part">C17520</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC Part" value="C25879"/>
+      <property name="LCSC Part" value="C17520"/>
       <property name="Sheetname" value="Brake and E-stop"/>
       <property name="Sheetfile" value="brake-estop.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -2263,14 +1783,18 @@
       <description>Light emitting diode</description>
       <fields>
         <field name="Sim.Pins">1=K 2=A</field>
-        <field name="LCSC Part">C72043</field>
+        <field name="LCSC Part">C2297</field>
+        <field name="MPN">KT-0805G</field>
+        <field name="Manufacturer">KENTO</field>
         <field name="Footprint">LED_SMD:LED_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Light emitting diode</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
-      <property name="LCSC Part" value="C72043"/>
+      <property name="LCSC Part" value="C2297"/>
+      <property name="MPN" value="KT-0805G"/>
+      <property name="Manufacturer" value="KENTO"/>
       <property name="Sheetname" value="Brake and E-stop"/>
       <property name="Sheetfile" value="brake-estop.kicad_sch"/>
       <property name="ki_keywords" value="LED diode"/>
@@ -2291,13 +1815,13 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <description>Resistor</description>
       <fields>
-        <field name="LCSC Part">C25879</field>
+        <field name="LCSC Part">C17520</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC Part" value="C25879"/>
+      <property name="LCSC Part" value="C17520"/>
       <property name="Sheetname" value="Brake and E-stop"/>
       <property name="Sheetfile" value="brake-estop.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -2319,14 +1843,18 @@
       <description>Light emitting diode</description>
       <fields>
         <field name="Sim.Pins">1=K 2=A</field>
-        <field name="LCSC Part">C72043</field>
+        <field name="LCSC Part">C2297</field>
+        <field name="MPN">KT-0805G</field>
+        <field name="Manufacturer">KENTO</field>
         <field name="Footprint">LED_SMD:LED_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Light emitting diode</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
-      <property name="LCSC Part" value="C72043"/>
+      <property name="LCSC Part" value="C2297"/>
+      <property name="MPN" value="KT-0805G"/>
+      <property name="Manufacturer" value="KENTO"/>
       <property name="Sheetname" value="Brake and E-stop"/>
       <property name="Sheetfile" value="brake-estop.kicad_sch"/>
       <property name="ki_keywords" value="LED diode"/>
@@ -2347,13 +1875,13 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <description>Resistor</description>
       <fields>
-        <field name="LCSC Part">C25879</field>
+        <field name="LCSC Part">C17520</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC Part" value="C25879"/>
+      <property name="LCSC Part" value="C17520"/>
       <property name="Sheetname" value="Brake and E-stop"/>
       <property name="Sheetfile" value="brake-estop.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -2376,7 +1904,9 @@
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
+        <field name="MPN">1N4148WS</field>
+        <field name="Manufacturer"/>
         <field name="Footprint">1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD</field>
         <field name="Datasheet"/>
         <field name="Description">Diode</field>
@@ -2384,7 +1914,9 @@
       <libsource lib="Device" part="D" description="Diode"/>
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
-      <property name="LCSC Part" value="C81598"/>
+      <property name="LCSC Part" value="C2128"/>
+      <property name="MPN" value="1N4148WS"/>
+      <property name="Manufacturer" value=""/>
       <property name="Sheetname" value="Brake and E-stop"/>
       <property name="Sheetfile" value="brake-estop.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -2407,7 +1939,9 @@
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
+        <field name="MPN">1N4148WS</field>
+        <field name="Manufacturer"/>
         <field name="Footprint">1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD</field>
         <field name="Datasheet"/>
         <field name="Description">Diode</field>
@@ -2415,7 +1949,9 @@
       <libsource lib="Device" part="D" description="Diode"/>
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
-      <property name="LCSC Part" value="C81598"/>
+      <property name="LCSC Part" value="C2128"/>
+      <property name="MPN" value="1N4148WS"/>
+      <property name="Manufacturer" value=""/>
       <property name="Sheetname" value="Brake and E-stop"/>
       <property name="Sheetfile" value="brake-estop.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -2438,7 +1974,9 @@
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
+        <field name="MPN">1N4148WS</field>
+        <field name="Manufacturer"/>
         <field name="Footprint">1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD</field>
         <field name="Datasheet"/>
         <field name="Description">Diode</field>
@@ -2446,7 +1984,9 @@
       <libsource lib="Device" part="D" description="Diode"/>
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
-      <property name="LCSC Part" value="C81598"/>
+      <property name="LCSC Part" value="C2128"/>
+      <property name="MPN" value="1N4148WS"/>
+      <property name="Manufacturer" value=""/>
       <property name="Sheetname" value="Brake and E-stop"/>
       <property name="Sheetfile" value="brake-estop.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -2469,7 +2009,9 @@
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
+        <field name="MPN">1N4148WS</field>
+        <field name="Manufacturer"/>
         <field name="Footprint">1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD</field>
         <field name="Datasheet"/>
         <field name="Description">Diode</field>
@@ -2477,7 +2019,9 @@
       <libsource lib="Device" part="D" description="Diode"/>
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
-      <property name="LCSC Part" value="C81598"/>
+      <property name="LCSC Part" value="C2128"/>
+      <property name="MPN" value="1N4148WS"/>
+      <property name="Manufacturer" value=""/>
       <property name="Sheetname" value="Brake and E-stop"/>
       <property name="Sheetfile" value="brake-estop.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -2500,7 +2044,9 @@
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
+        <field name="MPN">1N4148WS</field>
+        <field name="Manufacturer"/>
         <field name="Footprint">1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD</field>
         <field name="Datasheet"/>
         <field name="Description">Diode</field>
@@ -2508,7 +2054,9 @@
       <libsource lib="Device" part="D" description="Diode"/>
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
-      <property name="LCSC Part" value="C81598"/>
+      <property name="LCSC Part" value="C2128"/>
+      <property name="MPN" value="1N4148WS"/>
+      <property name="Manufacturer" value=""/>
       <property name="Sheetname" value="Brake and E-stop"/>
       <property name="Sheetfile" value="brake-estop.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -2531,7 +2079,9 @@
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
+        <field name="MPN">1N4148WS</field>
+        <field name="Manufacturer"/>
         <field name="Footprint">1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD</field>
         <field name="Datasheet"/>
         <field name="Description">Diode</field>
@@ -2539,7 +2089,9 @@
       <libsource lib="Device" part="D" description="Diode"/>
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
-      <property name="LCSC Part" value="C81598"/>
+      <property name="LCSC Part" value="C2128"/>
+      <property name="MPN" value="1N4148WS"/>
+      <property name="Manufacturer" value=""/>
       <property name="Sheetname" value="Brake and E-stop"/>
       <property name="Sheetfile" value="brake-estop.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -2562,7 +2114,9 @@
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
+        <field name="MPN">1N4148WS</field>
+        <field name="Manufacturer"/>
         <field name="Footprint">1N4148WS:SOD-323_L1.8-W1.3-LS2.5-RD</field>
         <field name="Datasheet"/>
         <field name="Description">Diode</field>
@@ -2570,7 +2124,9 @@
       <libsource lib="Device" part="D" description="Diode"/>
       <property name="Sim.Device" value="D"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
-      <property name="LCSC Part" value="C81598"/>
+      <property name="LCSC Part" value="C2128"/>
+      <property name="MPN" value="1N4148WS"/>
+      <property name="Manufacturer" value=""/>
       <property name="Sheetname" value="Brake and E-stop"/>
       <property name="Sheetfile" value="brake-estop.kicad_sch"/>
       <property name="ki_keywords" value="diode"/>
@@ -2592,14 +2148,18 @@
       <description>Light emitting diode</description>
       <fields>
         <field name="Sim.Pins">1=K 2=A</field>
-        <field name="LCSC Part">C72043</field>
+        <field name="LCSC Part">C2297</field>
+        <field name="MPN">KT-0805G</field>
+        <field name="Manufacturer">KENTO</field>
         <field name="Footprint">LED_SMD:LED_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Light emitting diode</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
-      <property name="LCSC Part" value="C72043"/>
+      <property name="LCSC Part" value="C2297"/>
+      <property name="MPN" value="KT-0805G"/>
+      <property name="Manufacturer" value="KENTO"/>
       <property name="Sheetname" value="Brake and E-stop"/>
       <property name="Sheetfile" value="brake-estop.kicad_sch"/>
       <property name="ki_keywords" value="LED diode"/>
@@ -2620,13 +2180,13 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <description>Resistor</description>
       <fields>
-        <field name="LCSC Part">C25879</field>
+        <field name="LCSC Part">C17520</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC Part" value="C25879"/>
+      <property name="LCSC Part" value="C17520"/>
       <property name="Sheetname" value="Brake and E-stop"/>
       <property name="Sheetfile" value="brake-estop.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -2648,14 +2208,18 @@
       <description>Light emitting diode</description>
       <fields>
         <field name="Sim.Pins">1=K 2=A</field>
-        <field name="LCSC Part">C72043</field>
+        <field name="LCSC Part">C2297</field>
+        <field name="MPN">KT-0805G</field>
+        <field name="Manufacturer">KENTO</field>
         <field name="Footprint">LED_SMD:LED_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Light emitting diode</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Sim.Pins" value="1=K 2=A"/>
-      <property name="LCSC Part" value="C72043"/>
+      <property name="LCSC Part" value="C2297"/>
+      <property name="MPN" value="KT-0805G"/>
+      <property name="Manufacturer" value="KENTO"/>
       <property name="Sheetname" value="Brake and E-stop"/>
       <property name="Sheetfile" value="brake-estop.kicad_sch"/>
       <property name="ki_keywords" value="LED diode"/>
@@ -2676,13 +2240,13 @@
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <description>Resistor</description>
       <fields>
-        <field name="LCSC Part">C25879</field>
+        <field name="LCSC Part">C17520</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description">Resistor</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC Part" value="C25879"/>
+      <property name="LCSC Part" value="C17520"/>
       <property name="Sheetname" value="Brake and E-stop"/>
       <property name="Sheetfile" value="brake-estop.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -2699,17 +2263,21 @@
       </units>
     </comp>
     <comp ref="ESTOP_COM_RELAY1">
-      <value>Relay_DPDT</value>
+      <value>G6A-274P-ST-US-DC12</value>
       <footprint>Relay_THT:Relay_DPDT_Omron_G6A</footprint>
       <description>Relay DPDT, monostable, EN50005</description>
       <fields>
-        <field name="LCSC Part">C45404</field>
+        <field name="LCSC Part">C129439</field>
+        <field name="MPN">G6A-274P-ST-US-DC12</field>
+        <field name="Manufacturer">Omron</field>
         <field name="Footprint">Relay_THT:Relay_DPDT_Omron_G6A</field>
         <field name="Datasheet"/>
         <field name="Description">Relay DPDT, monostable, EN50005</field>
       </fields>
       <libsource lib="Relay" part="Relay_DPDT" description="Relay DPDT, monostable, EN50005"/>
-      <property name="LCSC Part" value="C45404"/>
+      <property name="LCSC Part" value="C129439"/>
+      <property name="MPN" value="G6A-274P-ST-US-DC12"/>
+      <property name="Manufacturer" value="Omron"/>
       <property name="Sheetname" value="Brake and E-stop"/>
       <property name="Sheetfile" value="brake-estop.kicad_sch"/>
       <property name="ki_keywords" value="2P2T 2-Form-C double dual throw pole"/>
@@ -2732,17 +2300,21 @@
       </units>
     </comp>
     <comp ref="ESTOP_COM_RELAY2">
-      <value>Relay_DPDT</value>
+      <value>G6A-274P-ST-US-DC12</value>
       <footprint>Relay_THT:Relay_DPDT_Omron_G6A</footprint>
       <description>Relay DPDT, monostable, EN50005</description>
       <fields>
-        <field name="LCSC Part">C45404</field>
+        <field name="LCSC Part">C129439</field>
+        <field name="MPN">G6A-274P-ST-US-DC12</field>
+        <field name="Manufacturer">Omron</field>
         <field name="Footprint">Relay_THT:Relay_DPDT_Omron_G6A</field>
         <field name="Datasheet"/>
         <field name="Description">Relay DPDT, monostable, EN50005</field>
       </fields>
       <libsource lib="Relay" part="Relay_DPDT" description="Relay DPDT, monostable, EN50005"/>
-      <property name="LCSC Part" value="C45404"/>
+      <property name="LCSC Part" value="C129439"/>
+      <property name="MPN" value="G6A-274P-ST-US-DC12"/>
+      <property name="Manufacturer" value="Omron"/>
       <property name="Sheetname" value="Brake and E-stop"/>
       <property name="Sheetfile" value="brake-estop.kicad_sch"/>
       <property name="ki_keywords" value="2P2T 2-Form-C double dual throw pole"/>
@@ -2764,51 +2336,22 @@
         </unit>
       </units>
     </comp>
-    <comp ref="K_BRAKE_BOMAG1">
-      <value>Relay_DPDT</value>
-      <footprint>Relay_THT:Relay_DPDT_Omron_G6A</footprint>
-      <description>Relay DPDT, monostable, EN50005</description>
-      <fields>
-        <field name="LCSC Part">C45404</field>
-        <field name="Footprint">Relay_THT:Relay_DPDT_Omron_G6A</field>
-        <field name="Datasheet"/>
-        <field name="Description">Relay DPDT, monostable, EN50005</field>
-      </fields>
-      <libsource lib="Relay" part="Relay_DPDT" description="Relay DPDT, monostable, EN50005"/>
-      <property name="LCSC Part" value="C45404"/>
-      <property name="Sheetname" value="Brake and E-stop"/>
-      <property name="Sheetfile" value="brake-estop.kicad_sch"/>
-      <property name="ki_keywords" value="2P2T 2-Form-C double dual throw pole"/>
-      <property name="ki_fp_filters" value="Relay?DPDT*"/>
-      <sheetpath names="/Brake and E-stop/" tstamps="/730b1075-cefe-4ffb-893b-288235ac21e2/"/>
-      <tstamps>1b831861-5350-462c-9fe9-fa9d21141cc0</tstamps>
-      <units>
-        <unit name="A">
-          <pins>
-            <pin num="A1"/>
-            <pin num="A2"/>
-            <pin num="12"/>
-            <pin num="11"/>
-            <pin num="14"/>
-            <pin num="22"/>
-            <pin num="21"/>
-            <pin num="24"/>
-          </pins>
-        </unit>
-      </units>
-    </comp>
     <comp ref="K_BRAKE_CAT1">
-      <value>Relay_DPDT</value>
+      <value>G6A-274P-ST-US-DC12</value>
       <footprint>Relay_THT:Relay_DPDT_Omron_G6A</footprint>
       <description>Relay DPDT, monostable, EN50005</description>
       <fields>
-        <field name="LCSC Part">C45404</field>
+        <field name="LCSC Part">C129439</field>
+        <field name="MPN">G6A-274P-ST-US-DC12</field>
+        <field name="Manufacturer">Omron</field>
         <field name="Footprint">Relay_THT:Relay_DPDT_Omron_G6A</field>
         <field name="Datasheet"/>
         <field name="Description">Relay DPDT, monostable, EN50005</field>
       </fields>
       <libsource lib="Relay" part="Relay_DPDT" description="Relay DPDT, monostable, EN50005"/>
-      <property name="LCSC Part" value="C45404"/>
+      <property name="LCSC Part" value="C129439"/>
+      <property name="MPN" value="G6A-274P-ST-US-DC12"/>
+      <property name="Manufacturer" value="Omron"/>
       <property name="Sheetname" value="Brake and E-stop"/>
       <property name="Sheetfile" value="brake-estop.kicad_sch"/>
       <property name="ki_keywords" value="2P2T 2-Form-C double dual throw pole"/>
@@ -2831,17 +2374,21 @@
       </units>
     </comp>
     <comp ref="K_BRAKE_CAT2">
-      <value>Relay_DPDT</value>
+      <value>G6A-274P-ST-US-DC12</value>
       <footprint>Relay_THT:Relay_DPDT_Omron_G6A</footprint>
       <description>Relay DPDT, monostable, EN50005</description>
       <fields>
-        <field name="LCSC Part">C45404</field>
+        <field name="LCSC Part">C129439</field>
+        <field name="MPN">G6A-274P-ST-US-DC12</field>
+        <field name="Manufacturer">Omron</field>
         <field name="Footprint">Relay_THT:Relay_DPDT_Omron_G6A</field>
         <field name="Datasheet"/>
         <field name="Description">Relay DPDT, monostable, EN50005</field>
       </fields>
       <libsource lib="Relay" part="Relay_DPDT" description="Relay DPDT, monostable, EN50005"/>
-      <property name="LCSC Part" value="C45404"/>
+      <property name="LCSC Part" value="C129439"/>
+      <property name="MPN" value="G6A-274P-ST-US-DC12"/>
+      <property name="Manufacturer" value="Omron"/>
       <property name="Sheetname" value="Brake and E-stop"/>
       <property name="Sheetfile" value="brake-estop.kicad_sch"/>
       <property name="ki_keywords" value="2P2T 2-Form-C double dual throw pole"/>
@@ -2863,23 +2410,61 @@
         </unit>
       </units>
     </comp>
+    <comp ref="K_BRAKE_SEAT_BOMAG1">
+      <value>G6A-274P-ST-US-DC12</value>
+      <footprint>Relay_THT:Relay_DPDT_Omron_G6A</footprint>
+      <description>Relay DPDT, monostable, EN50005</description>
+      <fields>
+        <field name="LCSC Part">C129439</field>
+        <field name="MPN">G6A-274P-ST-US-DC12</field>
+        <field name="Manufacturer">Omron</field>
+        <field name="Footprint">Relay_THT:Relay_DPDT_Omron_G6A</field>
+        <field name="Datasheet"/>
+        <field name="Description">Relay DPDT, monostable, EN50005</field>
+      </fields>
+      <libsource lib="Relay" part="Relay_DPDT" description="Relay DPDT, monostable, EN50005"/>
+      <property name="LCSC Part" value="C129439"/>
+      <property name="MPN" value="G6A-274P-ST-US-DC12"/>
+      <property name="Manufacturer" value="Omron"/>
+      <property name="Sheetname" value="Brake and E-stop"/>
+      <property name="Sheetfile" value="brake-estop.kicad_sch"/>
+      <property name="ki_keywords" value="2P2T 2-Form-C double dual throw pole"/>
+      <property name="ki_fp_filters" value="Relay?DPDT*"/>
+      <sheetpath names="/Brake and E-stop/" tstamps="/730b1075-cefe-4ffb-893b-288235ac21e2/"/>
+      <tstamps>1b831861-5350-462c-9fe9-fa9d21141cc0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="A1"/>
+            <pin num="A2"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="14"/>
+            <pin num="22"/>
+            <pin num="21"/>
+            <pin num="24"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
   </components>
   <libparts>
-    <libpart lib="Connector" part="Conn_01x02_Socket">
-      <description>Generic connector, single row, 01x02, script generated</description>
+    <libpart lib="Connector" part="Conn_01x03_Socket">
+      <description>Generic connector, single row, 01x03, script generated</description>
       <footprints>
         <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x02_Socket</field>
+        <field name="Value">Conn_01x03_Socket</field>
         <field name="Footprint"/>
         <field name="Datasheet"/>
-        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+        <field name="Description">Generic connector, single row, 01x03, script generated</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
         <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector" part="Conn_01x05_Socket">
@@ -2924,29 +2509,6 @@
         <pin num="7" name="Pin_7" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector" part="Conn_01x08_Pin">
-      <description>Generic connector, single row, 01x08, script generated</description>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x08_Pin</field>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description">Generic connector, single row, 01x08, script generated</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
-        <pin num="4" name="Pin_4" type="passive"/>
-        <pin num="5" name="Pin_5" type="passive"/>
-        <pin num="6" name="Pin_6" type="passive"/>
-        <pin num="7" name="Pin_7" type="passive"/>
-        <pin num="8" name="Pin_8" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Connector" part="Conn_01x10_Socket">
       <description>Generic connector, single row, 01x10, script generated</description>
       <footprints>
@@ -2970,23 +2532,6 @@
         <pin num="8" name="Pin_8" type="passive"/>
         <pin num="9" name="Pin_9" type="passive"/>
         <pin num="10" name="Pin_10" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector" part="TestPoint">
-      <description>test point</description>
-      <footprints>
-        <fp>Pin*</fp>
-        <fp>Test*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">TP</field>
-        <field name="Value">TestPoint</field>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description">test point</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector_Generic" part="Conn_02x06_Counter_Clockwise">
@@ -3221,20 +2766,6 @@
         <pin num="3" name="D" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="V31_H1" part="LED_Red_0805_A1">
-      <description>Red LED, 0805. Pin 1 is the anode, which matches the boards as built.</description>
-      <fields>
-        <field name="Reference">LED</field>
-        <field name="Value">RED</field>
-        <field name="Footprint">LED_3mm_Red:LED-TH_BD3.8-P2.54-FD</field>
-        <field name="Datasheet"/>
-        <field name="Description">Red LED, 0805. Pin 1 is the anode, which matches the boards as built.</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="input"/>
-        <pin num="2" name="C" type="input"/>
-      </pins>
-    </libpart>
     <libpart lib="XT60PW-M" part="XT60PW-M">
       <docs>https://www.lcsc.com/datasheet/C98732.pdf</docs>
       <fields>
@@ -3277,25 +2808,20 @@
     <library logical="Transistor_FET">
       <uri>${KICAD10_SYMBOL_DIR}/Transistor_FET.kicad_sym</uri>
     </library>
-    <library logical="V31_H1">
-      <uri>${KIPRJMOD}/lib/V31_H1.kicad_sym</uri>
-    </library>
     <library logical="XT60PW-M">
       <uri>${KIPRJMOD}/lib/XT60PW-M.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="+12V_BATT" class="Power_High,Default">
-      <node ref="BATT_TP1" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="F_MAIN1" pin="1" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="D_2" pintype="passive"/>
       <node ref="TVS1" pin="2" pinfunction="A2_2" pintype="passive"/>
     </net>
     <net code="2" name="+12V_GATED" class="Power_High,Default">
-      <node ref="12V_GATE_TP1" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
-      <node ref="J8" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
       <node ref="POWER1" pin="5" pinfunction="5_5" pintype="passive"/>
       <node ref="Q1" pin="3" pinfunction="S_3" pintype="passive"/>
     </net>
@@ -3319,149 +2845,132 @@
       <node ref="F_JET1" pin="2" pintype="passive"/>
       <node ref="F_LED1" pin="1" pintype="passive"/>
       <node ref="Joy-Relay-RES1" pin="2" pintype="passive"/>
-      <node ref="KIT_TP1" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="K_BRAKE_BOMAG1" pin="A1" pintype="passive"/>
       <node ref="K_BRAKE_CAT1" pin="A1" pintype="passive"/>
+      <node ref="K_BRAKE_SEAT_BOMAG1" pin="A1" pintype="passive"/>
       <node ref="K_ECUCAN1" pin="A1" pintype="passive"/>
       <node ref="K_JOYCAN1" pin="A1" pintype="passive"/>
       <node ref="K_STEER1" pin="2" pinfunction="2_2" pintype="passive"/>
       <node ref="K_STEER1" pin="3" pinfunction="3_3" pintype="passive"/>
       <node ref="POWER1" pin="2" pinfunction="2_2" pintype="passive"/>
-      <node ref="PWR_LIGHT1" pin="1" pinfunction="A_1" pintype="input"/>
+      <node ref="PWR_LIGHT1" pin="2" pinfunction="A_2" pintype="passive"/>
       <node ref="STR-Relay-RES1" pin="2" pintype="passive"/>
     </net>
     <net code="4" name="/BATTFUSE" class="Power_High,Default">
       <node ref="F_MAIN1" pin="2" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="+_2" pintype="passive"/>
     </net>
-    <net code="5" name="/CHRG" class="Default">
-      <node ref="J2" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
-      <node ref="J3" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
-    </net>
-    <net code="6" name="/FAULT" class="Default">
-      <node ref="J2" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
-      <node ref="J3" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
-    </net>
-    <net code="7" name="ARMED_HOT" class="Default">
-      <node ref="ARM_TP1" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
-      <node ref="J8" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+    <net code="5" name="ARMED_HOT" class="Default">
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
       <node ref="POWER1" pin="4" pinfunction="4_4" pintype="passive"/>
-      <node ref="R_ARMED_PD1" pin="2" pintype="passive"/>
     </net>
-    <net code="8" name="BRAKE_ECU" class="Default">
-      <node ref="BRK_ECU_TP1" pin="1" pinfunction="1_1" pintype="passive"/>
+    <net code="6" name="BRAKE_ECU" class="Default">
       <node ref="J7" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
-      <node ref="K_BRAKE_BOMAG1" pin="21" pintype="passive"/>
+      <node ref="K_BRAKE_SEAT_BOMAG1" pin="21" pintype="passive"/>
     </net>
-    <net code="9" name="BRAKE_ECU_NF" class="Default">
-      <node ref="BRK_ECU_NF_TP1" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="J7" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+    <net code="7" name="BRAKE_ECU_NF" class="Default">
+      <node ref="J7" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
       <node ref="K_BRAKE_CAT2" pin="11" pintype="passive"/>
     </net>
-    <net code="10" name="BRAKE_ECU_NG" class="Default">
-      <node ref="BRK_ECU_NG_TP1" pin="1" pinfunction="1_1" pintype="passive"/>
-      <node ref="J7" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+    <net code="8" name="BRAKE_ECU_NG" class="Default">
+      <node ref="J7" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
       <node ref="K_BRAKE_CAT2" pin="21" pintype="passive"/>
     </net>
-    <net code="11" name="BRAKE_JET" class="Default">
+    <net code="9" name="BRAKE_JET" class="Default">
       <node ref="D_BRAKEJET_SER1" pin="2" pinfunction="A_2" pintype="passive"/>
       <node ref="J7" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
-      <node ref="K_BRAKE_BOMAG1" pin="24" pintype="passive"/>
+      <node ref="K_BRAKE_SEAT_BOMAG1" pin="24" pintype="passive"/>
     </net>
-    <net code="12" name="BRAKE_JOY" class="Default">
+    <net code="10" name="BRAKE_JOY" class="Default">
       <node ref="J7" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
-      <node ref="K_BRAKE_BOMAG1" pin="22" pintype="passive"/>
+      <node ref="K_BRAKE_SEAT_BOMAG1" pin="22" pintype="passive"/>
     </net>
-    <net code="13" name="BRAKE_JOY_NF" class="Default">
-      <node ref="J7" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+    <net code="11" name="BRAKE_JOY_NF" class="Default">
+      <node ref="J7" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
       <node ref="K_BRAKE_CAT1" pin="12" pintype="passive"/>
     </net>
-    <net code="14" name="BRAKE_JOY_NG" class="Default">
-      <node ref="J7" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+    <net code="12" name="BRAKE_JOY_NG" class="Default">
+      <node ref="J7" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
       <node ref="K_BRAKE_CAT1" pin="22" pintype="passive"/>
     </net>
-    <net code="15" name="BRAKE_NF" class="Default">
+    <net code="13" name="BRAKE_NF" class="Default">
       <node ref="K_BRAKE_CAT1" pin="11" pintype="passive"/>
       <node ref="K_BRAKE_CAT2" pin="12" pintype="passive"/>
     </net>
-    <net code="16" name="BRAKE_NG" class="Default">
+    <net code="14" name="BRAKE_NG" class="Default">
       <node ref="K_BRAKE_CAT1" pin="21" pintype="passive"/>
       <node ref="K_BRAKE_CAT2" pin="22" pintype="passive"/>
     </net>
-    <net code="17" name="CONV_PWR_P" class="Power_Low,Default">
-      <node ref="CONV_LED1" pin="1" pinfunction="A_1" pintype="input"/>
-      <node ref="CONV_TP1" pin="1" pinfunction="1_1" pintype="passive"/>
+    <net code="15" name="CONV_PWR_P" class="Power_Low,Default">
+      <node ref="CONV_LED1" pin="2" pinfunction="A_2" pintype="passive"/>
       <node ref="F_CONV1" pin="2" pintype="passive"/>
       <node ref="J9" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
       <node ref="J9" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
       <node ref="J9" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
       <node ref="J9" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
     </net>
-    <net code="18" name="ECU_CANH" class="Default">
+    <net code="16" name="ECU_CANH" class="Default">
       <node ref="J5" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
       <node ref="K_ECUCAN1" pin="21" pintype="passive"/>
     </net>
-    <net code="19" name="ECU_CANL" class="Default">
+    <net code="17" name="ECU_CANL" class="Default">
       <node ref="J5" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
       <node ref="K_ECUCAN1" pin="11" pintype="passive"/>
     </net>
-    <net code="20" name="ESTOP_BOMAG_RELAY" class="Default">
+    <net code="18" name="ECU_SEAT" class="Default">
+      <node ref="J6" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="K_BRAKE_SEAT_BOMAG1" pin="12" pintype="passive"/>
+    </net>
+    <net code="19" name="ESTOP_BOMAG_RELAY" class="Default">
       <node ref="ESTOP_COM_RELAY1" pin="24" pintype="passive"/>
       <node ref="ESTOP_COM_RELAY2" pin="21" pintype="passive"/>
     </net>
-    <net code="21" name="ESTOP_CAT_RELAY" class="Default">
+    <net code="20" name="ESTOP_CAT_RELAY" class="Default">
       <node ref="ESTOP_COM_RELAY1" pin="14" pintype="passive"/>
       <node ref="ESTOP_COM_RELAY2" pin="11" pintype="passive"/>
     </net>
-    <net code="22" name="ESTOP_ECU" class="Default">
+    <net code="21" name="ESTOP_ECU" class="Default">
       <node ref="ESTOP_COM_RELAY1" pin="21" pintype="passive"/>
-      <node ref="ESTP_ECU_TP1" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="J10" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
     </net>
-    <net code="23" name="ESTOP_ECU_NF" class="Default">
+    <net code="22" name="ESTOP_ECU_NF" class="Default">
       <node ref="ESTOP_COM_RELAY2" pin="12" pintype="passive"/>
-      <node ref="ESTP_ECU_NF_TP1" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="J10" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
-      <node ref="J10" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
-    </net>
-    <net code="24" name="ESTOP_ECU_NG" class="Default">
-      <node ref="ESTOP_COM_RELAY1" pin="12" pintype="passive"/>
-      <node ref="ESTOP_COM_RELAY2" pin="14" pintype="passive"/>
-      <node ref="ESTP_ECU_NG_TP1" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="J10" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
     </net>
-    <net code="25" name="ESTOP_JOY" class="Default">
+    <net code="23" name="ESTOP_ECU_NG" class="Default">
+      <node ref="ESTOP_COM_RELAY1" pin="12" pintype="passive"/>
+      <node ref="ESTOP_COM_RELAY2" pin="14" pintype="passive"/>
+      <node ref="J10" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+    </net>
+    <net code="24" name="ESTOP_JOY" class="Default">
       <node ref="ESTOP_COM_RELAY1" pin="22" pintype="passive"/>
       <node ref="ESTOP_COM_RELAY2" pin="24" pintype="passive"/>
       <node ref="J10" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
     </net>
-    <net code="26" name="ESTOP_JOY_NG" class="Default">
+    <net code="25" name="ESTOP_JOY_NG" class="Default">
       <node ref="ESTOP_COM_RELAY1" pin="11" pintype="passive"/>
-      <node ref="J10" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
-    </net>
-    <net code="27" name="ESTOP_REMOTE" class="Default">
-      <node ref="D_ESTOPREMOTE_SER1" pin="2" pinfunction="A_2" pintype="passive"/>
       <node ref="J10" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
     </net>
-    <net code="28" name="GND" class="Power_High,Default">
-      <node ref="BATT_GND_TP1" pin="1" pinfunction="1_1" pintype="passive"/>
+    <net code="26" name="ESTOP_REMOTE" class="Default">
+      <node ref="D_ESTOPREMOTE_SER1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="J10" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+    </net>
+    <net code="27" name="GND" class="Power_High,Default">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="CONV_RES1" pin="2" pintype="passive"/>
       <node ref="C_STEER1" pin="2" pintype="passive"/>
       <node ref="C_STEER2" pin="1" pintype="passive"/>
-      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
       <node ref="DIO_RES1" pin="2" pintype="passive"/>
       <node ref="ESTOP_COM_RELAY2" pin="22" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="-_1" pintype="passive"/>
-      <node ref="J2" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
       <node ref="J4" pin="10" pinfunction="Pin_10_10" pintype="passive"/>
       <node ref="J4" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
       <node ref="J4" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
       <node ref="J4" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
       <node ref="J4" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
-      <node ref="J8" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
       <node ref="J9" pin="10" pinfunction="Pin_10_10" pintype="passive"/>
       <node ref="J9" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
       <node ref="J9" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
@@ -3469,79 +2978,74 @@
       <node ref="JET_RES1" pin="2" pintype="passive"/>
       <node ref="K_BRAKE_CAT1" pin="14" pintype="passive"/>
       <node ref="K_BRAKE_CAT2" pin="24" pintype="passive"/>
+      <node ref="K_BRAKE_SEAT_BOMAG1" pin="14" pintype="passive"/>
       <node ref="LED_RES1" pin="2" pintype="passive"/>
       <node ref="POWER1" pin="3" pinfunction="3_3" pintype="passive"/>
       <node ref="Q_MODE1" pin="2" pinfunction="S_2" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R_ARMED1" pin="2" pintype="passive"/>
-      <node ref="R_ARMED_PD1" pin="1" pintype="passive"/>
       <node ref="R_MODE_PD1" pin="2" pintype="passive"/>
       <node ref="STR_RES1" pin="2" pintype="passive"/>
       <node ref="TVS1" pin="1" pinfunction="A1_1" pintype="passive"/>
     </net>
-    <net code="29" name="JET1_CANH" class="Default">
-      <node ref="CAN1H_TP1" pin="1" pinfunction="1_1" pintype="passive"/>
+    <net code="28" name="JET1_CANH" class="Default">
       <node ref="J5" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
       <node ref="J5" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
       <node ref="JOY_TERM_R1" pin="2" pintype="passive"/>
       <node ref="K_JOYCAN1" pin="14" pintype="passive"/>
       <node ref="STEER_TERM_R1" pin="2" pintype="passive"/>
     </net>
-    <net code="30" name="JET1_CANL" class="Default">
-      <node ref="CAN1L_TP1" pin="1" pinfunction="1_1" pintype="passive"/>
+    <net code="29" name="JET1_CANL" class="Default">
       <node ref="J5" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
       <node ref="J5" pin="9" pinfunction="Pin_9_9" pintype="passive"/>
       <node ref="JOY_TERM_R1" pin="1" pintype="passive"/>
       <node ref="K_JOYCAN1" pin="24" pintype="passive"/>
       <node ref="STEER_TERM_R1" pin="1" pintype="passive"/>
     </net>
-    <net code="31" name="JET2_CANH" class="Default">
+    <net code="30" name="JET2_CANH" class="Default">
       <node ref="J5" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
       <node ref="K_ECUCAN1" pin="24" pintype="passive"/>
     </net>
-    <net code="32" name="JET2_CANL" class="Default">
+    <net code="31" name="JET2_CANL" class="Default">
       <node ref="J5" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
       <node ref="K_ECUCAN1" pin="14" pintype="passive"/>
     </net>
-    <net code="33" name="JETSON_PWR_P" class="Power_Low,Default">
+    <net code="32" name="JETSON_PWR_P" class="Power_Low,Default">
       <node ref="F_JET1" pin="1" pintype="passive"/>
       <node ref="J4" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
-      <node ref="JET_LED1" pin="1" pinfunction="A_1" pintype="input"/>
-      <node ref="JET_TP3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="JET_LED1" pin="2" pinfunction="A_2" pintype="passive"/>
     </net>
-    <net code="34" name="JET_DIO_PWR_P" class="Power_Low,Default">
-      <node ref="DIO_LED1" pin="1" pinfunction="A_1" pintype="input"/>
-      <node ref="DIO_TP1" pin="1" pinfunction="1_1" pintype="passive"/>
+    <net code="33" name="JET_DIO_PWR_P" class="Power_Low,Default">
+      <node ref="DIO_LED1" pin="2" pinfunction="A_2" pintype="passive"/>
       <node ref="F_DIO1" pin="2" pintype="passive"/>
       <node ref="J4" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
     </net>
-    <net code="35" name="JOY_CANH" class="Default">
+    <net code="34" name="JOY_CANH" class="Default">
       <node ref="J5" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
       <node ref="K_JOYCAN1" pin="11" pintype="passive"/>
     </net>
-    <net code="36" name="JOY_CANL" class="Default">
+    <net code="35" name="JOY_CANL" class="Default">
       <node ref="J5" pin="10" pinfunction="Pin_10_10" pintype="passive"/>
       <node ref="K_JOYCAN1" pin="21" pintype="passive"/>
     </net>
-    <net code="37" name="LED_PWR_P" class="Power_Low,Default">
+    <net code="36" name="LED_PWR_P" class="Power_Low,Default">
       <node ref="F_LED1" pin="2" pintype="passive"/>
       <node ref="J4" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
-      <node ref="LED_LED1" pin="1" pinfunction="A_1" pintype="input"/>
-      <node ref="LED_TP1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="LED_LED1" pin="2" pinfunction="A_2" pintype="passive"/>
     </net>
-    <net code="38" name="MAN_CANH" class="Default">
+    <net code="37" name="MAN_CANH" class="Default">
       <node ref="K_ECUCAN1" pin="22" pintype="passive"/>
       <node ref="K_JOYCAN1" pin="12" pintype="passive"/>
     </net>
-    <net code="39" name="MAN_CANL" class="Default">
+    <net code="38" name="MAN_CANL" class="Default">
       <node ref="K_ECUCAN1" pin="12" pintype="passive"/>
       <node ref="K_JOYCAN1" pin="22" pintype="passive"/>
     </net>
-    <net code="40" name="MODE_SEL" class="Default">
+    <net code="39" name="MODE_SEL" class="Default">
       <node ref="J3" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
       <node ref="R_MODE_GATE1" pin="1" pintype="passive"/>
     </net>
-    <net code="41" name="MODE_SEL_DRV" class="Default">
+    <net code="40" name="MODE_SEL_DRV" class="Power_High,Default">
       <node ref="BRK-Relay-LED1" pin="1" pinfunction="K_1" pintype="passive"/>
       <node ref="BRKCAT1-Relay-LED1" pin="1" pinfunction="K_1" pintype="passive"/>
       <node ref="BRKCAT2-Relay-LED1" pin="1" pinfunction="K_1" pintype="passive"/>
@@ -3558,161 +3062,135 @@
       <node ref="ESTOPCOM2-Relay-LED1" pin="1" pinfunction="K_1" pintype="passive"/>
       <node ref="ESTOP_COM_RELAY1" pin="A2" pintype="passive"/>
       <node ref="ESTOP_COM_RELAY2" pin="A2" pintype="passive"/>
-      <node ref="J6" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
       <node ref="Joy-Relay-LED1" pin="1" pinfunction="K_1" pintype="passive"/>
-      <node ref="K_BRAKE_BOMAG1" pin="A2" pintype="passive"/>
       <node ref="K_BRAKE_CAT1" pin="A2" pintype="passive"/>
       <node ref="K_BRAKE_CAT2" pin="A2" pintype="passive"/>
+      <node ref="K_BRAKE_SEAT_BOMAG1" pin="A2" pintype="passive"/>
       <node ref="K_ECUCAN1" pin="A2" pintype="passive"/>
       <node ref="K_JOYCAN1" pin="A2" pintype="passive"/>
       <node ref="K_STEER1" pin="4" pinfunction="4_4" pintype="passive"/>
-      <node ref="MODE_TP1" pin="1" pinfunction="1_1" pintype="passive"/>
       <node ref="Q_MODE1" pin="3" pinfunction="D_3" pintype="passive"/>
       <node ref="STR-Relay-LED1" pin="1" pinfunction="K_1" pintype="passive"/>
     </net>
-    <net code="42" name="Net-(BRK-Relay-LED1-A)" class="Default">
+    <net code="41" name="Net-(BRK-Relay-LED1-A)" class="Default">
       <node ref="BRK-Relay-LED1" pin="2" pinfunction="A_2" pintype="passive"/>
       <node ref="BRK-Relay-RES1" pin="1" pintype="passive"/>
     </net>
-    <net code="43" name="Net-(BRKCAT1-Relay-LED1-A)" class="Default">
+    <net code="42" name="Net-(BRKCAT1-Relay-LED1-A)" class="Default">
       <node ref="BRKCAT1-Relay-LED1" pin="2" pinfunction="A_2" pintype="passive"/>
       <node ref="BRKCAT1-Relay-RES1" pin="1" pintype="passive"/>
     </net>
-    <net code="44" name="Net-(BRKCAT2-Relay-LED1-A)" class="Default">
+    <net code="43" name="Net-(BRKCAT2-Relay-LED1-A)" class="Default">
       <node ref="BRKCAT2-Relay-LED1" pin="2" pinfunction="A_2" pintype="passive"/>
       <node ref="BRKCAT2-Relay-RES1" pin="1" pintype="passive"/>
     </net>
-    <net code="45" name="Net-(CONV_LED1-C)" class="Default">
-      <node ref="CONV_LED1" pin="2" pinfunction="C_2" pintype="input"/>
+    <net code="44" name="Net-(CONV_LED1-K)" class="Default">
+      <node ref="CONV_LED1" pin="1" pinfunction="K_1" pintype="passive"/>
       <node ref="CONV_RES1" pin="1" pintype="passive"/>
     </net>
-    <net code="46" name="Net-(D2-A)" class="Default">
+    <net code="45" name="Net-(D2-A)" class="Default">
       <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
-      <node ref="PWR_LIGHT1" pin="2" pinfunction="C_2" pintype="input"/>
+      <node ref="PWR_LIGHT1" pin="1" pinfunction="K_1" pintype="passive"/>
       <node ref="R_ARMED1" pin="1" pintype="passive"/>
     </net>
-    <net code="47" name="Net-(DIO_LED1-C)" class="Default">
-      <node ref="DIO_LED1" pin="2" pinfunction="C_2" pintype="input"/>
+    <net code="46" name="Net-(DIO_LED1-K)" class="Default">
+      <node ref="DIO_LED1" pin="1" pinfunction="K_1" pintype="passive"/>
       <node ref="DIO_RES1" pin="1" pintype="passive"/>
     </net>
-    <net code="48" name="Net-(D_BRAKEJET_SER1-K)" class="Default">
+    <net code="47" name="Net-(D_BRAKEJET_SER1-K)" class="Default">
       <node ref="BRKCAT2-Relay-RES1" pin="2" pintype="passive"/>
       <node ref="D_BRAKEJET_SER1" pin="1" pinfunction="K_1" pintype="passive"/>
       <node ref="D_KBRAKECAT2" pin="1" pinfunction="K_1" pintype="passive"/>
       <node ref="K_BRAKE_CAT2" pin="A1" pintype="passive"/>
     </net>
-    <net code="49" name="Net-(D_ESTOPCOM2-K)" class="Default">
+    <net code="48" name="Net-(D_ESTOPCOM2-K)" class="Default">
       <node ref="D_ESTOPCOM2" pin="1" pinfunction="K_1" pintype="passive"/>
       <node ref="D_ESTOPREMOTE_SER1" pin="1" pinfunction="K_1" pintype="passive"/>
       <node ref="ESTOPCOM2-Relay-RES1" pin="2" pintype="passive"/>
       <node ref="ESTOP_COM_RELAY2" pin="A1" pintype="passive"/>
     </net>
-    <net code="50" name="Net-(ECU-Relay-LED4-A)" class="Default">
+    <net code="49" name="Net-(ECU-Relay-LED4-A)" class="Default">
       <node ref="ECU-Relay-LED4" pin="2" pinfunction="A_2" pintype="passive"/>
       <node ref="ECU-Relay-RES1" pin="1" pintype="passive"/>
     </net>
-    <net code="51" name="Net-(ESTOPCOM1-Relay-LED1-A)" class="Default">
+    <net code="50" name="Net-(ESTOPCOM1-Relay-LED1-A)" class="Default">
       <node ref="ESTOPCOM1-Relay-LED1" pin="2" pinfunction="A_2" pintype="passive"/>
       <node ref="ESTOPCOM1-Relay-RES1" pin="1" pintype="passive"/>
     </net>
-    <net code="52" name="Net-(ESTOPCOM2-Relay-LED1-A)" class="Default">
+    <net code="51" name="Net-(ESTOPCOM2-Relay-LED1-A)" class="Default">
       <node ref="ESTOPCOM2-Relay-LED1" pin="2" pinfunction="A_2" pintype="passive"/>
       <node ref="ESTOPCOM2-Relay-RES1" pin="1" pintype="passive"/>
     </net>
-    <net code="53" name="Net-(F_STEER1-Pad2)" class="Default">
+    <net code="52" name="Net-(F_STEER1-Pad2)" class="Default">
       <node ref="F_STEER1" pin="2" pintype="passive"/>
       <node ref="K_STEER1" pin="5" pinfunction="5_5" pintype="passive"/>
     </net>
-    <net code="54" name="Net-(J8-Pin_3)" class="Default">
-      <node ref="J8" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
-      <node ref="J8" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+    <net code="53" name="Net-(J3-Pin_3)" class="Default">
+      <node ref="J3" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
     </net>
-    <net code="55" name="Net-(JET_LED1-C)" class="Default">
-      <node ref="JET_LED1" pin="2" pinfunction="C_2" pintype="input"/>
+    <net code="54" name="Net-(JET_LED1-K)" class="Default">
+      <node ref="JET_LED1" pin="1" pinfunction="K_1" pintype="passive"/>
       <node ref="JET_RES1" pin="1" pintype="passive"/>
     </net>
-    <net code="56" name="Net-(Joy-Relay-LED1-A)" class="Default">
+    <net code="55" name="Net-(Joy-Relay-LED1-A)" class="Default">
       <node ref="Joy-Relay-LED1" pin="2" pinfunction="A_2" pintype="passive"/>
       <node ref="Joy-Relay-RES1" pin="1" pintype="passive"/>
     </net>
-    <net code="57" name="Net-(LED_LED1-C)" class="Default">
-      <node ref="LED_LED1" pin="2" pinfunction="C_2" pintype="input"/>
+    <net code="56" name="Net-(LED_LED1-K)" class="Default">
+      <node ref="LED_LED1" pin="1" pinfunction="K_1" pintype="passive"/>
       <node ref="LED_RES1" pin="1" pintype="passive"/>
     </net>
-    <net code="58" name="Net-(Q1-G)" class="Default">
+    <net code="57" name="Net-(Q1-G)" class="Default">
       <node ref="Q1" pin="1" pinfunction="G_1" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="59" name="Net-(Q_MODE1-G)" class="Default">
+    <net code="58" name="Net-(Q_MODE1-G)" class="Default">
       <node ref="Q_MODE1" pin="1" pinfunction="G_1" pintype="input"/>
       <node ref="R_MODE_GATE1" pin="2" pintype="passive"/>
       <node ref="R_MODE_PD1" pin="1" pintype="passive"/>
     </net>
-    <net code="60" name="Net-(STR-Relay-LED1-A)" class="Default">
+    <net code="59" name="Net-(STR-Relay-LED1-A)" class="Default">
       <node ref="STR-Relay-LED1" pin="2" pinfunction="A_2" pintype="passive"/>
       <node ref="STR-Relay-RES1" pin="1" pintype="passive"/>
     </net>
-    <net code="61" name="Net-(STR_LED1-C)" class="Default">
-      <node ref="STR_LED1" pin="2" pinfunction="C_2" pintype="input"/>
+    <net code="60" name="Net-(STR_LED1-K)" class="Default">
+      <node ref="STR_LED1" pin="1" pinfunction="K_1" pintype="passive"/>
       <node ref="STR_RES1" pin="1" pintype="passive"/>
+    </net>
+    <net code="61" name="SEAT" class="Default">
+      <node ref="J6" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="K_BRAKE_SEAT_BOMAG1" pin="11" pintype="passive"/>
     </net>
     <net code="62" name="STARLINK_PWR_P" class="Power_Low,Default">
       <node ref="J4" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
       <node ref="J9" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
       <node ref="J9" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
-      <node ref="STAR_TP1" pin="1" pinfunction="1_1" pintype="passive"/>
     </net>
     <net code="63" name="STEER_PWR_P" class="Power_Low,Default">
       <node ref="F_STEER1" pin="1" pintype="passive"/>
       <node ref="J4" pin="9" pinfunction="Pin_9_9" pintype="passive"/>
-      <node ref="STR_LED1" pin="1" pinfunction="A_1" pintype="input"/>
-      <node ref="STR_TP1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="STR_LED1" pin="2" pinfunction="A_2" pintype="passive"/>
     </net>
-    <net code="64" name="VBAT_SENSE" class="Default">
-      <node ref="J2" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
-      <node ref="J3" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
-    </net>
-    <net code="65" name="VEHICLE_ON" class="Default">
-      <node ref="J2" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
-      <node ref="J3" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
-    </net>
-    <net code="66" name="unconnected-(J1-Pad3)" class="Default">
+    <net code="64" name="unconnected-(J1-Pad3)" class="Default">
       <node ref="J1" pin="3" pinfunction="3_3" pintype="passive+no_connect"/>
     </net>
-    <net code="67" name="unconnected-(J1-Pad4)" class="Default">
+    <net code="65" name="unconnected-(J1-Pad4)" class="Default">
       <node ref="J1" pin="4" pinfunction="4_4" pintype="passive+no_connect"/>
     </net>
-    <net code="68" name="unconnected-(J2-Pin_6-Pad6)" class="Default">
-      <node ref="J2" pin="6" pinfunction="Pin_6_6" pintype="passive+no_connect"/>
+    <net code="66" name="unconnected-(J6-Pin_3-Pad3)" class="Default">
+      <node ref="J6" pin="3" pinfunction="Pin_3_3" pintype="passive+no_connect"/>
     </net>
-    <net code="69" name="unconnected-(J2-Pin_7-Pad7)" class="Default">
-      <node ref="J2" pin="7" pinfunction="Pin_7_7" pintype="passive+no_connect"/>
-    </net>
-    <net code="70" name="unconnected-(J2-Pin_8-Pad8)" class="Default">
-      <node ref="J2" pin="8" pinfunction="Pin_8_8" pintype="passive+no_connect"/>
-    </net>
-    <net code="71" name="unconnected-(J6-Pin_1-Pad1)" class="Default">
-      <node ref="J6" pin="1" pinfunction="Pin_1_1" pintype="passive+no_connect"/>
-    </net>
-    <net code="72" name="unconnected-(J9-Pin_11-Pad11)" class="Default">
+    <net code="67" name="unconnected-(J9-Pin_11-Pad11)" class="Default">
       <node ref="J9" pin="11" pinfunction="Pin_11_11" pintype="passive+no_connect"/>
     </net>
-    <net code="73" name="unconnected-(J9-Pin_12-Pad12)" class="Default">
+    <net code="68" name="unconnected-(J9-Pin_12-Pad12)" class="Default">
       <node ref="J9" pin="12" pinfunction="Pin_12_12" pintype="passive+no_connect"/>
     </net>
-    <net code="74" name="unconnected-(K_BRAKE_BOMAG1-Pad11)" class="Default">
-      <node ref="K_BRAKE_BOMAG1" pin="11" pintype="passive+no_connect"/>
-    </net>
-    <net code="75" name="unconnected-(K_BRAKE_BOMAG1-Pad12)" class="Default">
-      <node ref="K_BRAKE_BOMAG1" pin="12" pintype="passive+no_connect"/>
-    </net>
-    <net code="76" name="unconnected-(K_BRAKE_BOMAG1-Pad14)" class="Default">
-      <node ref="K_BRAKE_BOMAG1" pin="14" pintype="passive+no_connect"/>
-    </net>
-    <net code="77" name="unconnected-(K_BRAKE_CAT1-Pad24)" class="Default">
+    <net code="69" name="unconnected-(K_BRAKE_CAT1-Pad24)" class="Default">
       <node ref="K_BRAKE_CAT1" pin="24" pintype="passive+no_connect"/>
     </net>
-    <net code="78" name="unconnected-(K_BRAKE_CAT2-Pad14)" class="Default">
+    <net code="70" name="unconnected-(K_BRAKE_CAT2-Pad14)" class="Default">
       <node ref="K_BRAKE_CAT2" pin="14" pintype="passive+no_connect"/>
     </net>
   </nets>
