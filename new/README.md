@@ -39,6 +39,7 @@ The previous revision and its reports are in `../history/`.
   of the previous revision, kept for reference.
 - `models/` holds the 3D models.
 - `tools/` holds the grid router and its helpers. See `tools/README.md`.
+- `manufacturing/` holds the Gerber set, the drill files and the JLCPCB assembly files. See `manufacturing/README.md`.
 
 ## Connectors
 
@@ -175,8 +176,7 @@ after assembly:
 - Bump the revision label before the order and add a revision text on the silkscreen. The schematic
   title blocks are empty.
 - Confirm the harness contact and crimp tool part numbers from the Molex site before ordering.
-- The Molex header 3D models are not installed on the design machine, so `pcb.step` and the renders show the five Micro-Fit headers as bare pads. Installing the KiCad 3D model package, `kicad-packages3d` on Arch, fixes this without any change to the project.
-- Manufacturing outputs are not generated yet.
+- KiCad's 3D model library has no model for the Micro-Fit 43650 headers, so `pcb.step` and the renders show the five headers as bare pads. Molex offers STEP files for them on the part pages; drop one into `models/` and point the footprint at it if the enclosure fit needs them.
 
 ## Open questions for the original board designer
 
